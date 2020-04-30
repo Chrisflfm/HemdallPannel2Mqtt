@@ -1,0 +1,339 @@
+<groups>
+ <group Type="Auto">
+  <name>AddUser@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>Force Change Initial Password</tag>
+  <tag>Force Logoff Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>Calendar@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>GVL v2@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>avgRT1</tag>
+  <tag>avgRT11</tag>
+  <tag>avgRT2</tag>
+  <tag>avgRT3</tag>
+  <tag>avgRT4</tag>
+  <tag>avgRT7</tag>
+  <tag>ruimte 0_14-1</tag>
+  <tag>ruimte 0_14-2</tag>
+  <tag>ruimte 0_15-1</tag>
+  <tag>ruimte 0_15-2</tag>
+  <tag>ruimte 0_2-1</tag>
+  <tag>ruimte 0_2-2</tag>
+  <tag>ruimte 0_4-1</tag>
+  <tag>ruimte 0_4-2</tag>
+  <tag>ruimte 0_6-1</tag>
+  <tag>ruimte 0_6-2</tag>
+  <tag>ruimte 0_8-1</tag>
+  <tag>ruimte 0_8-2</tag>
+  <tag>ruimte 0_9-1</tag>
+  <tag>ruimte 0_9-2</tag>
+ </group>
+ <group Type="Auto">
+  <name>GVL@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>avgRT1</tag>
+  <tag>avgRT11</tag>
+  <tag>avgRT2</tag>
+  <tag>avgRT3</tag>
+  <tag>avgRT4</tag>
+  <tag>avgRT7</tag>
+  <tag>avgRT9</tag>
+  <tag>ruimte 0_14-1</tag>
+  <tag>ruimte 0_14-2</tag>
+  <tag>ruimte 0_15-1</tag>
+  <tag>ruimte 0_15-2</tag>
+  <tag>ruimte 0_2-1</tag>
+  <tag>ruimte 0_2-2</tag>
+  <tag>ruimte 0_4-1</tag>
+  <tag>ruimte 0_4-2</tag>
+  <tag>ruimte 0_6-1</tag>
+  <tag>ruimte 0_6-2</tag>
+  <tag>ruimte 0_8-1</tag>
+  <tag>ruimte 0_8-2</tag>
+  <tag>ruimte 0_9-2</tag>
+ </group>
+ <group Type="Auto">
+  <name>HVAC overview@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>TaskStatus</tag>
+  <tag>avgRT1</tag>
+  <tag>avgRT10</tag>
+  <tag>avgRT11</tag>
+  <tag>avgRT12</tag>
+  <tag>avgRT13</tag>
+  <tag>avgRT15</tag>
+  <tag>avgRT2</tag>
+  <tag>avgRT3</tag>
+  <tag>avgRT4</tag>
+  <tag>avgRT5</tag>
+  <tag>avgRT7</tag>
+  <tag>avgRT8</tag>
+  <tag>avgRT9</tag>
+  <tag>klepToe</tag>
+  <tag>ventileren</tag>
+ </group>
+ <group Type="Auto">
+  <name>HeimdallSettings@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>Verd1koud</tag>
+  <tag>Verd1warm</tag>
+  <tag>Verd2koud</tag>
+  <tag>Verd2warm</tag>
+  <tag>Verd3koud</tag>
+  <tag>Verd3warm</tag>
+  <tag>Verd4koud</tag>
+  <tag>Verd4warm</tag>
+  <tag>Verd5koud</tag>
+  <tag>Verd5warm</tag>
+  <tag>blDroog</tag>
+  <tag>blRegen</tag>
+  <tag>conv1</tag>
+  <tag>conv2</tag>
+  <tag>conv3</tag>
+  <tag>conv4</tag>
+  <tag>conv5</tag>
+  <tag>conv6</tag>
+  <tag>conv7</tag>
+  <tag>group1</tag>
+  <tag>group2</tag>
+  <tag>group3</tag>
+  <tag>group4</tag>
+  <tag>group5</tag>
+  <tag>klep1</tag>
+  <tag>klep2</tag>
+  <tag>klep3</tag>
+  <tag>klep4</tag>
+  <tag>klep5</tag>
+  <tag>klep6</tag>
+  <tag>klep7</tag>
+  <tag>sp1</tag>
+  <tag>sp10</tag>
+  <tag>sp11</tag>
+  <tag>sp12</tag>
+  <tag>sp13</tag>
+  <tag>sp15</tag>
+  <tag>sp2</tag>
+  <tag>sp3</tag>
+  <tag>sp4</tag>
+  <tag>sp5</tag>
+  <tag>sp7</tag>
+  <tag>sp8</tag>
+  <tag>sp9</tag>
+ </group>
+ <group Type="Auto">
+  <name>Home@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>blNotBrand</tag>
+  <tag>blNotDeurPlatina</tag>
+  <tag>blNotInbraak</tag>
+  <tag>blnoAlarm</tag>
+  <tag>ctAlarmAan</tag>
+  <tag>ctAlarmUit</tag>
+ </group>
+ <group Type="Auto">
+  <name>Licht@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>blDonker</tag>
+  <tag>blLicht</tag>
+  <tag>ctPoortDicht</tag>
+  <tag>hrLampenPlatina</tag>
+  <tag>hrLampenTom</tag>
+  <tag>regAantDagPoortToe</tag>
+ </group>
+ <group Type="Auto">
+  <name>OpenCloseVelux@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>blDroog</tag>
+  <tag>blRegen</tag>
+  <tag>ctAlarmAan</tag>
+  <tag>ctAlarmUit</tag>
+  <tag>regVensterNr</tag>
+ </group>
+ <group Type="Auto">
+  <name>System@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>ctRegen1</tag>
+  <tag>ctRegen2</tag>
+  <tag>regMinLampAan</tag>
+  <tag>regMinLampUit</tag>
+  <tag>regMinPoortOpen</tag>
+  <tag>regUurLampAan</tag>
+  <tag>regUurLampUit</tag>
+  <tag>regUurPoortOpen</tag>
+ </group>
+ <group Type="Auto">
+  <name>VERD@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>avgRT10</tag>
+  <tag>avgRT12</tag>
+  <tag>avgRT13</tag>
+  <tag>avgRT15</tag>
+  <tag>avgRT8</tag>
+  <tag>avgRT9</tag>
+  <tag>ruimte 1_1-1</tag>
+  <tag>ruimte 1_10-1</tag>
+  <tag>ruimte 1_10-2</tag>
+  <tag>ruimte 1_10-3</tag>
+  <tag>ruimte 1_11-1</tag>
+  <tag>ruimte 1_2-1</tag>
+  <tag>ruimte 1_2-2</tag>
+  <tag>ruimte 1_3-1</tag>
+  <tag>ruimte 1_3-2</tag>
+  <tag>ruimte 1_4-1</tag>
+  <tag>ruimte 1_7-1</tag>
+  <tag>ruimte 1_7-2</tag>
+ </group>
+ <group Type="Auto">
+  <name>Velux@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>blDroog</tag>
+  <tag>blRegen</tag>
+  <tag>ctAlarmAan</tag>
+  <tag>ctAlarmUit</tag>
+  <tag>ctV10Dicht</tag>
+  <tag>ctV11Dicht</tag>
+  <tag>ctV12Dicht</tag>
+  <tag>ctV13Dicht</tag>
+  <tag>ctV14Dicht</tag>
+  <tag>ctV15Dicht</tag>
+  <tag>ctV16Dicht</tag>
+  <tag>ctV17Dicht</tag>
+  <tag>ctV18Dicht</tag>
+  <tag>ctV1Dicht</tag>
+  <tag>ctV2Dicht</tag>
+  <tag>ctV3Dicht</tag>
+  <tag>ctV4Dicht</tag>
+  <tag>ctV5Dicht</tag>
+  <tag>ctV6Dicht</tag>
+  <tag>ctV7Dicht</tag>
+  <tag>ctV8Dicht</tag>
+  <tag>ctV9Dicht</tag>
+ </group>
+ <group Type="Auto">
+  <name>WaterOntharder@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>Ft06_WaterlekZoutvat</tag>
+  <tag>ctZoutLaag</tag>
+  <tag>ctZoutVatLek</tag>
+ </group>
+ <group Type="Auto">
+  <name>Weerbericht@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>blDroog</tag>
+  <tag>blRegen</tag>
+  <tag>laatsteWeerUpdate</tag>
+  <tag>luchtdruk</tag>
+  <tag>luchtvochtigheid</tag>
+  <tag>temperatuur</tag>
+  <tag>weer type</tag>
+  <tag>windsnelheid</tag>
+  <tag>windstreek</tag>
+ </group>
+ <group Type="userdefined">
+  <name>MQTT_PUB</name>
+  <active>false</active>
+  <tag>ctAlarmAan</tag>
+ </group>
+ <group Type="userdefined">
+  <name>MQTT_SUB</name>
+  <active>false</active>
+  <tag>TaskStatus</tag>
+  <tag>Verd1koud</tag>
+  <tag>Verd1warm</tag>
+  <tag>Verd2koud</tag>
+  <tag>Verd2warm</tag>
+  <tag>Verd3koud</tag>
+  <tag>Verd3warm</tag>
+  <tag>Verd4koud</tag>
+  <tag>Verd4warm</tag>
+  <tag>Verd5koud</tag>
+  <tag>Verd5warm</tag>
+  <tag>avgRT1</tag>
+  <tag>avgRT10</tag>
+  <tag>avgRT11</tag>
+  <tag>avgRT12</tag>
+  <tag>avgRT13</tag>
+  <tag>avgRT15</tag>
+  <tag>avgRT2</tag>
+  <tag>avgRT3</tag>
+  <tag>avgRT4</tag>
+  <tag>avgRT5</tag>
+  <tag>avgRT7</tag>
+  <tag>avgRT8</tag>
+  <tag>avgRT9</tag>
+  <tag>conv1</tag>
+  <tag>conv2</tag>
+  <tag>conv3</tag>
+  <tag>conv4</tag>
+  <tag>conv5</tag>
+  <tag>conv6</tag>
+  <tag>conv7</tag>
+  <tag>group1</tag>
+  <tag>group2</tag>
+  <tag>group3</tag>
+  <tag>group4</tag>
+  <tag>group5</tag>
+  <tag>klep1</tag>
+  <tag>klep2</tag>
+  <tag>klep3</tag>
+  <tag>klep4</tag>
+  <tag>klep5</tag>
+  <tag>klep6</tag>
+  <tag>klep7</tag>
+  <tag>klepToe</tag>
+  <tag>laatsteWeerUpdate</tag>
+  <tag>luchtdruk</tag>
+  <tag>luchtvochtigheid</tag>
+  <tag>ruimte 0_14-1</tag>
+  <tag>ruimte 0_14-2</tag>
+  <tag>ruimte 0_15-1</tag>
+  <tag>ruimte 0_15-2</tag>
+  <tag>ruimte 0_2-1</tag>
+  <tag>ruimte 0_2-2</tag>
+  <tag>ruimte 0_4-1</tag>
+  <tag>ruimte 0_4-2</tag>
+  <tag>ruimte 0_6-1</tag>
+  <tag>ruimte 0_6-2</tag>
+  <tag>ruimte 0_8-1</tag>
+  <tag>ruimte 0_8-2</tag>
+  <tag>ruimte 0_9-1</tag>
+  <tag>ruimte 0_9-2</tag>
+  <tag>ruimte 1_1-1</tag>
+  <tag>ruimte 1_10-1</tag>
+  <tag>ruimte 1_10-2</tag>
+  <tag>ruimte 1_10-3</tag>
+  <tag>ruimte 1_11-1</tag>
+  <tag>ruimte 1_2-1</tag>
+  <tag>ruimte 1_2-2</tag>
+  <tag>ruimte 1_3-1</tag>
+  <tag>ruimte 1_3-2</tag>
+  <tag>ruimte 1_4-1</tag>
+  <tag>ruimte 1_7-1</tag>
+  <tag>ruimte 1_7-2</tag>
+  <tag>sp1</tag>
+  <tag>sp10</tag>
+  <tag>sp11</tag>
+  <tag>sp12</tag>
+  <tag>sp13</tag>
+  <tag>sp15</tag>
+  <tag>sp2</tag>
+  <tag>sp3</tag>
+  <tag>sp4</tag>
+  <tag>sp5</tag>
+  <tag>sp7</tag>
+  <tag>sp8</tag>
+  <tag>sp9</tag>
+  <tag>temperatuur</tag>
+  <tag>ventileren</tag>
+  <tag>weer type</tag>
+  <tag>windrichting</tag>
+  <tag>windsnelheid</tag>
+  <tag>windstreek</tag>
+ </group>
+</groups>

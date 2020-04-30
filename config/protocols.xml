@@ -1,0 +1,34 @@
+<protocols>
+ <protocol>
+  <id>prot1</id>
+  <name>JEE2</name>
+  <file>JEE2</file>
+  <configuration>CfgVer=1 prefix=Jetter ipAddress=192.168.5.20 localPort=50001 model=1 </configuration>
+  <autoImport></autoImport>
+  <enableOptimization>true</enableOptimization>
+  <enableDatagram>false</enableDatagram>
+  <offline_ort>30000</offline_ort>
+  <offline_opt>true</offline_opt>
+  <offline_rpt>3</offline_rpt>
+  <dictionaryname autoSync="false"></dictionaryname>
+  <enableSimProtocol>true</enableSimProtocol>
+  <simFlags>0</simFlags>
+  <displayName>Jetter Ext ETH</displayName>
+ </protocol>
+ <protocol>
+  <id>prot2</id>
+  <name>VRBL</name>
+  <file></file>
+  <configuration>CfgVer=1 </configuration>
+  <autoImport></autoImport>
+  <enableOptimization>true</enableOptimization>
+  <enableDatagram>false</enableDatagram>
+  <offline_ort>120000</offline_ort>
+  <offline_opt>false</offline_opt>
+  <offline_rpt>3</offline_rpt>
+  <dictionaryname autoSync="false"></dictionaryname>
+  <enableSimProtocol>true</enableSimProtocol>
+  <simFlags>0</simFlags>
+  <displayName>Variables</displayName>
+ </protocol>
+</protocols>

@@ -1,0 +1,85 @@
+<emailInfos>
+ <emailInfo>
+  <id>eMail2</id>
+  <enable>true</enable>
+  <name>Ft01 Zoutniveau laag</name>
+  <description>Ft01 Zoutniveau laag</description>
+  <from>Pannel@heimdall.nl</from>
+  <to>chris.dries@posteo.net, Thijs@platinabv.nl</to>
+  <subject>Heimdall Ft01 Zoutniveau laag</subject>
+  <message>Ft01 Zoutniveau laag:
+Vul het zout in de ontharder bij aub.</message>
+  <taglist></taglist>
+ </emailInfo>
+ <emailInfo>
+  <id>eMail3</id>
+  <enable>true</enable>
+  <name>FT02 Geen comunicatie</name>
+  <description>FT02 Geen comunicatie</description>
+  <from>Pannel@heimdall.nl</from>
+  <to>chris.dries@posteo.net</to>
+  <subject>Heimdall FT02 Geen comunicatie</subject>
+  <message>FT02 Geen comunicatie
+Er is geen comunicatie tussen de Jetter en het Heimdall programma.
+Kijk wat er aan de hand kan zijn.</message>
+  <taglist></taglist>
+ </emailInfo>
+ <emailInfo>
+  <id>eMail4</id>
+  <enable>true</enable>
+  <name>Brand alarm TOM</name>
+  <description>Brand alarm TOM</description>
+  <from>Pannel@heimdall.nl</from>
+  <to>Thijs@platinabv.nl</to>
+  <subject>Heimdall Brand alarm TOM</subject>
+  <message>Brand alarm bij TOM!!</message>
+  <taglist></taglist>
+ </emailInfo>
+ <emailInfo>
+  <id>eMail5</id>
+  <enable>true</enable>
+  <name>Inbraak alarm TOM</name>
+  <description>Inbraak alarm TOM</description>
+  <from>Pannel@heimdall.nl</from>
+  <to>Thijs@platinabv.nl</to>
+  <subject>Heimdall Inbraak alarm TOM</subject>
+  <message>Inbraak alarm bij TOM !!</message>
+  <taglist></taglist>
+ </emailInfo>
+ <emailInfo>
+  <id>eMail6</id>
+  <enable>true</enable>
+  <name>Tussen deur TOM Platina</name>
+  <description>Tussen deur TOM Platina</description>
+  <from>Pannel@heimdall.nl</from>
+  <to>Thijs@platinabv.nl</to>
+  <subject>Heimdall Tussen deur TOM Platina</subject>
+  <message>Tussen deur TOM Platina
+De deur tussen Platina en TOM is geopend.</message>
+  <taglist></taglist>
+ </emailInfo>
+ <emailInfo>
+  <id>eMail7</id>
+  <enable>true</enable>
+  <name>Waterlek aan ontharder</name>
+  <description>Waterlek aan ontharder</description>
+  <from>Pannel@heimdall.nl</from>
+  <to>Thijs@platinabv.nl</to>
+  <subject>Heimdall Waterlek aan ontharder</subject>
+  <message>Waterlek aan ontharder
+Er is water in de lakbak, mogelijk lekt de ontharder.</message>
+  <taglist></taglist>
+ </emailInfo>
+ <emailInfo>
+  <id>eMail1</id>
+  <enable>true</enable>
+  <name>Ft07_OpenDichtRelais</name>
+  <description>Ft07_OpenDichtRelais</description>
+  <from>Pannel@heimdall.nl</from>
+  <to>chris.dries@posteo.net</to>
+  <subject>Ft07_OpenDichtRelais</subject>
+  <message>Ft07_OpenDichtRelais:
+de aansturing van het relais klopt niet</message>
+  <taglist></taglist>
+ </emailInfo>
+</emailInfos>

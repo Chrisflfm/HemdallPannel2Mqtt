@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+    <event id="1" name="Ft01_ZoutniveauLaag" group="Ft01_ZoutniveauLaag" trigger="bitMaskAlarm" description="[9@Alarm]Zout niveau in ontharder laag"/>
+    <event id="2" name="Ft02_GeenComunicatie" group="Ft02_GeenComunicatie" trigger="bitMaskAlarm" description="[14@Alarm]Geen comunicatie met HVAC sturing"/>
+    <event id="3" name="Ft03_Brand" group="Ft03_Brand" trigger="bitMaskAlarm" description="[10@Alarm]Brand alarm"/>
+    <event id="4" name="Ft04_Inbraak" group="Ft04_Inbraak" trigger="bitMaskAlarm" description="[11@Alarm]Inbraak alarm"/>
+    <event id="5" name="Ft05_DeurPlatinaOpen" group="Ft05_DeurPlatinaOpen" trigger="bitMaskAlarm" description="[12@Alarm]Tussen deur naar Platina is open"/>
+    <event id="6" name="Ft06_WaterlekZoutvat" group="Ft06_WaterlekZoutvat" trigger="bitMaskAlarm" description="[13@Alarm]Lek aan de ontharder"/>
+    <event id="7" name="Ft07_OpenDichtRelais" group="Ft07_OpenDichtRelais" triggeredTxtColor="#000000" triggeredBgColor="#ffffff" triggeredNotAckedTxtColor="#000000" triggeredNotAckedBgColor="#ffffff" notTriggeredAckedBgColor="#ffffff" triggeredAckedTxtColor="#000000" triggeredAckedBgColor="#ffffff" trigger="bitMaskAlarm" description="[8@Alarm]fout in aansturing uitgang ompool relais"/>
+</events>

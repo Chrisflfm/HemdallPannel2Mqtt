@@ -1,0 +1,193 @@
+<wgtPage rev="1" projectType="HMI Project">
+ <object pageName="Home" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="true" usedFonts="Tahoma,Arial" staticFile="opt/home.png" id="Home" staticOptEnable="true">
+  <wgtStyle width="1280" x="0" y="0" height="800" fitToSize="1" ver="040000100" color="none" v="04.00.00.100"/>
+  <object class="ImageWgt" id="image2" static="true">
+   <wgtStyle width="133" imagePath="images/velux.jpg" x="42.50" y="354" cx="66.50" cy="61" height="122"/>
+  </object>
+  <object class="PageMLTextMgrWgt" id="_PageMLTextMgrWgt" mgrType="Page" mlFileName="">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang removable="false" langCode="en-US" langId="L1" writingsystem="Any" name="Lang1" defaultFont="Tahoma"/>
+   </langs>
+   <MLTexts>
+    <MLText L1="RSSFeed Scroll" id="0"/>
+    <MLText L1="© J &amp; M Maas" id="5"/>
+   </MLTexts>
+  </object>
+  <object class="GroupSubscribeWgt" id="Home@$GroupSubscrWgt@$0">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="ImageWgt" id="image1" static="true">
+   <wgtStyle width="310" imagePath="images/TOM-LOGO-zonder bv-01-01.png" x="17" y="7" cx="155" cy="62.50" height="125"/>
+  </object>
+  <object class="ButtonWgt" hmiStyle="type:btn" id="gstArea1">
+   <wgtStyle width="105.50" x="56.25" y="369" fill="rgb(160,160,164)" dx="1" cx="51.94" form="gesture" dy="-1" cy="45.10" height="92" releasePath="../../shared/gallery/images/bu_other/win-like.svg" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+   <links>
+    <action pageName="velux.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="1" actionWgt="_PageMgr"/>
+   </links>
+  </object>
+  <object class="ImageWgt" id="image3" static="true">
+   <wgtStyle width="210" imagePath="images/HVAC.jpg" x="4" y="179" cx="210" cy="65" height="130"/>
+  </object>
+  <object class="ButtonWgt" hmiStyle="type:btn" id="gstArea2">
+   <wgtStyle width="105.50" x="53.25" y="199" fill="rgb(160,160,164)" dx="1" cx="51.94" form="gesture" dy="-1" cy="45.10" height="92" releasePath="../../shared/gallery/images/bu_other/win-like.svg" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+   <links>
+    <action pageName="hvac overview.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="1" actionWgt="_PageMgr"/>
+   </links>
+  </object>
+  <object class="GroupWgt" id="AnalogClockWithDayDate" customType="AnalogClock with DayDate">
+   <wgtStyle width="165" x="364" y="58.50" cx="356.02" cy="354.02" height="173" mtx="4.34545,0,0,0,4.12139,0,0,0,1" groupStyle="xform-scaling"/>
+   <links>
+    <attr attrName="timeSpec" alias="AnalogClockWgt.timeSpec;NumericWgt2.timeSpec"/>
+   </links>
+   <object class="ImageWgt" id="AnalogClockWithDayDate.bkgfrmImg" static="true">
+    <wgtStyle width="165" imagePath="images/bkgd_round_chrome.svg" x="0" y="8" cx="75" cy="82" height="165"/>
+   </object>
+   <object class="ImageWgt" hmiStyle="hmi-name:solid; hmi-shape:none; hmi-type:icon" id="AnalogClockWithDayDate.iconImg" static="true">
+    <wgtStyle width="26" imagePath="images/ic_di1_144.svg" x="45" y="56" fill="rgb(127,255,212)" cx="12" cy="11" height="23"/>
+   </object>
+   <object class="NumericWgt" id="AnalogClockWithDayDate.date">
+    <wgtStyle font-bold="true" font-family="Tahoma" font-sizepx="10" cx="69" showThousandSeparator="false" cy="10" timeSpec="local" alignment="center" x="26" y="103" vert-align="top" text="-1" usingFormat="DD-MM-YYYY" value="-1" keypad-type="None" font-color="rgb(127,255,212)" width="117" numberFormat="0" height="15" form="date-time" font-size="8"/>
+   </object>
+   <object class="NumericWgt" id="AnalogClockWithDayDate.time">
+    <wgtStyle font-bold="true" forcePaint="65" font-family="Tahoma" font-sizepx="13" cx="57" showThousandSeparator="false" cy="8" timeSpec="local" alignment="center" x="40" y="117" vert-align="middle" text="-1" usingFormat="hh:mm" value="-1" keypad-type="None" font-color="rgb(127,255,212)" width="85" numberFormat="0" height="16" form="date-time" font-size="10"/>
+   </object>
+   <object class="AnalogClockWgt" id="AnalogClockWithDayDate.Clock">
+    <wgtStyle width="160" x="2" forcePaint="65" y="8" cx="80" cy="80" height="160" groupStyle="xform-scaling" timeSpec="local"/>
+    <object class="ImageWgt" id="AnalogClockWithDayDate.Clock.clkticks">
+     <wgtStyle width="165" imagePath="images/clkticks_round_dots.svg" x="-1" forcePaint="1" y="-1" fill="rgb(127,255,212)" cx="63" cy="59" height="165"/>
+    </object>
+    <object class="NeedleWgt" id="AnalogClockWithDayDate.Clock.hourndl">
+     <wgtStyle forcePaint="73" cx="80" startAngle="90" cy="80" reverseScale="true" endAngle="-270" x="0" y="0" discrete="true" max="12" initAngle="90" width="160" toolTipFontSize="12" toolTipFontName="Arial" toolTipTextColor="rgb(0,0,0)" writeMode="0" height="160" toolTipBgColor="rgb(255,255,255)" form="round"/>
+     <dataLinks>
+      <dataLink readWrite="R" attribute="value" tag="hour" sourceType="Widget" dataSource="AnalogClockWithDayDate.Clock"/>
+     </dataLinks>
+     <object class="ImageWgt" id="AnalogClockWithDayDate.Clock.hourndl.img">
+      <wgtStyle width="19" imagePath="images/needle_solid_fathours.svg" x="71" forcePaint="65" y="35" fill="rgb(127,255,212)" cx="9" cy="45" height="54"/>
+     </object>
+    </object>
+    <object class="NeedleWgt" id="AnalogClockWithDayDate.Clock.minutendl">
+     <wgtStyle forcePaint="73" cx="80" startAngle="90" cy="80" reverseScale="true" endAngle="-270" x="0" y="0" discrete="true" max="60" initAngle="90" width="160" toolTipFontSize="12" toolTipFontName="Arial" toolTipTextColor="rgb(0,0,0)" writeMode="0" height="160" toolTipBgColor="rgb(255,255,255)" form="round"/>
+     <dataLinks>
+      <dataLink readWrite="R" attribute="value" tag="minute" sourceType="Widget" dataSource="AnalogClockWithDayDate.Clock"/>
+     </dataLinks>
+     <object class="ImageWgt" id="AnalogClockWithDayDate.Clock.minutendl.img">
+      <wgtStyle width="18" imagePath="images/needle_solid_fatmins.svg" x="72" forcePaint="65" y="23" fill="rgb(127,255,212)" cx="8" cy="57" height="66"/>
+     </object>
+    </object>
+    <object class="NeedleWgt" id="AnalogClockWithDayDate.Clock.secondndl">
+     <wgtStyle forcePaint="73" cx="81" startAngle="90" cy="77" reverseScale="true" endAngle="-270" x="-1" y="3" discrete="true" max="60" initAngle="90" width="164" toolTipFontSize="12" toolTipFontName="Arial" toolTipTextColor="rgb(0,0,0)" writeMode="0" height="156" toolTipBgColor="rgb(255,255,255)" form="round"/>
+     <dataLinks>
+      <dataLink readWrite="R" attribute="value" tag="second" sourceType="Widget" dataSource="AnalogClockWithDayDate.Clock"/>
+     </dataLinks>
+     <object class="ImageWgt" id="AnalogClockWithDayDate.Clock.secondndl.img">
+      <wgtStyle width="7" imagePath="images/needle_solid_secs2.svg" x="77" forcePaint="65" y="19" fill="rgb(60,179,113)" cx="3" cy="58" height="61"/>
+     </object>
+    </object>
+   </object>
+   <object class="ImageWgt" hmiStyle="hmi-name:none; hmi-shape:round; hmi-type:top" id="AnalogClockWithDayDate.clockglassimg">
+    <wgtStyle width="165" imagePath="images/glass_round_dkgray.svg" x="0" forcePaint="1" y="0" cx="82" cy="88" height="165"/>
+   </object>
+   <object class="ShapeWgt" id="AnalogClockWithDayDate.pinShape">
+    <wgtStyle width="12" x="77" forcePaint="65" y="82" cx="5" cy="6" rx="22" nodeName="ellipse" height="13" ry="19" stroke="rgb(127,127,127)"/>
+   </object>
+  </object>
+  <object class="ImageWgt" id="elctImg38" static="true">
+   <wgtStyle width="103.50" imagePath="images/ic_el1_38.svg" x="41.75" y="529.25" cx="51.75" cy="55" height="110"/>
+  </object>
+  <object class="ButtonWgt" hmiStyle="type:btn" id="gstArea3">
+   <wgtStyle width="106" x="56" y="529.50" fill="rgb(160,160,164)" dx="1" cx="52.19" form="gesture" dy="-1" cy="53.56" height="109.25" releasePath="../../shared/gallery/images/bu_other/win-like.svg" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+   <links>
+    <action pageName="licht.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="1" actionWgt="_PageMgr"/>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label1">
+   <wgtStyle width="282" font-color="rgb(75,0,130)" x="984" forcePaint="65" font-sizepx="42" y="739" font-family="Tahoma" wrapping="true" cx="141" cy="31.26" height="66" vert-align="top" marker="true" keypad-type="None" font-size="32"/>
+   <links>
+    <lang class="MLTextLink" textid="5"/>
+   </links>
+  </object>
+  <object class="ImageWgt" id="image4" static="true">
+   <wgtStyle width="150" imagePath="images/Water ontharder.jpg" x="1112" y="603.12" cx="75" cy="53.62" height="107.25"/>
+  </object>
+  <object class="ButtonWgt" hmiStyle="type:btn" id="gstArea4">
+   <wgtStyle width="106" x="1134" y="602.12" fill="rgb(160,160,164)" dx="1" cx="52.19" form="gesture" dy="-1" cy="53.56" height="109.25" releasePath="../../shared/gallery/images/bu_other/win-like.svg" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+   <links>
+    <action pageName="waterontharder.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="1" actionWgt="_PageMgr"/>
+   </links>
+  </object>
+  <object class="ImageWgt" id="image5" static="true">
+   <wgtStyle width="132" imagePath="images/Alarm.png" x="1121" y="25" cx="66" cy="44.50" height="89"/>
+  </object>
+  <object class="ButtonWgt" hmiStyle="type:btn" id="gstArea5">
+   <wgtStyle width="106" x="1134" y="14.88" fill="rgb(160,160,164)" dx="1" cx="52.19" form="gesture" dy="-1" cy="53.56" height="109.25" releasePath="../../shared/gallery/images/bu_other/win-like.svg" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+   <links>
+    <action pageName="alarm.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="1" actionWgt="_PageMgr"/>
+   </links>
+  </object>
+  <object class="ShapeWgt" id="roundrect1">
+   <wgtStyle width="135" x="1117.50" forcePaint="9" y="9.50" fill="rgb(152,251,152)" cx="65.45" cy="59.03" rx="20" nodeName="rect" height="122" ry="20" stroke="rgb(60,179,113)" fill-opacity="0.5" stroke-width="3"/>
+   <dataLinks>
+    <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="blnoAlarm" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+   </dataLinks>
+  </object>
+  <object class="ImageWgt" id="audImg22">
+   <wgtStyle width="32" imagePath="images/ic_ad1_022.svg" x="21.18" forcePaint="8" y="752.90" cx="16" cy="16" height="32"/>
+   <dataLinks>
+    <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="ctAlarmAan" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+   </dataLinks>
+  </object>
+  <object class="ImageWgt" id="audImg21">
+   <wgtStyle width="32" imagePath="images/ic_ad1_021.svg" x="77.50" forcePaint="8" y="752.90" cx="16" cy="16" height="32"/>
+   <dataLinks>
+    <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="ctAlarmUit" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+   </dataLinks>
+  </object>
+  <object class="ImageWgt" id="altImg18">
+   <wgtStyle width="32" imagePath="images/ic_al1_018.svg" x="126.59" forcePaint="8" y="752.90" cx="16" cy="16" height="32"/>
+   <dataLinks>
+    <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="blNotBrand" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+   </dataLinks>
+  </object>
+  <object class="ImageWgt" id="altImg83">
+   <wgtStyle width="32" imagePath="images/ic_al1_083.svg" x="179.30" forcePaint="8" y="752.90" cx="16" cy="16" height="32"/>
+   <dataLinks>
+    <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="blNotInbraak" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+   </dataLinks>
+  </object>
+  <object class="ImageWgt" id="bldgImg81">
+   <wgtStyle width="32" imagePath="images/13-5.svg" x="232" forcePaint="8" y="752.90" cx="16" cy="16" height="32"/>
+   <dataLinks>
+    <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="blNotDeurPlatina" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+   </dataLinks>
+  </object>
+  <object class="ButtonWgt" hmiStyle="type:btn" id="gstArea6">
+   <wgtStyle width="764" x="344.11" forcePaint="1" y="18.17" fill="rgb(160,160,164)" dx="1" cx="376.13" form="gesture" dy="-1" cy="26.96" height="55" releasePath="../../shared/gallery/images/bu_other/win-like.svg" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+   <links>
+    <action pageName="weerbericht.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="1" actionWgt="_PageMgr"/>
+   </links>
+  </object>
+  <object class="GroupWgt" id="RSSScrollWgt" customType="RSS Scroll Widget">
+   <wgtStyle width="769" x="338" forcePaint="1" y="18" cx="384.50" cy="27.49" height="55"/>
+   <object class="LabelWgt" id="RSSScrollWgt.feedText">
+    <wgtStyle width="766.37" font-color="rgb(23,30,40)" x="0" forcePaint="2073" font-sizepx="16" y="0" font-family="Tahoma" cx="383.19" cy="26.07" wgtStaticOpt="dynamic" height="55" vert-align="top" marker="true" scrollMode="2" keypad-type="None" font-size="12"/>
+    <dataLinks>
+     <dataLink readWrite="R" attribute="text" tag="Titles" sourceType="Widget" dataSource="RSSScrollWgt.FeedWgt"/>
+    </dataLinks>
+    <links>
+     <lang class="MLTextLink" textid="0"/>
+    </links>
+   </object>
+   <object titleSeparator="   " RSSSource="http://projects.knmi.nl/RSSread/rss_KNMIverwachtingen.php" class="RSSFeedWgt" CurItem="0" id="RSSScrollWgt.FeedWgt" UpdateRate="15">
+    <wgtStyle width="88" x="679" forcePaint="1" y="1" cx="41" cy="24" height="52"/>
+    <Sources>
+     <Source enable="false" name="CNN" resource="http://rss.cnn.com/rss/cnn_topstories"/>
+     <Source enable="false" name="ESPN" resource="http://sports.espn.go.com/espn/rss/news"/>
+     <Source enable="false" name="NewsWeek" resource="http://feeds.newsweek.com/newsweek/TopNews"/>
+     <Source enable="false" name="MSN Money" resource="http://articles.moneycentral.msn.com/Feeds/RSS/latestrss.aspx"/>
+     <Source enable="true" name="KNMI weerbericht" resource="http://projects.knmi.nl/RSSread/rss_KNMIverwachtingen.php"/>
+    </Sources>
+   </object>
+  </object>
+ </object>
+</wgtPage>

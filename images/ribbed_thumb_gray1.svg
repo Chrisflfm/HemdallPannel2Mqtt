@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" height="39.439px" viewBox="0 0 19.99 39.439" width="19.99px" version="1.1" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 19.99 39.439">
+<path id="bgColor00" d="m0.001 36.593v-33.926c0-1.322 1.907-2.643 4.106-2.643h11.781c2.199 0 4.102 1.357 4.102 2.627v33.941c0 1.396-1.903 2.848-4.102 2.848h-11.75c-2.199 0-4.137-1.423-4.137-2.847z" fill="#6B6B6B"/>
+<linearGradient id="_102286976_1_" y2="569.59" gradientUnits="userSpaceOnUse" x2="581.83" gradientTransform="translate(-561.84 -549.88)" y1="569.59" x1="561.84">
+	<stop stop-color="#fff" stop-opacity="0" offset="0"/>
+	<stop stop-color="#fff" offset=".303"/>
+	<stop stop-color="#fff" stop-opacity="0" offset=".7273"/>
+</linearGradient>
+<path opacity=".53" d="m0 36.567v-33.925c0-1.322 1.907-2.642 4.106-2.642h11.78c2.199 0 4.102 1.356 4.102 2.627v33.939c0 1.396-1.903 2.849-4.102 2.849h-11.748c-2.2 0-4.138-1.424-4.138-2.848z" enable-background="new    " fill="url(#_102286976_1_)"/>
+<g opacity=".2">
+	<path d="m15.69 39.44h-11.392c-2.37 0-4.297-1.276-4.297-2.848v-33.818c0-1.542 1.888-2.75 4.297-2.75h11.392c2.41 0 4.297 1.208 4.297 2.75v33.818c0 1.571-1.925 2.848-4.297 2.848zm-11.392-38.741c-1.943 0-3.297 1.247-3.297 2.074v33.818c0 0.872 1.41 2.123 3.297 2.123h11.392c1.888 0 3.297-1.251 3.297-2.123v-33.817c0-0.828-1.354-2.074-3.297-2.074h-11.392z"/>
+</g>
+<g opacity=".2">
+	<path d="m2.089 38.017l-0.002-36.672c0.253-0.24 0.785-0.389 0.785-0.389v37.511c0.001 0-0.785-0.269-0.783-0.45z"/>
+</g>
+<g opacity=".5">
+	<path d="m2.873 38.467v-37.511s0.25-0.121 0.5-0.139l0.001 37.746c0 0.139-0.501-0.096-0.501-0.096z" fill="#fff"/>
+</g>
+<g opacity=".14">
+	<path d="m17.108 38.47v-37.514s0.393 0.073 0.785 0.353v36.776l-0.785 0.385z" fill="#050505"/>
+</g>
+<g opacity=".5">
+	<path d="m16.606 38.615l0.002-37.798c0.248-0.057 0.5 0.139 0.5 0.139v37.514l-0.502 0.145z" fill="#fff"/>
+</g>
+<g opacity=".3">
+	<rect height="38.017" width=".62" y=".699" x="5.519" fill="#020202"/>
+</g>
+<g opacity=".5">
+	<rect height="38.017" width=".501" y=".699" x="6.139" fill="#fff"/>
+</g>
+<g opacity=".3">
+	<polygon points="13.485 0.699 14.093 0.699 14.11 38.716 13.497 38.716" fill="#020202"/>
+</g>
+<g opacity=".5">
+	<polygon points="12.997 0.722 13.485 0.699 13.497 38.716 12.997 38.716" fill="#fff"/>
+</g>
+<g opacity=".3">
+	<polygon points="9.136 0.699 9.765 0.699 9.777 38.716 9.136 38.716" fill="#020202"/>
+</g>
+<g opacity=".59">
+	<polygon points="9.765 0.699 10.25 0.699 10.25 38.716 9.777 38.716" fill="#fff"/>
+</g>
+</svg>

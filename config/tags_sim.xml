@@ -1,0 +1,2002 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tag>
+    <name>ctV1Dicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ctV1Dicht?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ctV2Dicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ctV2Dicht?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ctV3Dicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ctV3Dicht?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ctV4Dicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ctV4Dicht?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ctV5Dicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ctV5Dicht?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ctV6Dicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ctV6Dicht?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ctV7Dicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ctV7Dicht?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ctV8Dicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ctV8Dicht?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ctV9Dicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ctV9Dicht?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ctV10Dicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ctV10Dicht?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ctV11Dicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ctV11Dicht?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ctV12Dicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ctV12Dicht?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ctV13Dicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ctV13Dicht?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ctV14Dicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ctV14Dicht?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ctV15Dicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ctV15Dicht?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ctV16Dicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ctV16Dicht?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ctV17Dicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ctV17Dicht?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ctV18Dicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ctV18Dicht?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ctRegen1</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ctRegen1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ctRegen2</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ctRegen2?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ctSchemer</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ctSchemer?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ctZoutVatLek</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ctZoutVatLek?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>hrOpenDicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://hrOpenDicht?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>hrLampenTom</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://hrLampenTom?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>hrLampenPlatina</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://hrLampenPlatina?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>hrPoortTom</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://hrPoortTom?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>regUurLampAan</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://regUurLampAan?unsignedInt</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>4294967295</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>regUurLampUit</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://regUurLampUit?unsignedInt</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>4294967295</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>regMinLampAan</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://regMinLampAan?unsignedInt</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>4294967295</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>regMinLampUit</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://regMinLampUit?unsignedInt</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>4294967295</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>regVensterNr</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://regVensterNr?unsignedInt</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>4294967295</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>regZonweerNr</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://regZonweerNr?unsignedInt</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>4294967295</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>blLampenAan</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://blLampen1Aan?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>blLampen1Aan</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>blLampen2Aan</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag2?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>blLampen3Aan</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>blAlleVenstersDicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>blAlleVenstersOpen</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>blAlleZonweerDicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>blAlleZonweerOpen</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>blPulsPoort</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>blPoortOpen</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>blPoortToe</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>Ft01_ZoutniveauLaag</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Ft01_ZoutniveauLaag?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>Ft02_GeenComunicatie</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>Ft03_Brand</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>Ft04_Inbraak</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>Ft05_DeurPlatinaOpen</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>Ft06_WaterlekZoutvat</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>blRegen</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://blRegen?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>regUurPoortOpen</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://regUurPoortOpen?unsignedInt</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>4294967295</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>regMinPoortOpen</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?unsignedInt</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>4294967295</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>blVensterDicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://blVensterDicht?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>blVensterOpen</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>blZonweerDicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>blZonweerOpen</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ctZoutLaag</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ctZoutLaag?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>blDonker</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://blDonker?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>blLicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://blLicht?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>blDroog</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://blDroog?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>blnoAlarm</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://blnoAlarm?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>blAlarm</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>regAantDagPoortToe</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://regAantDagPoortToe?unsignedInt</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>4294967295</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ctAlarmAan</name>
+    <group>MQTT_PUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ctAlarmAan?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ctAlarmUit</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ctBrand</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ctInbraak</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ctDeurPlatina</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>Ft07_OpenDichtRelais</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Ft07_OpenDichtRelais?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>blNotAlarmAan</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://blNotAlarmAan?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>blNotAlarmUit</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>blNotBrand</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>blNotInbraak</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>blNotDeurPlatina</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ctPoortDicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ctPoortDicht?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>avgRT1</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://avgRT1?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>avgRT2</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://avgRT2?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>avgRT3</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://avgRT3?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>avgRT4</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://avgRT4?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>avgRT5</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://avgRT5?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>avgRT7</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://avgRT7?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>avgRT8</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://avgRT8?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>avgRT9</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://avgRT9?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>avgRT10</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://avgRT10?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>avgRT11</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://avgRT11?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>avgRT12</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://avgRT12?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>avgRT13</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://avgRT13?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>avgRT15</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://avgRT15?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ruimte 0_15-1</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ruimte 0_15-1?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ruimte 0_15-2</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ruimte 0_15-2?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ruimte 0_14-1</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ruimte 0_14-1?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ruimte 0_14-2</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ruimte 0_14-2?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ruimte 0_2-1</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ruimte 0_2-1?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ruimte 0_2-2</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ruimte 0_2-2?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ruimte 0_8-1</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ruimte 0_8-1?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ruimte 0_8-2</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ruimte 0_8-2?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ruimte 0_9-1</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ruimte 0_9-1?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ruimte 0_4-1</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ruimte 0_4-1?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ruimte 0_9-2</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ruimte 0_9-2?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ruimte 0_4-2</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ruimte 0_4-2?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ruimte 0_6-1</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ruimte 0_6-1?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ruimte 0_6-2</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ruimte 0_6-2?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ruimte 1_3-1</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ruimte 1_3-1?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ruimte 1_3-2</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ruimte 1_3-2?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ruimte 1_1-1</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ruimte 1_1-1?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ruimte 1_4-1</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ruimte 1_4-1?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ruimte 1_2-1</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ruimte 1_2-1?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ruimte 1_2-2</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ruimte 1_2-2?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ruimte 1_7-2</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ruimte 1_7-2?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ruimte 1_7-1</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ruimte 1_7-1?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ruimte 1_10-1</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ruimte 1_10-1?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ruimte 1_10-2</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ruimte 1_10-2?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ruimte 1_10-3</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ruimte 1_10-3?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ruimte 1_11-1</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ruimte 1_11-1?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>sp1</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://sp1?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>sp2</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://sp2?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>sp3</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://sp3?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>sp4</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://sp4?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>sp5</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://sp5?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>sp7</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://sp7?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>sp8</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://sp8?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>sp9</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://sp9?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>sp10</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://sp10?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>sp11</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://sp11?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>sp12</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://sp12?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>sp13</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://sp13?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>sp15</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://sp15?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>conv1</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://conv1?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>conv2</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://conv2?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>conv3</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://conv3?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>conv4</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://conv4?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>conv5</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://conv5?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>conv6</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://conv6?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>conv7</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://conv7?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>klep1</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://klep1?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>klep2</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://klep2?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>klep3</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://klep3?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>klep4</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://klep4?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>klep5</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://klep5?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>klep6</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://klep6?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>klep7</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://klep7?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>klepToe</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://klepToe?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>ventileren</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ventileren?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>group1</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://group1?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>group2</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://group2?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>group3</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://group3?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>group4</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://group4?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>group5</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://group5?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>temperatuur</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://temperatuur?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>luchtvochtigheid</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://luchtvochtigheid?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>luchtdruk</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://luchtdruk?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>weer type</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://weer type?string-20</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>windsnelheid</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://windsnelheid?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>windrichting</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://windrichting?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>windstreek</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://windstreek?string-8</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>TaskStatus</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://TaskStatus?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>laatsteWeerUpdate</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://laatsteWeerUpdate?string-19</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>Verd1koud</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Verd1koud?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>Verd1warm</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Verd1warm?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>Verd2warm</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Verd2warm?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>Verd3warm</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Verd3warm?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>Verd4warm</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Verd4warm?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>Verd5warm</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Verd5warm?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>Verd2koud</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Verd2koud?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>Verd3koud</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Verd3koud?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>Verd4koud</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Verd4koud?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>Verd5koud</name>
+    <group>MQTT_SUB</group>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Verd5koud?int</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>

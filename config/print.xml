@@ -1,0 +1,5 @@
+<printdetails ramquota="16000000" maxpixmapsize="16000000" spoolMediaType="0" spoolFolder="heimdall2/reportspool" diskquota="-1">
+ <printerPorts>
+  <port>File</port>
+ </printerPorts>
+</printdetails>

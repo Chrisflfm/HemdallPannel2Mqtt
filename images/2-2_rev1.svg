@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" height="32.11" width="32.155" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 32.154812 32.11">
+<rect id="bgColor03" height="1.0435" width="31.051" y="2.4765" x=".67119"/>
+<rect id="bgColor04" height="1.0435" width="31.051" y="4.4684" x=".67119"/>
+<rect id="bgColor05" height="1.0435" width="31.051" y="6.4612" x=".67119"/>
+<rect id="bgColor06" height="1.0443" width="31.051" y="8.454" x=".67119"/>
+<rect id="bgColor07" height="1.0459" width="31.051" y="10.446" x=".67119"/>
+<rect id="bgColor08" height="1.0443" width="31.051" y="12.439" x=".67119"/>
+<rect id="bgColor09" height="1.0435" width="31.051" y="14.432" x=".67119"/>
+<rect id="bgColor010" height="1.0435" width="31.051" y="16.424" x=".67119"/>
+<rect id="bgColor02" height="15.988" width=".63372" y="1.2608" x="27.096"/>
+<rect id="bgColor01" height="16.085" width=".63372" y="1.2608" x="4.7564"/>
+<g id="bgColor00" transform="matrix(.81039 0 0 .80452 -6.7406 -6.2357)">
+	<path id="bgColor011" d="m47.996 47.663h-39.381v-39.43h39.38v39.43zm-38.18-1.199h36.981v-37.031h-36.981v37.031z"/>
+</g>
+</svg>

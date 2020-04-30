@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" overflow="visible" height="592" viewBox="0 0 592.001 592" width="592" version="1.0" enable-background="new 0 0 592.001 592" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rect width="592" height="592" fill="none"/>
+<g id="bgColor00" fill="#2affd5" transform="translate(-5.1255)"><g transform="translate(-2.5628)">
+	<circle cx="514.61" cy="296.08" r="10"/>
+	<circle cx="77.322" cy="295.87" r="10"/>
+</g><g transform="translate(-2.5628)">
+	<rect transform="matrix(.866 -.5 .5 .866 -189.15 106.53)" height="8" width="14" y="402.22" x="97.205"/>
+		<rect transform="matrix(.866 -.5 .5 .866 -27.143 268.55)" height="8" width="13.999" y="180.92" x="480.51"/>
+</g><g transform="translate(-2.5628)">
+		<rect transform="matrix(.5 -.866 .866 .5 -329.34 403.58)" height="8" width="14.001" y="483" x="177.84"/>
+		<rect transform="matrix(.5 -.866 .866 .5 113.27 403.58)" height="8" width="14.001" y="99.696" x="399.14"/>
+</g><g transform="translate(-2.5628)">
+		<rect transform="matrix(-.5 -.866 .866 -.5 188.04 1082.6)" height="8" width="13.999" y="483" x="399.51"/>
+		<rect transform="matrix(-.5 -.866 .866 -.5 188.01 315.94)" height="8" width="14" y="99.697" x="178.21"/>
+</g><g transform="translate(-2.5628)">
+		<rect transform="matrix(-.866 -.5 .5 -.866 707.04 1003.6)" height="8" width="13.999" y="403.07" x="480.99"/>
+		<rect transform="matrix(-.866 -.5 .5 -.866 102.45 399)" height="8" width="13.999" y="181.77" x="97.688"/>
+</g><circle cx="296.01" cy="296" transform="translate(-2.5628)" r="10"/><g transform="translate(-2.5628)">
+	<circle cx="295.9" cy="514.64" r="10"/>
+	<circle cx="296.11" cy="77.358" r="10"/>
+</g></g>
+</svg>

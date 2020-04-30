@@ -1,0 +1,135 @@
+<wgtPage rev="1" projectType="HMI Project">
+ <object pageName="WaterOntharder" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="true" usedFonts="Tahoma" staticFile="opt/waterontharder.png" id="WaterOntharder" staticOptEnable="true">
+  <wgtStyle width="1280" x="0" y="0" height="800" fitToSize="1" ver="040000100" v="04.00.00.100"/>
+  <object class="PageMLTextMgrWgt" id="_PageMLTextMgrWgt" mgrType="Page" mlFileName="">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang removable="false" langCode="en-US" langId="L1" writingsystem="Any" name="Lang1" defaultFont="Tahoma"/>
+   </langs>
+   <MLTexts>
+    <MLText L1="" id="2"/>
+    <MLText L1="Zoutniveau:" id="0"/>
+    <MLText L1="Water in lekbak:" id="3"/>
+   </MLTexts>
+  </object>
+  <object class="ImageWgt" id="clsctnksImg23" static="true">
+   <wgtStyle width="165" imagePath="images/tnk19.svg" x="496" y="250.50" cx="83.32" cy="149.86" height="299"/>
+  </object>
+  <object class="LineWgt" id="line" static="true">
+   <wgtStyle width="314" x="367" y="569" cx="157" cy="0" height="0" stroke-width="5"/>
+  </object>
+  <object class="LineWgt" id="line1" static="true">
+   <wgtStyle width="0" x="681" y="523" cx="0" cy="23" height="46" anchorIdx="1" stroke-width="5"/>
+  </object>
+  <object class="LineWgt" id="line2" static="true">
+   <wgtStyle width="0" x="362" y="523" cx="0" cy="23" height="46" anchorIdx="1" stroke-width="5"/>
+  </object>
+  <object class="LabelWgt" id="label1" static="true">
+   <wgtStyle width="174" font-color="rgb(23,30,40)" x="812" font-sizepx="32" y="454.34" font-family="Tahoma" wrapping="true" cx="87" cy="19.42" height="41" vert-align="top" marker="true" keypad-type="None" font-size="24"/>
+   <links>
+    <lang class="MLTextLink" textid="0"/>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label2" static="true">
+   <wgtStyle width="250" font-color="rgb(23,30,40)" x="750" font-sizepx="32" y="529" font-family="Tahoma" wrapping="true" cx="125" cy="19.42" height="41" vert-align="top" marker="true" keypad-type="None" font-size="24"/>
+   <links>
+    <lang class="MLTextLink" textid="3"/>
+   </links>
+  </object>
+  <object class="ImageWgt" id="bldgImg41" static="true">
+   <wgtStyle width="60" imagePath="images/7-5.svg" x="15" y="724" cx="28.97" cy="32.26" height="67"/>
+  </object>
+  <object class="ImageWgt" id="bldgImg1" static="true">
+   <wgtStyle width="60" imagePath="images/7-5.svg" x="15" y="724" cx="28.97" cy="32.26" height="67"/>
+  </object>
+  <object class="ButtonWgt" hmiStyle="type:btn" id="gstArea2">
+   <wgtStyle width="70" x="10" y="718.50" fill="rgb(160,160,164)" dx="1" cx="34.46" form="gesture" dy="-1" cy="38.24" height="78" releasePath="../../shared/gallery/images/bu_other/win-like.svg" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+   <links>
+    <action pageName="home.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="0" actionWgt="_PageMgr"/>
+   </links>
+  </object>
+  <object class="GroupWgt" id="LgtStd4" customType="Light">
+   <wgtStyle width="52" x="1041" y="446" cx="26" cy="26" height="52"/>
+   <links>
+    <attr attrName="bdrImage" alias="IndicatorWgt.bdrImage;ImageWgt1.bdrImage"/>
+   </links>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rrect; hmi-type:bkgd" id="LgtStd4.img" static="true">
+    <wgtStyle width="52" imagePath="images/frame_rrect_chrome.svg" x="0" y="0" bdrImageSize="50.00,47.00" cx="24.96" cy="25.45" bdrSize="0.24,0.23,0.22,0.15" height="52" bdrEdges="0.13,0.13,0.12,0.12"/>
+   </object>
+   <object class="IndicatorWgt" hmiStyle="hmi-name:shiney; hmi-shape:rrect; hmi-type:light; type:light" id="LgtStd4.ind">
+    <wgtStyle width="38" imagePath="images/li_rrect_shiney1_rev2.svg" x="7" forcePaint="8" y="7" cx="19.40" cy="19.46" bkgColor="rgb(255,0,0);rgb(0,255,0)" height="38" stroke="rgb(255,251,240)"/>
+    <dataLinks>
+     <dataLink readWrite="R" tagType="boolean" attribute="value" tag="ctZoutLaag" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+    </dataLinks>
+   </object>
+   <object class="LabelWgt" hmiStyle="hmi-type:wgtlabel" id="LgtStd4.lbl" static="true">
+    <wgtStyle width="37" x="7" font-sizepx="13" y="8" font-family="Tahoma" cx="18.72" cy="17.70" height="36" alignment="center" vert-align="middle" keypad-type="None" font-size="10"/>
+    <links>
+     <lang class="MLTextLink" textid="2"/>
+    </links>
+   </object>
+   <object class="ImageWgt" hmiStyle="hmi-name:solid; hmi-type:icon" id="LgtStd4.img1" static="true">
+    <wgtStyle width="16" enableCache="true" x="17" y="18" cx="8.32" cy="7.74" height="16"/>
+   </object>
+  </object>
+  <object class="GroupWgt" id="LgtStd1" customType="Light">
+   <wgtStyle width="52" x="1041" y="520" cx="26" cy="26" height="52"/>
+   <links>
+    <attr attrName="bdrImage" alias="IndicatorWgt.bdrImage;ImageWgt1.bdrImage"/>
+   </links>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rrect; hmi-type:bkgd" id="LgtStd1.img" static="true">
+    <wgtStyle width="52" imagePath="images/frame_rrect_chrome.svg" x="0" y="0" bdrImageSize="50.00,47.00" cx="24.96" cy="25.45" bdrSize="0.24,0.23,0.22,0.15" height="52" bdrEdges="0.13,0.13,0.12,0.12"/>
+   </object>
+   <object class="IndicatorWgt" hmiStyle="hmi-name:shiney; hmi-shape:rrect; hmi-type:light; type:light" id="LgtStd1.ind">
+    <wgtStyle width="38" imagePath="images/li_rrect_shiney1_rev2.svg" x="7" forcePaint="8" y="7" cx="19.40" cy="19.46" bkgColor="rgb(255,0,0);rgb(0,255,0)" height="38" stroke="rgb(255,251,240)"/>
+    <dataLinks>
+     <dataLink readWrite="R" tagType="boolean" attribute="value" tag="ctZoutVatLek" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+    </dataLinks>
+   </object>
+   <object class="LabelWgt" hmiStyle="hmi-type:wgtlabel" id="LgtStd1.lbl" static="true">
+    <wgtStyle width="37" x="7" font-sizepx="13" y="8" font-family="Tahoma" cx="18.72" cy="17.70" height="36" alignment="center" vert-align="middle" keypad-type="None" font-size="10"/>
+    <links>
+     <lang class="MLTextLink" textid="2"/>
+    </links>
+   </object>
+   <object class="ImageWgt" hmiStyle="hmi-name:solid; hmi-type:icon" id="LgtStd1.img1" static="true">
+    <wgtStyle width="16" enableCache="true" x="17" y="18" cx="8.32" cy="7.74" height="16"/>
+   </object>
+  </object>
+  <object class="GroupSubscribeWgt" id="WaterOntharder@$GroupSubscrWgt@$0">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="GroupWgt" id="BarStd1" customType="Bargraph">
+   <wgtStyle width="26" x="507" y="311" cx="66.19" cy="118.13" height="72" fill-opacity="0.5" mtx="5.34615,0,0,0,3.31944,0,0,0,1" groupStyle="xform-scaling"/>
+   <links>
+    <attr attrName="min" alias="BargraphWgt.min;ScaleWgt.min;LabelsWgt.min"/>
+    <attr attrName="max" alias="BargraphWgt.max;ScaleWgt.max;LabelsWgt.max"/>
+    <attr attrName="visibility2" alias="TicksWgt.visibility2;ScaleWgt.visibility2;LabelsWgt.visibility2"/>
+    <attr attrName="align" alias="TicksWgt.align;ScaleWgt.align;LabelsWgt.align"/>
+    <attr attrName="reverseScale" alias="BargraphWgt.reverseScale;ScaleWgt.reverseScale;LabelsWgt.reverseScale;TicksWgt.reverseScale"/>
+    <attr attrName="labelFreq" alias="TicksWgt.labelFreq;LabelsWgt.labelFreq"/>
+   </links>
+   <object class="LabelsWgt" id="BarStd1.lbl">
+    <wgtStyle font-family="Tahoma" font-sizepx="10" cx="40" showThousandSeparator="false" startAngle="-20" cy="38" step="1" timeSpec="local" reverseScale="true" endAngle="185" x="-29" y="-4" visibility="false" rotated="true" vert-align="top" text="" max="0" usingFormat="" value="" keypad-type="None" align="1" font-color="rgb(128,128,128)" min="1" width="84" labelNames="" numberFormat="1" readWrite="true" tickFreq="5" height="79" labelFreq="6" form="vertical" font-size="8"/>
+   </object>
+   <object class="ScaleWgt" id="BarStd1.scale" static="true">
+    <wgtStyle alarmMin="0.2" cx="23" startAngle="-20" cy="32" reverseScale="yes" endAngle="185" x="-13" y="0" visibility="false" autoAdjust="true" align="1" stroke-width="12" width="53" Color="none" fill="none" size="99" height="72" stroke="rgb(255,0,0)" form="vertical"/>
+   </object>
+   <object class="TicksWgt" id="BarStd1.ticks" static="true">
+    <wgtStyle cx="24" startAngle="-10" cy="35" endAngle="200" reverseScale="true" tickSize2="12" x="-13" y="0" visibility="false" max="10" align="1" stroke-width="2" width="53" stroke-linecap="butt" tickSize="8" tickFreq="1" height="72" labelFreq="6" stroke="rgb(128,128,128)" form="vertical"/>
+   </object>
+   <object class="BargraphWgt" hmiStyle="hmi-type:*barv" id="BarStd1.bar">
+    <wgtStyle width="26" reverseScale="false" x="0" forcePaint="73" y="0" fill="rgb(255,255,255)" cx="13" form="vertical" cy="36" height="72" value="10" min="1"/>
+    <dataLinks>
+     <dataLink readWrite="R" tagType="boolean" attribute="value" tag="ctZoutLaag" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+    </dataLinks>
+   </object>
+  </object>
+  <object class="ShapeWgt" id="roundrect1">
+   <wgtStyle width="311" x="365" forcePaint="73" y="546" fill="rgb(0,0,255)" cx="150.79" cy="9.68" rx="20" nodeName="rect" height="20" ry="20" stroke="rgb(0,0,255)"/>
+   <dataLinks>
+    <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="Ft06_WaterlekZoutvat" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+   </dataLinks>
+  </object>
+ </object>
+</wgtPage>

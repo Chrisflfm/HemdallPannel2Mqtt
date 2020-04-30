@@ -1,0 +1,13 @@
+<mailInfo>
+ <serverInfo>
+  <id>eMailServer1</id>
+  <serverip>smtp.gmail.com</serverip>
+  <serverport>465</serverport>
+  <serverName></serverName>
+  <requireauth>true</requireauth>
+  <user>servelan.messenger@gmail.com</user>
+  <password>6z4TuhERtrijnvN</password>
+  <encrypt>1</encrypt>
+  <verbose>1</verbose>
+ </serverInfo>
+</mailInfo>
