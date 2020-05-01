@@ -33,6 +33,7 @@
     <MLText L1="Convector 5" id="30"/>
     <MLText L1="Convector 6" id="31"/>
     <MLText L1="Convector 7" id="32"/>
+    <MLText L1="regime    lokalen             setpunt" id="42"/>
    </MLTexts>
   </object>
   <object class="LabelWgt" id="label14" static="true">
@@ -114,157 +115,157 @@
    </links>
   </object>
   <object class="NumericWgt" id="field20">
-   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="24" cx="23" showThousandSeparator="false" cy="17.93" step="1" timeSpec="local" alignment="right" x="442" y="80.54" vert-align="top" text="99.9" max="35" usingFormat="" value="99.9" keypad-type="Numeric" font-color="rgb(23,30,40)" min="7" width="50" numberFormat="0" readWrite="true" height="39.85" form="Numeric" font-size="18"/>
+   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="24" cx="23" showThousandSeparator="false" cy="17.93" step="1" timeSpec="local" alignment="right" x="442" y="77.96" vert-align="top" text="99.9" max="35" usingFormat="" value="99.9" keypad-type="Numeric" font-color="rgb(23,30,40)" min="7" width="50" numberFormat="0" readWrite="true" height="39.85" form="Numeric" font-size="18"/>
    <dataLinks>
     <dataLink readWrite="R/W" tagType="int" attribute="value" tag="sp2" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="label27" static="true">
-   <wgtStyle width="45" font-color="rgb(23,30,40)" x="492" font-sizepx="24" y="80.20" font-family="Tahoma" wrapping="true" cx="20.84" cy="19.73" height="41.66" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
+   <wgtStyle width="45" font-color="rgb(23,30,40)" x="492" font-sizepx="24" y="77.06" font-family="Tahoma" wrapping="true" cx="20.84" cy="19.73" height="41.66" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
    <links>
     <lang class="MLTextLink" textid="13"/>
    </links>
   </object>
   <object class="NumericWgt" id="field1">
-   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="24" cx="23" showThousandSeparator="false" cy="17.93" step="1" timeSpec="local" alignment="right" x="442" y="127.07" vert-align="top" text="99.9" max="35" usingFormat="" value="99.9" keypad-type="Numeric" font-color="rgb(23,30,40)" min="7" width="50" numberFormat="0" readWrite="true" height="39.85" form="Numeric" font-size="18"/>
+   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="24" cx="23" showThousandSeparator="false" cy="17.93" step="1" timeSpec="local" alignment="right" x="442" y="124.92" vert-align="top" text="99.9" max="35" usingFormat="" value="99.9" keypad-type="Numeric" font-color="rgb(23,30,40)" min="7" width="50" numberFormat="0" readWrite="true" height="39.85" form="Numeric" font-size="18"/>
    <dataLinks>
     <dataLink readWrite="R/W" tagType="int" attribute="value" tag="sp4" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="label28" static="true">
-   <wgtStyle width="45" font-color="rgb(23,30,40)" x="492" font-sizepx="24" y="127.25" font-family="Tahoma" wrapping="true" cx="20.84" cy="19.73" height="41.66" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
+   <wgtStyle width="45" font-color="rgb(23,30,40)" x="492" font-sizepx="24" y="124.01" font-family="Tahoma" wrapping="true" cx="20.84" cy="19.73" height="41.66" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
    <links>
     <lang class="MLTextLink" textid="13"/>
    </links>
   </object>
   <object class="NumericWgt" id="field2">
-   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="24" cx="23" showThousandSeparator="false" cy="17.93" step="1" timeSpec="local" alignment="right" x="442" y="172.54" vert-align="top" text="99.9" max="35" usingFormat="" value="99.9" keypad-type="Numeric" font-color="rgb(23,30,40)" min="7" width="50" numberFormat="0" readWrite="true" height="39.85" form="Numeric" font-size="18"/>
+   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="24" cx="23" showThousandSeparator="false" cy="17.93" step="1" timeSpec="local" alignment="right" x="442" y="168.43" vert-align="top" text="99.9" max="35" usingFormat="" value="99.9" keypad-type="Numeric" font-color="rgb(23,30,40)" min="7" width="50" numberFormat="0" readWrite="true" height="39.85" form="Numeric" font-size="18"/>
    <dataLinks>
     <dataLink readWrite="R/W" tagType="int" attribute="value" tag="sp3" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="label29" static="true">
-   <wgtStyle width="45" font-color="rgb(23,30,40)" x="492" font-sizepx="24" y="172.78" font-family="Tahoma" wrapping="true" cx="20.84" cy="19.73" height="41.66" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
+   <wgtStyle width="45" font-color="rgb(23,30,40)" x="492" font-sizepx="24" y="167.52" font-family="Tahoma" wrapping="true" cx="20.84" cy="19.73" height="41.66" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
    <links>
     <lang class="MLTextLink" textid="13"/>
    </links>
   </object>
   <object class="NumericWgt" id="field3">
-   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="24" cx="23" showThousandSeparator="false" cy="17.93" step="1" timeSpec="local" alignment="right" x="442" y="218.03" vert-align="top" text="99.9" max="35" usingFormat="" value="99.9" keypad-type="Numeric" font-color="rgb(23,30,40)" min="7" width="50" numberFormat="0" readWrite="true" height="39.85" form="Numeric" font-size="18"/>
+   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="24" cx="23" showThousandSeparator="false" cy="17.93" step="1" timeSpec="local" alignment="right" x="442" y="212.90" vert-align="top" text="99.9" max="35" usingFormat="" value="99.9" keypad-type="Numeric" font-color="rgb(23,30,40)" min="7" width="50" numberFormat="0" readWrite="true" height="39.85" form="Numeric" font-size="18"/>
    <dataLinks>
     <dataLink readWrite="R/W" tagType="int" attribute="value" tag="sp11" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="label30" static="true">
-   <wgtStyle width="45" font-color="rgb(23,30,40)" x="492" font-sizepx="24" y="218.33" font-family="Tahoma" wrapping="true" cx="20.84" cy="19.73" height="41.66" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
+   <wgtStyle width="45" font-color="rgb(23,30,40)" x="492" font-sizepx="24" y="212" font-family="Tahoma" wrapping="true" cx="20.84" cy="19.73" height="41.66" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
    <links>
     <lang class="MLTextLink" textid="13"/>
    </links>
   </object>
   <object class="NumericWgt" id="field4">
-   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="24" cx="23" showThousandSeparator="false" cy="17.93" step="1" timeSpec="local" alignment="right" x="442" y="263.40" vert-align="top" text="99.9" max="35" usingFormat="" value="99.9" keypad-type="Numeric" font-color="rgb(23,30,40)" min="7" width="50" numberFormat="0" readWrite="true" height="39.85" form="Numeric" font-size="18"/>
+   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="24" cx="23" showThousandSeparator="false" cy="17.93" step="1" timeSpec="local" alignment="right" x="442" y="256.43" vert-align="top" text="99.9" max="35" usingFormat="" value="99.9" keypad-type="Numeric" font-color="rgb(23,30,40)" min="7" width="50" numberFormat="0" readWrite="true" height="39.85" form="Numeric" font-size="18"/>
    <dataLinks>
     <dataLink readWrite="R/W" tagType="int" attribute="value" tag="sp5" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="label31" static="true">
-   <wgtStyle width="45" font-color="rgb(23,30,40)" x="492" font-sizepx="24" y="263.76" font-family="Tahoma" wrapping="true" cx="20.84" cy="19.73" height="41.66" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
+   <wgtStyle width="45" font-color="rgb(23,30,40)" x="492" font-sizepx="24" y="255.53" font-family="Tahoma" wrapping="true" cx="20.84" cy="19.73" height="41.66" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
    <links>
     <lang class="MLTextLink" textid="13"/>
    </links>
   </object>
   <object class="NumericWgt" id="field5">
-   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="24" cx="23" showThousandSeparator="false" cy="17.93" step="1" timeSpec="local" alignment="right" x="442" y="308.77" vert-align="top" text="99.9" max="35" usingFormat="" value="99.9" keypad-type="Numeric" font-color="rgb(23,30,40)" min="7" width="50" numberFormat="0" readWrite="true" height="39.85" form="Numeric" font-size="18"/>
+   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="24" cx="23" showThousandSeparator="false" cy="17.93" step="1" timeSpec="local" alignment="right" x="442" y="300.68" vert-align="top" text="99.9" max="35" usingFormat="" value="99.9" keypad-type="Numeric" font-color="rgb(23,30,40)" min="7" width="50" numberFormat="0" readWrite="true" height="39.85" form="Numeric" font-size="18"/>
    <dataLinks>
     <dataLink readWrite="R/W" tagType="int" attribute="value" tag="sp7" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="label32" static="true">
-   <wgtStyle width="45" font-color="rgb(23,30,40)" x="492" font-sizepx="24" y="309.19" font-family="Tahoma" wrapping="true" cx="20.84" cy="19.73" height="41.66" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
+   <wgtStyle width="45" font-color="rgb(23,30,40)" x="492" font-sizepx="24" y="299.78" font-family="Tahoma" wrapping="true" cx="20.84" cy="19.73" height="41.66" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
    <links>
     <lang class="MLTextLink" textid="13"/>
    </links>
   </object>
   <object class="NumericWgt" id="field6">
-   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="24" cx="23" showThousandSeparator="false" cy="17.93" step="1" timeSpec="local" alignment="right" x="442" y="353.76" vert-align="top" text="99.9" max="35" usingFormat="" value="99.9" keypad-type="Numeric" font-color="rgb(23,30,40)" min="7" width="50" numberFormat="0" readWrite="true" height="39.85" form="Numeric" font-size="18"/>
+   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="24" cx="23" showThousandSeparator="false" cy="17.93" step="1" timeSpec="local" alignment="right" x="442" y="344.21" vert-align="top" text="99.9" max="35" usingFormat="" value="99.9" keypad-type="Numeric" font-color="rgb(23,30,40)" min="7" width="50" numberFormat="0" readWrite="true" height="39.85" form="Numeric" font-size="18"/>
    <dataLinks>
     <dataLink readWrite="R/W" tagType="int" attribute="value" tag="sp1" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="label33" static="true">
-   <wgtStyle width="45" font-color="rgb(23,30,40)" x="492" font-sizepx="24" y="354.24" font-family="Tahoma" wrapping="true" cx="20.84" cy="19.73" height="41.66" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
+   <wgtStyle width="45" font-color="rgb(23,30,40)" x="492" font-sizepx="24" y="343.31" font-family="Tahoma" wrapping="true" cx="20.84" cy="19.73" height="41.66" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
    <links>
     <lang class="MLTextLink" textid="13"/>
    </links>
   </object>
   <object class="NumericWgt" id="field7">
-   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="24" cx="23" showThousandSeparator="false" cy="17.93" step="1" timeSpec="local" alignment="right" x="442" y="399.23" vert-align="top" text="99.9" max="35" usingFormat="" value="99.9" keypad-type="Numeric" font-color="rgb(23,30,40)" min="7" width="50" numberFormat="0" readWrite="true" height="39.85" form="Numeric" font-size="18"/>
+   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="24" cx="23" showThousandSeparator="false" cy="17.93" step="1" timeSpec="local" alignment="right" x="442" y="387.67" vert-align="top" text="99.9" max="35" usingFormat="" value="99.9" keypad-type="Numeric" font-color="rgb(23,30,40)" min="7" width="50" numberFormat="0" readWrite="true" height="39.85" form="Numeric" font-size="18"/>
    <dataLinks>
     <dataLink readWrite="R/W" tagType="int" attribute="value" tag="sp9" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="label34" static="true">
-   <wgtStyle width="45" font-color="rgb(23,30,40)" x="492" font-sizepx="24" y="399.78" font-family="Tahoma" wrapping="true" cx="20.84" cy="19.73" height="41.66" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
+   <wgtStyle width="45" font-color="rgb(23,30,40)" x="492" font-sizepx="24" y="386.77" font-family="Tahoma" wrapping="true" cx="20.84" cy="19.73" height="41.66" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
    <links>
     <lang class="MLTextLink" textid="13"/>
    </links>
   </object>
   <object class="NumericWgt" id="field8">
-   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="24" cx="23" showThousandSeparator="false" cy="17.93" step="1" timeSpec="local" alignment="right" x="442" y="444.72" vert-align="top" text="99.9" max="35" usingFormat="" value="99.9" keypad-type="Numeric" font-color="rgb(23,30,40)" min="7" width="50" numberFormat="0" readWrite="true" height="39.85" form="Numeric" font-size="18"/>
+   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="24" cx="23" showThousandSeparator="false" cy="17.93" step="1" timeSpec="local" alignment="right" x="442" y="432.20" vert-align="top" text="99.9" max="35" usingFormat="" value="99.9" keypad-type="Numeric" font-color="rgb(23,30,40)" min="7" width="50" numberFormat="0" readWrite="true" height="39.85" form="Numeric" font-size="18"/>
    <dataLinks>
     <dataLink readWrite="R/W" tagType="int" attribute="value" tag="sp10" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="label35" static="true">
-   <wgtStyle width="45" font-color="rgb(23,30,40)" x="492" font-sizepx="24" y="445.33" font-family="Tahoma" wrapping="true" cx="20.84" cy="19.73" height="41.66" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
+   <wgtStyle width="45" font-color="rgb(23,30,40)" x="492" font-sizepx="24" y="431.30" font-family="Tahoma" wrapping="true" cx="20.84" cy="19.73" height="41.66" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
    <links>
     <lang class="MLTextLink" textid="13"/>
    </links>
   </object>
   <object class="NumericWgt" id="field9">
-   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="24" cx="23" showThousandSeparator="false" cy="17.93" step="1" timeSpec="local" alignment="right" x="442" y="489.71" vert-align="top" text="99.9" max="35" usingFormat="" value="99.9" keypad-type="Numeric" font-color="rgb(23,30,40)" min="7" width="50" numberFormat="0" readWrite="true" height="39.85" form="Numeric" font-size="18"/>
+   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="24" cx="23" showThousandSeparator="false" cy="17.93" step="1" timeSpec="local" alignment="right" x="442" y="475.73" vert-align="top" text="99.9" max="35" usingFormat="" value="99.9" keypad-type="Numeric" font-color="rgb(23,30,40)" min="7" width="50" numberFormat="0" readWrite="true" height="39.85" form="Numeric" font-size="18"/>
    <dataLinks>
     <dataLink readWrite="R/W" tagType="int" attribute="value" tag="sp8" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="label36" static="true">
-   <wgtStyle width="45" font-color="rgb(23,30,40)" x="492" font-sizepx="24" y="490.38" font-family="Tahoma" wrapping="true" cx="20.84" cy="19.73" height="41.66" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
+   <wgtStyle width="45" font-color="rgb(23,30,40)" x="492" font-sizepx="24" y="474.83" font-family="Tahoma" wrapping="true" cx="20.84" cy="19.73" height="41.66" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
    <links>
     <lang class="MLTextLink" textid="13"/>
    </links>
   </object>
   <object class="NumericWgt" id="field10">
-   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="24" cx="23" showThousandSeparator="false" cy="17.93" step="1" timeSpec="local" alignment="right" x="442" y="535.20" vert-align="top" text="99.9" max="35" usingFormat="" value="99.9" keypad-type="Numeric" font-color="rgb(23,30,40)" min="7" width="50" numberFormat="0" readWrite="true" height="39.85" form="Numeric" font-size="18"/>
+   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="24" cx="23" showThousandSeparator="false" cy="17.93" step="1" timeSpec="local" alignment="right" x="442" y="518.47" vert-align="top" text="99.9" max="35" usingFormat="" value="99.9" keypad-type="Numeric" font-color="rgb(23,30,40)" min="7" width="50" numberFormat="0" readWrite="true" height="39.85" form="Numeric" font-size="18"/>
    <dataLinks>
     <dataLink readWrite="R/W" tagType="int" attribute="value" tag="sp15" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="label37" static="true">
-   <wgtStyle width="45" font-color="rgb(23,30,40)" x="492" font-sizepx="24" y="535.93" font-family="Tahoma" wrapping="true" cx="20.84" cy="19.73" height="41.66" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
+   <wgtStyle width="45" font-color="rgb(23,30,40)" x="492" font-sizepx="24" y="517.57" font-family="Tahoma" wrapping="true" cx="20.84" cy="19.73" height="41.66" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
    <links>
     <lang class="MLTextLink" textid="13"/>
    </links>
   </object>
   <object class="NumericWgt" id="field11">
-   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="24" cx="23" showThousandSeparator="false" cy="17.93" step="1" timeSpec="local" alignment="right" x="442" y="580.69" vert-align="top" text="99.9" max="35" usingFormat="" value="99.9" keypad-type="Numeric" font-color="rgb(23,30,40)" min="7" width="50" numberFormat="0" readWrite="true" height="39.85" form="Numeric" font-size="18"/>
+   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="24" cx="23" showThousandSeparator="false" cy="17.93" step="1" timeSpec="local" alignment="right" x="442" y="563.74" vert-align="top" text="99.9" max="35" usingFormat="" value="99.9" keypad-type="Numeric" font-color="rgb(23,30,40)" min="7" width="50" numberFormat="0" readWrite="true" height="39.85" form="Numeric" font-size="18"/>
    <dataLinks>
     <dataLink readWrite="R/W" tagType="int" attribute="value" tag="sp12" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="label38" static="true">
-   <wgtStyle width="45" font-color="rgb(23,30,40)" x="492" font-sizepx="24" y="581.48" font-family="Tahoma" wrapping="true" cx="20.84" cy="19.73" height="41.66" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
+   <wgtStyle width="45" font-color="rgb(23,30,40)" x="492" font-sizepx="24" y="562.84" font-family="Tahoma" wrapping="true" cx="20.84" cy="19.73" height="41.66" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
    <links>
     <lang class="MLTextLink" textid="13"/>
    </links>
   </object>
   <object class="NumericWgt" id="field12">
-   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="24" cx="23" showThousandSeparator="false" cy="17.93" step="1" timeSpec="local" alignment="right" x="442" y="625.69" vert-align="top" text="99.9" max="35" usingFormat="" value="99.9" keypad-type="Numeric" font-color="rgb(23,30,40)" min="7" width="50" numberFormat="0" readWrite="true" height="39.85" form="Numeric" font-size="18"/>
+   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="24" cx="23" showThousandSeparator="false" cy="17.93" step="1" timeSpec="local" alignment="right" x="442" y="607.27" vert-align="top" text="99.9" max="35" usingFormat="" value="99.9" keypad-type="Numeric" font-color="rgb(23,30,40)" min="7" width="50" numberFormat="0" readWrite="true" height="39.85" form="Numeric" font-size="18"/>
    <dataLinks>
     <dataLink readWrite="R/W" tagType="int" attribute="value" tag="sp13" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="label39" static="true">
-   <wgtStyle width="45" font-color="rgb(23,30,40)" x="492" font-sizepx="24" y="626.54" font-family="Tahoma" wrapping="true" cx="20.84" cy="19.73" height="41.66" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
+   <wgtStyle width="45" font-color="rgb(23,30,40)" x="492" font-sizepx="24" y="606.36" font-family="Tahoma" wrapping="true" cx="20.84" cy="19.73" height="41.66" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
    <links>
     <lang class="MLTextLink" textid="13"/>
    </links>
@@ -327,7 +328,7 @@
     <attr attrName="numStates" alias="NeedleWgt.numStates;TicksWgt.numStates;LabelsWgt.numStates"/>
    </links>
    <object class="LabelsWgt" id="Knob2.lbl">
-    <wgtStyle font-family="Roboto" font-sizepx="13" cx="62" showThousandSeparator="false" startAngle="45" cy="62" step="1" timeSpec="local" dataFormat="labels" endAngle="135" x="0" y="0" vert-align="top" text="" max="3" usingFormat="" value="" keypad-type="None" font-color="rgb(102,102,102)" min="1" width="124" labelNames="open,dicht,automatisch" numberFormat="1" readWrite="true" tickFreq="1" height="124" labelFreq="3" form="round" font-size="0" dataType="Text"/>
+    <wgtStyle font-family="Roboto" font-sizepx="13" cx="62" showThousandSeparator="false" startAngle="45" cy="62" step="1" timeSpec="local" dataFormat="labels" endAngle="135" x="0" y="0" vert-align="top" text="" max="3" usingFormat="" value="" keypad-type="None" font-color="rgb(102,102,102)" min="1" width="124" labelNames="dicht,open,automatisch" numberFormat="1" readWrite="true" tickFreq="1" height="124" labelFreq="3" form="round" font-size="0" dataType="Text"/>
    </object>
    <object class="NeedleWgt" hmiStyle="hmi-name:black plastic; hmi-shape:round_1; hmi-type:top-knob" id="Knob2.ndl">
     <wgtStyle forcePaint="73" cx="50" startAngle="45" cy="53" acceptClick="true" moveStep="1" endAngle="135" x="11" y="8" discrete="true" max="3" value="3" min="1" initAngle="180" width="103" toolTipFontSize="12" toolTipFontName="Roboto" toolTipTextColor="rgb(0,0,0)" writeMode="0" height="88" toolTipBgColor="rgb(255,255,255)" labelFreq="3" form="round"/>
@@ -468,7 +469,7 @@
     <attr attrName="numStates" alias="NeedleWgt.numStates;TicksWgt.numStates;LabelsWgt.numStates"/>
    </links>
    <object class="LabelsWgt" id="Knob7.lbl">
-    <wgtStyle font-family="Roboto" font-sizepx="13" cx="62" showThousandSeparator="false" startAngle="45" cy="62" step="1" timeSpec="local" dataFormat="labels" endAngle="135" x="0" y="0" vert-align="top" text="" max="3" usingFormat="" value="" keypad-type="None" font-color="rgb(102,102,102)" min="1" width="124" labelNames="open,dicht,automatisch" numberFormat="1" readWrite="true" tickFreq="1" height="124" labelFreq="3" form="round" font-size="0" dataType="Text"/>
+    <wgtStyle font-family="Roboto" font-sizepx="13" cx="62" showThousandSeparator="false" startAngle="45" cy="62" step="1" timeSpec="local" dataFormat="labels" endAngle="135" x="0" y="0" vert-align="top" text="" max="3" usingFormat="" value="" keypad-type="None" font-color="rgb(102,102,102)" min="1" width="124" labelNames="dicht,open,automatisch" numberFormat="1" readWrite="true" tickFreq="1" height="124" labelFreq="3" form="round" font-size="0" dataType="Text"/>
    </object>
    <object class="NeedleWgt" hmiStyle="hmi-name:black plastic; hmi-shape:round_1; hmi-type:top-knob" id="Knob7.ndl">
     <wgtStyle forcePaint="73" cx="50" startAngle="45" cy="53" acceptClick="true" moveStep="1" endAngle="135" x="11" y="8" discrete="true" max="3" value="3" min="1" initAngle="180" width="103" toolTipFontSize="12" toolTipFontName="Roboto" toolTipTextColor="rgb(0,0,0)" writeMode="0" height="88" toolTipBgColor="rgb(255,255,255)" labelFreq="3" form="round"/>
@@ -517,7 +518,7 @@
     <attr attrName="numStates" alias="NeedleWgt.numStates;TicksWgt.numStates;LabelsWgt.numStates"/>
    </links>
    <object class="LabelsWgt" id="Knob8.lbl">
-    <wgtStyle font-family="Roboto" font-sizepx="13" cx="62" showThousandSeparator="false" startAngle="45" cy="62" step="1" timeSpec="local" dataFormat="labels" endAngle="135" x="0" y="0" vert-align="top" text="" max="3" usingFormat="" value="" keypad-type="None" font-color="rgb(102,102,102)" min="1" width="124" labelNames="open,dicht,automatisch" numberFormat="1" readWrite="true" tickFreq="1" height="124" labelFreq="3" form="round" font-size="0" dataType="Text"/>
+    <wgtStyle font-family="Roboto" font-sizepx="13" cx="62" showThousandSeparator="false" startAngle="45" cy="62" step="1" timeSpec="local" dataFormat="labels" endAngle="135" x="0" y="0" vert-align="top" text="" max="3" usingFormat="" value="" keypad-type="None" font-color="rgb(102,102,102)" min="1" width="124" labelNames="dicht,open,automatisch" numberFormat="1" readWrite="true" tickFreq="1" height="124" labelFreq="3" form="round" font-size="0" dataType="Text"/>
    </object>
    <object class="NeedleWgt" hmiStyle="hmi-name:black plastic; hmi-shape:round_1; hmi-type:top-knob" id="Knob8.ndl">
     <wgtStyle forcePaint="73" cx="50" startAngle="45" cy="53" acceptClick="true" moveStep="1" endAngle="135" x="11" y="8" discrete="true" max="3" value="3" min="1" initAngle="180" width="103" toolTipFontSize="12" toolTipFontName="Roboto" toolTipTextColor="rgb(0,0,0)" writeMode="0" height="88" toolTipBgColor="rgb(255,255,255)" labelFreq="3" form="round"/>
@@ -566,7 +567,7 @@
     <attr attrName="numStates" alias="NeedleWgt.numStates;TicksWgt.numStates;LabelsWgt.numStates"/>
    </links>
    <object class="LabelsWgt" id="Knob9.lbl">
-    <wgtStyle font-family="Roboto" font-sizepx="13" cx="62" showThousandSeparator="false" startAngle="45" cy="62" step="1" timeSpec="local" dataFormat="labels" endAngle="135" x="0" y="0" vert-align="top" text="" max="3" usingFormat="" value="" keypad-type="None" font-color="rgb(102,102,102)" min="1" width="124" labelNames="open,dicht,automatisch" numberFormat="1" readWrite="true" tickFreq="1" height="124" labelFreq="3" form="round" font-size="0" dataType="Text"/>
+    <wgtStyle font-family="Roboto" font-sizepx="13" cx="62" showThousandSeparator="false" startAngle="45" cy="62" step="1" timeSpec="local" dataFormat="labels" endAngle="135" x="0" y="0" vert-align="top" text="" max="3" usingFormat="" value="" keypad-type="None" font-color="rgb(102,102,102)" min="1" width="124" labelNames="dicht,open,automatisch" numberFormat="1" readWrite="true" tickFreq="1" height="124" labelFreq="3" form="round" font-size="0" dataType="Text"/>
    </object>
    <object class="NeedleWgt" hmiStyle="hmi-name:black plastic; hmi-shape:round_1; hmi-type:top-knob" id="Knob9.ndl">
     <wgtStyle forcePaint="73" cx="50" startAngle="45" cy="53" acceptClick="true" moveStep="1" endAngle="135" x="11" y="8" discrete="true" max="3" value="3" min="1" initAngle="180" width="103" toolTipFontSize="12" toolTipFontName="Roboto" toolTipTextColor="rgb(0,0,0)" writeMode="0" height="88" toolTipBgColor="rgb(255,255,255)" labelFreq="3" form="round"/>
@@ -615,7 +616,7 @@
     <attr attrName="numStates" alias="NeedleWgt.numStates;TicksWgt.numStates;LabelsWgt.numStates"/>
    </links>
    <object class="LabelsWgt" id="Knob10.lbl">
-    <wgtStyle font-family="Roboto" font-sizepx="13" cx="62" showThousandSeparator="false" startAngle="45" cy="62" step="1" timeSpec="local" dataFormat="labels" endAngle="135" x="0" y="0" vert-align="top" text="" max="3" usingFormat="" value="" keypad-type="None" font-color="rgb(102,102,102)" min="1" width="124" labelNames="open,dicht,automatisch" numberFormat="1" readWrite="true" tickFreq="1" height="124" labelFreq="3" form="round" font-size="0" dataType="Text"/>
+    <wgtStyle font-family="Roboto" font-sizepx="13" cx="62" showThousandSeparator="false" startAngle="45" cy="62" step="1" timeSpec="local" dataFormat="labels" endAngle="135" x="0" y="0" vert-align="top" text="" max="3" usingFormat="" value="" keypad-type="None" font-color="rgb(102,102,102)" min="1" width="124" labelNames="dicht,open,automatisch" numberFormat="1" readWrite="true" tickFreq="1" height="124" labelFreq="3" form="round" font-size="0" dataType="Text"/>
    </object>
    <object class="NeedleWgt" hmiStyle="hmi-name:black plastic; hmi-shape:round_1; hmi-type:top-knob" id="Knob10.ndl">
     <wgtStyle forcePaint="73" cx="50" startAngle="45" cy="53" acceptClick="true" moveStep="1" endAngle="135" x="11" y="8" discrete="true" max="3" value="3" min="1" initAngle="180" width="103" toolTipFontSize="12" toolTipFontName="Roboto" toolTipTextColor="rgb(0,0,0)" writeMode="0" height="88" toolTipBgColor="rgb(255,255,255)" labelFreq="3" form="round"/>
@@ -664,7 +665,7 @@
     <attr attrName="numStates" alias="NeedleWgt.numStates;TicksWgt.numStates;LabelsWgt.numStates"/>
    </links>
    <object class="LabelsWgt" id="Knob11.lbl">
-    <wgtStyle font-family="Roboto" font-sizepx="13" cx="62" showThousandSeparator="false" startAngle="45" cy="62" step="1" timeSpec="local" dataFormat="labels" endAngle="135" x="0" y="0" vert-align="top" text="" max="3" usingFormat="" value="" keypad-type="None" font-color="rgb(102,102,102)" min="1" width="124" labelNames="open,dicht,automatisch" numberFormat="1" readWrite="true" tickFreq="1" height="124" labelFreq="3" form="round" font-size="0" dataType="Text"/>
+    <wgtStyle font-family="Roboto" font-sizepx="13" cx="62" showThousandSeparator="false" startAngle="45" cy="62" step="1" timeSpec="local" dataFormat="labels" endAngle="135" x="0" y="0" vert-align="top" text="" max="3" usingFormat="" value="" keypad-type="None" font-color="rgb(102,102,102)" min="1" width="124" labelNames="dicht,open,automatisch" numberFormat="1" readWrite="true" tickFreq="1" height="124" labelFreq="3" form="round" font-size="0" dataType="Text"/>
    </object>
    <object class="NeedleWgt" hmiStyle="hmi-name:black plastic; hmi-shape:round_1; hmi-type:top-knob" id="Knob11.ndl">
     <wgtStyle forcePaint="73" cx="50" startAngle="45" cy="53" acceptClick="true" moveStep="1" endAngle="135" x="11" y="8" discrete="true" max="3" value="3" min="1" initAngle="180" width="103" toolTipFontSize="12" toolTipFontName="Roboto" toolTipTextColor="rgb(0,0,0)" writeMode="0" height="88" toolTipBgColor="rgb(255,255,255)" labelFreq="3" form="round"/>
@@ -713,7 +714,7 @@
     <attr attrName="numStates" alias="NeedleWgt.numStates;TicksWgt.numStates;LabelsWgt.numStates"/>
    </links>
    <object class="LabelsWgt" id="Knob12.lbl">
-    <wgtStyle font-family="Roboto" font-sizepx="13" cx="62" showThousandSeparator="false" startAngle="45" cy="62" step="1" timeSpec="local" dataFormat="labels" endAngle="135" x="0" y="0" vert-align="top" text="" max="3" usingFormat="" value="" keypad-type="None" font-color="rgb(102,102,102)" min="1" width="124" labelNames="open,dicht,automatisch" numberFormat="1" readWrite="true" tickFreq="1" height="124" labelFreq="3" form="round" font-size="0" dataType="Text"/>
+    <wgtStyle font-family="Roboto" font-sizepx="13" cx="62" showThousandSeparator="false" startAngle="45" cy="62" step="1" timeSpec="local" dataFormat="labels" endAngle="135" x="0" y="0" vert-align="top" text="" max="3" usingFormat="" value="" keypad-type="None" font-color="rgb(102,102,102)" min="1" width="124" labelNames="dicht,open,automatisch" numberFormat="1" readWrite="true" tickFreq="1" height="124" labelFreq="3" form="round" font-size="0" dataType="Text"/>
    </object>
    <object class="NeedleWgt" hmiStyle="hmi-name:black plastic; hmi-shape:round_1; hmi-type:top-knob" id="Knob12.ndl">
     <wgtStyle forcePaint="73" cx="50" startAngle="45" cy="53" acceptClick="true" moveStep="1" endAngle="135" x="11" y="8" discrete="true" max="3" value="3" min="1" initAngle="180" width="103" toolTipFontSize="12" toolTipFontName="Roboto" toolTipTextColor="rgb(0,0,0)" writeMode="0" height="88" toolTipBgColor="rgb(255,255,255)" labelFreq="3" form="round"/>
@@ -825,18 +826,6 @@
   </object>
   <object class="GroupSubscribeWgt" id="HeimdallSettings@$GroupSubscrWgt@$0">
    <wgtStyle width="0" x="0" y="0" height="0"/>
-  </object>
-  <object class="ImageWgt" id="wthrImg13">
-   <wgtStyle width="61" imagePath="images/IC_fo1_012.svg" x="1092.69" forcePaint="8" y="620.62" cx="30.50" cy="33.48" height="66.95"/>
-   <dataLinks>
-    <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="blRegen" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
-   </dataLinks>
-  </object>
-  <object class="ImageWgt" id="wthrImg57">
-   <wgtStyle width="74" imagePath="images/IC_fo1_032.svg" x="1169.36" forcePaint="8" y="621.12" cx="37" cy="32.98" height="65.95"/>
-   <dataLinks>
-    <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="blDroog" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
-   </dataLinks>
   </object>
   <object class="ImageWgt" id="bldgImg12">
    <wgtStyle width="21.52" imagePath="images/2-4.svg" x="78.06" forcePaint="8" y="86.80" cx="10.76" cy="9.95" height="19.89"/>
@@ -993,6 +982,12 @@
    <dataLinks>
     <dataLink readWrite="R" tagType="int" attribute="visibility" tag="Verd5koud" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
+  </object>
+  <object class="LabelWgt" id="label13">
+   <wgtStyle font-bold="true" marker="true" forcePaint="65" font-family="Tahoma" font-sizepx="32" cx="246.75" cy="27" alignment="center" x="12" y="24.37" vert-align="top" keypad-type="None" font-color="rgb(23,30,40)" width="532.45" wrapping="true" font-underline="true" height="57" font-size="24"/>
+   <links>
+    <lang class="MLTextLink" textid="42"/>
+   </links>
   </object>
  </object>
 </wgtPage>

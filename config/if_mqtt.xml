@@ -30,7 +30,7 @@
   </willPattern>
   <dataPubPattern>
    <topic>${tagName}</topic>
-   <payload>${value}</payload>
+   <payload>${value},${clientId}</payload>
   </dataPubPattern>
   <dataSubPattern>
    <topic>${tagName}</topic>
@@ -43,7 +43,24 @@
   <pluginName>mosquitto</pluginName>
   <groups>
    <group name="MQTT_PUB">
-    <qos>0</qos>
+    <qos>2</qos>
+    <retain>0</retain>
+    <persist>0</persist>
+    <policy>
+     <name>OnChange</name>
+     <triggers>
+      <trigger>
+       <type>onchange</type>
+       <minIntervalMs>1000</minIntervalMs>
+       <deadband>0</deadband>
+       <isPercent>0</isPercent>
+      </trigger>
+     </triggers>
+     <conditions/>
+    </policy>
+   </group>
+   <group name="MQTT_SUB">
+    <qos>2</qos>
     <retain>0</retain>
     <persist>0</persist>
     <policy>
@@ -56,11 +73,6 @@
      </triggers>
      <conditions/>
     </policy>
-   </group>
-   <group name="MQTT_SUB">
-    <qos>0</qos>
-    <retain>0</retain>
-    <persist>0</persist>
    </group>
   </groups>
   <jsonPayload>0</jsonPayload>

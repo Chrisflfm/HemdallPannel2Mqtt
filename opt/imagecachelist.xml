@@ -20,10 +20,9 @@
  <file fill="rgb(0,0,0)" imgSize="31,29" stroke="none" numUses="6" isSvgFile="true" file="images/leftarrow_symbol_rev1.svg" numSizes="2"/>
  <file fill="rgb(130,130,130)" imgSize="61,62" stroke="none" numUses="5" isSvgFile="true" file="images/btn_gray_down_rev2.svg" numSizes="1"/>
  <file fill="rgb(130,130,130)" imgSize="61,62" stroke="none" numUses="5" isSvgFile="true" file="images/btn_gray_up_rev1.svg" numSizes="1"/>
- <file fill="rgb(0,0,0)" imgSize="74,66" stroke="none" numUses="5" isSvgFile="true" file="images/ic_fo1_032.svg" numSizes="2"/>
  <file fill="rgb(246,246,246)" imgSize="80,51" stroke="none" numUses="5" isSvgFile="true" file="images/btn_kbdwht_wide_2_rev1.svg" numSizes="5" prePath="keypads"/>
  <file fill="rgb(246,246,246)" imgSize="80,51" stroke="none" numUses="5" isSvgFile="true" file="images/btn_kbdwht_wide_1_rev1.svg" numSizes="5" prePath="keypads"/>
- <file fill="rgb(0,0,0)" imgSize="61,67" stroke="none" numUses="4" isSvgFile="true" file="images/ic_fo1_012.svg" numSizes="1"/>
+ <file fill="rgb(0,0,0)" imgSize="74,66" stroke="none" numUses="4" isSvgFile="true" file="images/ic_fo1_032.svg" numSizes="2"/>
  <file fill="rgb(120,120,120)" imgSize="39,32" stroke="none" numUses="4" isSvgFile="true" file="images/btn_gray_down_rev2.svg" numSizes="3"/>
  <file fill="rgb(120,120,120)" imgSize="39,32" stroke="none" numUses="4" isSvgFile="true" file="images/btn_gray_up_rev1.svg" numSizes="3"/>
  <file fill="rgb(0,0,0)" imgSize="16,15" stroke="none" numUses="4" isSvgFile="true" file="images/uparrow_symbol_rev1.svg" numSizes="3"/>
@@ -35,6 +34,7 @@
  <file fill="rgb(0,0,0)" imgSize="32,32" stroke="none" numUses="3" isSvgFile="true" file="images/ic_ad1_022.svg" numSizes="1"/>
  <file fill="rgb(0,0,0)" imgSize="32,32" stroke="none" numUses="3" isSvgFile="true" file="images/ic_ad1_021.svg" numSizes="1"/>
  <file fill="rgb(0,0,0)" imgSize="60,67" stroke="none" numUses="3" isSvgFile="true" file="images/7-5.svg" numSizes="1"/>
+ <file fill="rgb(0,0,0)" imgSize="61,67" stroke="none" numUses="3" isSvgFile="true" file="images/ic_fo1_012.svg" numSizes="1"/>
  <file fill="rgb(23,30,40)" imgSize="41,40" stroke="none" numUses="3" isSvgFile="true" file="images/ic_cn2_03.svg" numSizes="3" prePath="keypads"/>
  <file fill="rgb(150,150,150)" imgSize="67,59" stroke="none" numUses="2" isSvgFile="true" file="images/btn_gray_down_rev2.svg" numSizes="1"/>
  <file fill="rgb(150,150,150)" imgSize="67,59" stroke="none" numUses="2" isSvgFile="true" file="images/btn_gray_up_rev1.svg" numSizes="1"/>

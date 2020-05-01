@@ -292,5 +292,11 @@
   <object class="GroupSubscribeWgt" id="GVL v2@$GroupSubscrWgt@$0">
    <wgtStyle width="0" x="0" y="0" height="0"/>
   </object>
+  <object class="ButtonWgt" hmiStyle="type:btn" id="gstArea3">
+   <wgtStyle width="1220.86" x="42" forcePaint="65" y="9.61" fill="rgb(160,160,164)" dx="1" cx="601.06" form="gesture" dy="-1" cy="338.33" height="690.12" releasePath="../../shared/gallery/images/bu_other/win-like.svg" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+   <links>
+    <action pageName="gvl.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="1" actionWgt="_PageMgr"/>
+   </links>
+  </object>
  </object>
 </wgtPage>
