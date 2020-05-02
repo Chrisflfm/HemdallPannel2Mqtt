@@ -588,18 +588,6 @@
     <isMinMaxEdited>false</isMinMaxEdited>
 </tag>
 <tag>
-    <name>blRegen</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://blRegen?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-    <min>0</min>
-    <max>1</max>
-    <isMinMaxEdited>false</isMinMaxEdited>
-</tag>
-<tag>
     <name>regUurPoortOpen</name>
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
@@ -701,18 +689,6 @@
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
     <resourceLocator>VRBL://blLicht?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-    <min>0</min>
-    <max>1</max>
-    <isMinMaxEdited>false</isMinMaxEdited>
-</tag>
-<tag>
-    <name>blDroog</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://blDroog?boolean</resourceLocator>
     <enableScaling>false</enableScaling>
     <enableAudit subT="1" eventT="18">false</enableAudit>
     <min>0</min>
@@ -1699,9 +1675,11 @@
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
-    <resourceLocator>VRBL://ventileren?string-8</resourceLocator>
+    <resourceLocator>VRBL://ventileren?int</resourceLocator>
     <enableScaling>false</enableScaling>
     <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>-2147483648</min>
+    <max>2147483647</max>
     <isMinMaxEdited>false</isMinMaxEdited>
 </tag>
 <tag>
@@ -1797,7 +1775,7 @@
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
-    <resourceLocator>VRBL://luchtdruk?string-8</resourceLocator>
+    <resourceLocator>VRBL://luchtdruk?string-10</resourceLocator>
     <enableScaling>false</enableScaling>
     <enableAudit subT="1" eventT="18">false</enableAudit>
     <isMinMaxEdited>false</isMinMaxEdited>
@@ -1808,7 +1786,7 @@
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
-    <resourceLocator>VRBL://weer type?string-20</resourceLocator>
+    <resourceLocator>VRBL://weer type?string-55</resourceLocator>
     <enableScaling>false</enableScaling>
     <enableAudit subT="1" eventT="18">false</enableAudit>
     <isMinMaxEdited>false</isMinMaxEdited>
@@ -1998,5 +1976,29 @@
     <enableAudit subT="1" eventT="18">false</enableAudit>
     <min>-2147483648</min>
     <max>2147483647</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>blDroog</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://blDroog?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>blRegen</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://blRegen?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
     <isMinMaxEdited>false</isMinMaxEdited>
 </tag>

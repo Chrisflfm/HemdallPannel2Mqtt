@@ -12,16 +12,14 @@
       <page class="PageWgt" size="1280,800" type="normal" name="Home" file="home.jmx"/>
       <page class="PageWgt" size="1280,800" type="normal" name="Velux" file="velux.jmx"/>
       <page class="PageWgt" size="1280,800" type="normal" name="HVAC overview" file="hvac overview.jmx"/>
-      <page class="PageWgt" size="1280,800" type="normal" name="GVL" file="gvl.jmx"/>
       <page class="PageWgt" size="1280,800" type="normal" name="VERD" file="verd.jmx"/>
       <page class="PageWgt" size="1280,800" type="normal" name="OpenCloseVelux" file="openclosevelux.jmx"/>
       <page class="PageWgt" size="1280,800" type="normal" name="Licht" file="licht.jmx"/>
       <page class="PageWgt" size="1280,800" type="normal" name="WaterOntharder" file="waterontharder.jmx"/>
       <page class="PageWgt" size="1280,800" type="normal" name="Alarm" file="alarm.jmx"/>
-      <page class="PageWgt" size="1280,800" type="normal" name="System" file="system.jmx"/>
       <page class="PageWgt" size="1280,800" type="normal" name="Weerbericht" file="weerbericht.jmx"/>
       <page class="PageWgt" size="1280,800" type="normal" name="HeimdallSettings" file="heimdallsettings.jmx"/>
-      <page class="PageWgt" size="1280,800" type="normal" name="GVL v2" file="gvl v2.jmx"/>
+      <page class="PageWgt" size="1280,800" type="normal" name="GVL" file="gvl.jmx"/>
      </pages>
      <templatePages/>
     </category>

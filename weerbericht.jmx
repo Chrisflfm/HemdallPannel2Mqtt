@@ -7,7 +7,7 @@
   <object class="GroupWgt" id="RSSFeed" customType="RSS Feed">
    <wgtStyle width="822" x="420.17" y="14" cx="409.61" cy="297.62" height="598"/>
    <object titleSeparator="" RSSSource="http://projects.knmi.nl/RSSread/rss_KNMIverwachtingen.php" class="RSSFeedWgt" CurItem="0" id="RSSFeed.FeedWgt" UpdateRate="15">
-    <wgtStyle width="88.07" x="0" forcePaint="1024" y="504.27" cx="44.04" cy="43.38" height="90.63" mtx="1,0,0,0,1,0,0,0,1"/>
+    <wgtStyle width="88.07" x="0" forcePaint="1024" y="504.27" cx="44.04" cy="43.38" height="90.63"/>
     <Sources>
      <Source enable="false" name="CNN" resource="http://rss.cnn.com/rss/cnn_topstories"/>
      <Source enable="false" name="ESPN" resource="http://sports.espn.go.com/espn/rss/news"/>
@@ -18,19 +18,19 @@
     </Sources>
    </object>
    <object class="LabelWgt" id="RSSFeed.feedTitle">
-    <wgtStyle width="470.51" font-color="rgb(0,0,255)" x="2.77" forcePaint="8" font-sizepx="32" y="0" font-family="Tahoma" wrapping="true" cx="232.49" cy="24.80" height="90.94" vert-align="top" mtx="1,0,0,0,1,0,0,0,1" text="RSSFeed" keypad-type="None" font-size="24"/>
+    <wgtStyle width="470.51" font-color="rgb(0,0,255)" x="2.77" forcePaint="8" font-sizepx="26" y="0" font-family="Tahoma" wrapping="true" cx="232.49" cy="24.80" height="90.94" vert-align="top" text="RSSFeed" keypad-type="None" font-size="20"/>
     <dataLinks>
      <dataLink readWrite="R" attribute="text" tag="CurTitle" sourceType="Data" dataSource="RSSFeed.FeedWgt"/>
     </dataLinks>
    </object>
    <object class="LabelWgt" id="RSSFeed.feedDesc">
-    <wgtStyle width="822" x="0" forcePaint="8" font-sizepx="26" y="112.98" font-family="Tahoma" wrapping="true" height="369.27" vert-align="top" mtx="1,0,0,0,1,0,0,0,1" text="Feed Description" keypad-type="None" font-size="20"/>
+    <wgtStyle width="822" x="0" forcePaint="8" font-sizepx="26" y="112.98" font-family="Tahoma" wrapping="true" height="369.27" vert-align="top" text="Feed Description" keypad-type="None" font-size="20"/>
     <dataLinks>
      <dataLink readWrite="R" attribute="text" tag="CurDesc" sourceType="Data" dataSource="RSSFeed.FeedWgt"/>
     </dataLinks>
    </object>
    <object class="NumericWgt" id="RSSFeed.curFeed">
-    <wgtStyle forcePaint="8" font-family="Tahoma" font-sizepx="13" cx="63.65" showThousandSeparator="false" cy="33.07" step="1" timeSpec="local" alignment="center" x="470.51" y="540.13" vert-align="middle" text="99" max="4096" usingFormat="#" value="99" keypad-type="None" font-color="rgb(40,40,40)" min="0" mtx="1,0,0,0,1,0,0,0,1" width="71.96" numberFormat="6" height="46.85" form="Numeric" font-size="10"/>
+    <wgtStyle forcePaint="8" font-family="Tahoma" font-sizepx="13" cx="63.65" showThousandSeparator="false" cy="33.07" step="1" timeSpec="local" alignment="center" x="470.51" y="540.13" vert-align="middle" text="99" max="4096" usingFormat="#" value="99" keypad-type="None" font-color="rgb(40,40,40)" min="0" width="71.96" numberFormat="6" height="46.85" form="Numeric" font-size="10"/>
     <dataLinks>
      <dataLink readWrite="R" attribute="value" tag="CurItem" sourceType="Data" dataSource="RSSFeed.FeedWgt">
       <xForms>
@@ -40,24 +40,24 @@
     </dataLinks>
    </object>
    <object class="NumericWgt" id="RSSFeed.numFeeds">
-    <wgtStyle forcePaint="8" font-family="Tahoma" font-sizepx="13" cx="38.74" showThousandSeparator="false" cy="24.80" step="1" timeSpec="local" alignment="center" x="556.30" y="540.13" vert-align="middle" text="99" max="4096" usingFormat="#" value="99" keypad-type="None" font-color="rgb(40,40,40)" min="0" mtx="1,0,0,0,1,0,0,0,1" width="71.96" numberFormat="6" height="46.85" form="Numeric" font-size="10"/>
+    <wgtStyle forcePaint="8" font-family="Tahoma" font-sizepx="13" cx="38.74" showThousandSeparator="false" cy="24.80" step="1" timeSpec="local" alignment="center" x="556.30" y="540.13" vert-align="middle" text="99" max="4096" usingFormat="#" value="99" keypad-type="None" font-color="rgb(40,40,40)" min="0" width="71.96" numberFormat="6" height="46.85" form="Numeric" font-size="10"/>
     <dataLinks>
      <dataLink readWrite="R" attribute="value" tag="NumItems" sourceType="Data" dataSource="RSSFeed.FeedWgt"/>
     </dataLinks>
    </object>
    <object class="ButtonWgt" hmiStyle="type:btn" id="RSSFeed.openBtn">
-    <wgtStyle width="802.62" x="0" forcePaint="1" y="93.70" fill="rgb(160,160,164)" dx="1" cx="398.55" form="hotspot" dy="-1" cy="195.66" height="407.86" releasePath=":/Resources/hotspot_stripe.svg" mtx="1,0,0,0,1,0,0,0,1" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+    <wgtStyle width="802.62" x="0" forcePaint="1" y="93.70" fill="rgb(160,160,164)" dx="1" cx="398.55" form="hotspot" dy="-1" cy="195.66" height="407.86" releasePath=":/Resources/hotspot_stripe.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
     <links>
      <action class="LaunchRSSFeedAction" attribute="onClick" event="onClick" actionID="0" widgetId="RSSFeed.FeedWgt" actionWgt="_PageMgr"/>
     </links>
    </object>
    <object class="NumericWgt" id="RSSFeed.seperator">
-    <wgtStyle forcePaint="65" font-family="Tahoma" font-sizepx="16" cx="9.69" showThousandSeparator="false" cy="23.42" step="1" timeSpec="local" alignment="center" x="542.46" y="540.13" vert-align="middle" text="/" max="4096" usingFormat="" value="/" keypad-type="Numeric" font-color="rgb(40,40,40)" min="0" mtx="1,0,0,0,1,0,0,0,1" width="19.38" numberFormat="0" readWrite="true" height="46.85" form="Numeric" font-size="12"/>
+    <wgtStyle forcePaint="65" font-family="Tahoma" font-sizepx="16" cx="9.69" showThousandSeparator="false" cy="23.42" step="1" timeSpec="local" alignment="center" x="542.46" y="540.13" vert-align="middle" text="/" max="4096" usingFormat="" value="/" keypad-type="Numeric" font-color="rgb(40,40,40)" min="0" width="19.38" numberFormat="0" readWrite="true" height="46.85" form="Numeric" font-size="12"/>
    </object>
    <object class="GroupWgt" id="RSSFeed.prevfeedBtn">
-    <wgtStyle width="80.26" x="625.50" forcePaint="65" y="529.11" cx="38.74" cy="33.07" height="68.89" mtx="1,0,0,0,1,0,0,0,1"/>
+    <wgtStyle width="80.26" x="625.50" forcePaint="65" y="529.11" cx="38.74" cy="33.07" height="68.89"/>
     <object class="ButtonWgt" hmiStyle="type:btn" id="RSSFeed.prevfeedBtn.btn">
-     <wgtStyle width="80.26" x="0" forcePaint="65" y="0" fill="rgb(255,255,255)" dx="1" cx="0" form="standard" dy="-1" cy="0" height="68.89" releasePath="images\btn_kbdwht_std_1_rev1.svg" needlePath="images\btn_kbdwht_std_2_rev1.svg" mtx="1,0,0,0,1,0,0,0,1" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+     <wgtStyle width="80.26" x="0" forcePaint="65" y="0" fill="rgb(255,255,255)" dx="1" cx="0" form="standard" dy="-1" cy="0" height="68.89" releasePath="images\btn_kbdwht_std_1_rev1.svg" needlePath="images\btn_kbdwht_std_2_rev1.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
      <links>
       <action StepOverLimit="true" class="StepTagAction" attribute="onMouseRelease" event="onMouseUp" actionID="0" Step="-1" StepLimit="0" actionWgt="_TagMgr">
        <dataLinks>
@@ -67,13 +67,13 @@
      </links>
     </object>
     <object class="ImageWgt" id="RSSFeed.prevfeedBtn.icoImg">
-     <wgtStyle width="38.74" imagePath="images/leftarrow_symbol_rev1.svg" x="22.14" forcePaint="1" y="13.78" cx="11.07" cy="8.27" height="30.31" mtx="1,0,0,0,1,0,0,0,1"/>
+     <wgtStyle width="38.74" imagePath="images/leftarrow_symbol_rev1.svg" x="22.14" forcePaint="1" y="13.78" cx="11.07" cy="8.27" height="30.31"/>
     </object>
    </object>
    <object class="GroupWgt" id="RSSFeed.nextfeedBtn">
-    <wgtStyle width="80.26" x="725.13" y="529.11" cx="52.59" cy="44.09" height="68.89" mtx="1,0,0,0,1,0,0,0,1"/>
+    <wgtStyle width="80.26" x="725.13" y="529.11" cx="52.59" cy="44.09" height="68.89"/>
     <object class="ButtonWgt" hmiStyle="type:btn" id="RSSFeed.nextfeedBtn.btn">
-     <wgtStyle width="80.26" x="0" y="0" fill="rgb(255,255,255)" dx="1" form="standard" dy="-1" height="68.89" releasePath="images\btn_kbdwht_std_1_rev1.svg" needlePath="images\btn_kbdwht_std_2_rev1.svg" mtx="1,0,0,0,1,0,0,0,1" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+     <wgtStyle width="80.26" x="0" y="0" fill="rgb(255,255,255)" dx="1" form="standard" dy="-1" height="68.89" releasePath="images\btn_kbdwht_std_1_rev1.svg" needlePath="images\btn_kbdwht_std_2_rev1.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
      <links>
       <action StepOverLimit="false" class="StepTagAction" attribute="onMouseRelease" event="onMouseUp" actionID="0" Step="1" StepLimit="0" actionWgt="_TagMgr">
        <dataLinks>
@@ -83,7 +83,7 @@
      </links>
     </object>
     <object class="ImageWgt" id="RSSFeed.nextfeedBtn.icoImg">
-     <wgtStyle width="38.74" imagePath="images/rightarrow_symbol_rev1.svg" x="19.38" forcePaint="1" y="13.78" cx="27.68" cy="19.29" height="30.31" mtx="1,0,0,0,1,0,0,0,1"/>
+     <wgtStyle width="38.74" imagePath="images/rightarrow_symbol_rev1.svg" x="19.38" forcePaint="1" y="13.78" cx="27.68" cy="19.29" height="30.31"/>
     </object>
    </object>
   </object>
@@ -97,12 +97,13 @@
     <MLText L1="x" id="3"/>
     <MLText L1="Luchtvochtigheid" id="4"/>
     <MLText L1="luchtdruk" id="5"/>
-    <MLText L1="Weer type" id="6"/>
     <MLText L1="Windsnelheid" id="7"/>
     <MLText L1="Windrichting" id="8"/>
     <MLText L1="Laatste weer update" id="10"/>
     <MLText L1="Actueel weer in Bladel" id="11"/>
-    <MLText L1="Regensensor:" id="18"/>
+    <MLText L1="" id="13"/>
+    <MLText L1="Actueel weer:" id="14"/>
+    <MLText L1="Regensensor dakvensters:" id="15"/>
    </MLTexts>
   </object>
   <object class="GroupSubscribeWgt" id="Weerbericht@$GroupSubscrWgt@$0">
@@ -154,37 +155,22 @@
    </links>
   </object>
   <object class="LabelWgt" id="label6">
-   <wgtStyle width="70" font-color="rgb(23,30,40)" x="181" forcePaint="8" font-sizepx="16" y="184.94" font-family="Tahoma" wrapping="true" cx="32.44" cy="13.74" height="29" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
+   <wgtStyle width="193" font-color="rgb(23,30,40)" x="181" forcePaint="8" font-sizepx="16" y="184.94" font-family="Tahoma" cx="89.44" cy="15.64" height="33" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
    <dataLinks>
-    <dataLink readWrite="R" tagType="string-8" attribute="text" tag="luchtdruk" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+    <dataLink readWrite="R/W" tagType="string-10" attribute="text" tag="luchtdruk" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
    <links>
-    <lang class="MLTextLink" textid="3"/>
-   </links>
-  </object>
-  <object class="LabelWgt" id="label7" static="true">
-   <wgtStyle width="163" font-color="rgb(23,30,40)" x="18" font-sizepx="16" y="221.36" font-family="Tahoma" wrapping="true" cx="75.54" cy="12.79" height="27" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
-   <links>
-    <lang class="MLTextLink" textid="6"/>
-   </links>
-  </object>
-  <object class="LabelWgt" id="label8">
-   <wgtStyle width="193" font-color="rgb(23,30,40)" x="181" forcePaint="8" font-sizepx="16" y="222.10" font-family="Tahoma" wrapping="true" cx="89.44" cy="17.56" height="37.07" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
-   <dataLinks>
-    <dataLink readWrite="R" tagType="string-20" attribute="text" tag="weer type" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
-   </dataLinks>
-   <links>
-    <lang class="MLTextLink" textid="3"/>
+    <lang class="MLTextLink" textid="13"/>
    </links>
   </object>
   <object class="LabelWgt" id="label9" static="true">
-   <wgtStyle width="163" font-color="rgb(23,30,40)" x="18" font-sizepx="16" y="259.07" font-family="Tahoma" wrapping="true" cx="75.54" cy="12.79" height="27" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
+   <wgtStyle width="163" font-color="rgb(23,30,40)" x="18" font-sizepx="16" y="218" font-family="Tahoma" wrapping="true" cx="75.54" cy="12.79" height="27" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
    <links>
     <lang class="MLTextLink" textid="7"/>
    </links>
   </object>
   <object class="LabelWgt" id="label10">
-   <wgtStyle width="70" font-color="rgb(23,30,40)" x="181" forcePaint="8" font-sizepx="16" y="259.21" font-family="Tahoma" wrapping="true" cx="32.44" cy="13.74" height="29" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
+   <wgtStyle width="70" font-color="rgb(23,30,40)" x="181" forcePaint="8" font-sizepx="16" y="218" font-family="Tahoma" wrapping="true" cx="32.44" cy="13.74" height="29" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
    <dataLinks>
     <dataLink readWrite="R" tagType="string-8" attribute="text" tag="windsnelheid" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
@@ -193,13 +179,13 @@
    </links>
   </object>
   <object class="LabelWgt" id="label11" static="true">
-   <wgtStyle width="163" font-color="rgb(23,30,40)" x="18" font-sizepx="16" y="296.78" font-family="Tahoma" wrapping="true" cx="75.54" cy="12.79" height="27" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
+   <wgtStyle width="163" font-color="rgb(23,30,40)" x="18" font-sizepx="16" y="255" font-family="Tahoma" wrapping="true" cx="75.54" cy="12.79" height="27" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
    <links>
     <lang class="MLTextLink" textid="8"/>
    </links>
   </object>
   <object class="LabelWgt" id="label14">
-   <wgtStyle width="70" font-color="rgb(23,30,40)" x="181" forcePaint="8" font-sizepx="16" y="297" font-family="Tahoma" wrapping="true" cx="32.44" cy="13.74" height="29" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
+   <wgtStyle width="70" font-color="rgb(23,30,40)" x="181" forcePaint="8" font-sizepx="16" y="256" font-family="Tahoma" wrapping="true" cx="32.44" cy="13.74" height="29" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
    <dataLinks>
     <dataLink readWrite="R" tagType="string-8" attribute="text" tag="windstreek" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
@@ -222,28 +208,43 @@
     <lang class="MLTextLink" textid="3"/>
    </links>
   </object>
-  <object class="LabelWgt" id="label17">
-   <wgtStyle font-bold="true" marker="true" forcePaint="1" font-family="Tahoma" font-sizepx="32" cx="174.71" cy="27" alignment="center" x="20.95" y="14" vert-align="top" keypad-type="None" font-color="rgb(23,30,40)" width="377" wrapping="true" font-underline="true" height="57" font-size="24"/>
+  <object class="LabelWgt" id="label17" static="true">
+   <wgtStyle width="377" font-color="rgb(23,30,40)" x="20.95" font-sizepx="32" y="14" font-family="Tahoma" font-bold="true" wrapping="true" cx="174.71" cy="27" height="57" alignment="center" font-underline="true" vert-align="top" marker="true" keypad-type="None" font-size="24"/>
    <links>
     <lang class="MLTextLink" textid="11"/>
    </links>
   </object>
-  <object class="ImageWgt" id="wthrImg13">
-   <wgtStyle width="61" imagePath="images/IC_fo1_012.svg" x="178" forcePaint="8" y="326" cx="30.50" cy="33.48" height="66.95"/>
+  <object class="LabelWgt" id="label18" static="true">
+   <wgtStyle width="304" font-color="rgb(23,30,40)" x="20.95" font-sizepx="16" y="416.10" font-family="Tahoma" wrapping="true" cx="151.98" cy="19.90" height="42" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
+   <links>
+    <lang class="MLTextLink" textid="15"/>
+   </links>
+  </object>
+  <object class="ImageWgt" id="wthrImg12">
+   <wgtStyle width="71.30" imagePath="images/IC_fo1_011.svg" x="232.10" forcePaint="8" y="395.52" cx="35.65" cy="29.06" height="58.12"/>
    <dataLinks>
     <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="blRegen" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
   </object>
-  <object class="ImageWgt" id="wthrImg57">
-   <wgtStyle width="74" imagePath="images/IC_fo1_032.svg" x="171.50" forcePaint="9" y="314.33" cx="37" cy="32.98" height="65.95"/>
+  <object class="ImageWgt" id="wthrImg69">
+   <wgtStyle width="67" imagePath="images/IC_fo1_036.svg" x="234.25" forcePaint="9" y="399.52" cx="-79.18" cy="22.19" height="58.20"/>
    <dataLinks>
     <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="blDroog" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
   </object>
-  <object class="LabelWgt" id="label18">
-   <wgtStyle width="159" font-color="rgb(23,30,40)" x="18" forcePaint="1" font-sizepx="16" y="334" font-family="Tahoma" wrapping="true" cx="79.49" cy="12.61" height="26.62" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
+  <object class="LabelWgt" id="label7" static="true">
+   <wgtStyle width="159" font-color="rgb(23,30,40)" x="18" font-sizepx="16" y="297" font-family="Tahoma" wrapping="true" cx="79.49" cy="12.61" height="26.62" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
    <links>
-    <lang class="MLTextLink" textid="18"/>
+    <lang class="MLTextLink" textid="14"/>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label8">
+   <wgtStyle width="193" font-color="rgb(23,30,40)" x="185" forcePaint="8" font-sizepx="16" y="301" font-family="Tahoma" wrapping="true" cx="89.44" cy="34.58" height="73" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
+   <dataLinks>
+    <dataLink readWrite="R" tagType="string-55" attribute="text" tag="weer type" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+   </dataLinks>
+   <links>
+    <lang class="MLTextLink" textid="3"/>
    </links>
   </object>
  </object>

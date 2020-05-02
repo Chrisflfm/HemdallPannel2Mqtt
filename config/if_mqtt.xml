@@ -43,24 +43,7 @@
   <pluginName>mosquitto</pluginName>
   <groups>
    <group name="MQTT_PUB">
-    <qos>2</qos>
-    <retain>0</retain>
-    <persist>0</persist>
-    <policy>
-     <name>OnChange</name>
-     <triggers>
-      <trigger>
-       <type>onchange</type>
-       <minIntervalMs>1000</minIntervalMs>
-       <deadband>0</deadband>
-       <isPercent>0</isPercent>
-      </trigger>
-     </triggers>
-     <conditions/>
-    </policy>
-   </group>
-   <group name="MQTT_SUB">
-    <qos>2</qos>
+    <qos>0</qos>
     <retain>0</retain>
     <persist>0</persist>
     <policy>
@@ -68,7 +51,22 @@
      <triggers>
       <trigger>
        <type>timer</type>
-       <intervalMs>5000</intervalMs>
+       <intervalMs>15000</intervalMs>
+      </trigger>
+     </triggers>
+     <conditions/>
+    </policy>
+   </group>
+   <group name="MQTT_SUB">
+    <qos>0</qos>
+    <retain>0</retain>
+    <persist>0</persist>
+    <policy>
+     <name>OnTimer</name>
+     <triggers>
+      <trigger>
+       <type>timer</type>
+       <intervalMs>15000</intervalMs>
       </trigger>
      </triggers>
      <conditions/>

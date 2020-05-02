@@ -638,19 +638,6 @@
         <isMinMaxEdited>false</isMinMaxEdited>
     </tag>
     <tag>
-        <name>blRegen</name>
-        <resourceLocator>prot1://0?FLAG?52?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://blRegen?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-        <min>0</min>
-        <max>1</max>
-        <isMinMaxEdited>false</isMinMaxEdited>
-    </tag>
-    <tag>
         <name>regUurPoortOpen</name>
         <resourceLocator>prot1://0?REG?1000010?unsignedInt</resourceLocator>
         <refreshTime>500</refreshTime>
@@ -761,19 +748,6 @@
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
         <simulator>VRBL://blLicht?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-        <min>0</min>
-        <max>1</max>
-        <isMinMaxEdited>false</isMinMaxEdited>
-    </tag>
-    <tag>
-        <name>blDroog</name>
-        <resourceLocator>prot1://0?FLAG?14?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://blDroog?boolean</simulator>
         <enableScaling>false</enableScaling>
         <enableAudit subT="1" eventT="18">false</enableAudit>
         <min>0</min>
@@ -1839,13 +1813,15 @@
     <tag>
         <name>ventileren</name>
         <group>MQTT_SUB</group>
-        <resourceLocator>prot2://ventileren?string-8</resourceLocator>
+        <resourceLocator>prot2://ventileren?int</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
-        <simulator>VRBL://ventileren?string-8</simulator>
+        <simulator>VRBL://ventileren?int</simulator>
         <enableScaling>false</enableScaling>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
         <isMinMaxEdited>false</isMinMaxEdited>
     </tag>
     <tag>
@@ -1945,11 +1921,11 @@
     <tag>
         <name>luchtdruk</name>
         <group>MQTT_SUB</group>
-        <resourceLocator>prot2://luchtdruk?string-8</resourceLocator>
+        <resourceLocator>prot2://luchtdruk?string-10</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
-        <simulator>VRBL://luchtdruk?string-8</simulator>
+        <simulator>VRBL://luchtdruk?string-10</simulator>
         <enableScaling>false</enableScaling>
         <enableAudit subT="1" eventT="18">false</enableAudit>
         <isMinMaxEdited>false</isMinMaxEdited>
@@ -1957,11 +1933,11 @@
     <tag>
         <name>weer type</name>
         <group>MQTT_SUB</group>
-        <resourceLocator>prot2://weer type?string-20</resourceLocator>
+        <resourceLocator>prot2://weer type?string-55</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
-        <simulator>VRBL://weer type?string-20</simulator>
+        <simulator>VRBL://weer type?string-55</simulator>
         <enableScaling>false</enableScaling>
         <enableAudit subT="1" eventT="18">false</enableAudit>
         <isMinMaxEdited>false</isMinMaxEdited>
@@ -2166,6 +2142,32 @@
         <enableAudit subT="1" eventT="18">false</enableAudit>
         <min>-2147483648</min>
         <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+    </tag>
+    <tag>
+        <name>blDroog</name>
+        <resourceLocator>prot1://0?FLAG?14?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://blDroog?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+    </tag>
+    <tag>
+        <name>blRegen</name>
+        <resourceLocator>prot1://0?FLAG?52?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://blRegen?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
     </tag>
 </tags>

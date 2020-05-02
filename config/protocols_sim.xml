@@ -7,7 +7,7 @@
   <autoImport></autoImport>
   <enableOptimization>true</enableOptimization>
   <enableDatagram>false</enableDatagram>
-  <offline_ort>30000</offline_ort>
+  <offline_ort>3000</offline_ort>
   <offline_opt>true</offline_opt>
   <offline_rpt>3</offline_rpt>
   <dictionaryname autoSync="false"></dictionaryname>

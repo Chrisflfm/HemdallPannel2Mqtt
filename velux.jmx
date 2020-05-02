@@ -48,12 +48,6 @@
     <lang class="MLTextLink" textid="112"/>
    </links>
   </object>
-  <object class="ButtonWgt" hmiStyle="type:btn" id="gstArea1">
-   <wgtStyle width="163" x="1108" y="7.75" fill="rgb(160,160,164)" dx="1" cx="80.24" form="gesture" dy="-1" cy="73.05" height="149" releasePath="../../shared/gallery/images/bu_other/win-like.svg" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
-   <links>
-    <action pageName="system.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="1" actionWgt="_PageMgr"/>
-   </links>
-  </object>
   <object class="ButtonWgt" hmiStyle="type:btn" id="gstArea3">
    <wgtStyle width="40.50" x="188" y="321" fill="rgb(160,160,164)" dx="1" cx="19.94" form="gesture" dy="-1" cy="20.59" height="42" releasePath="../../shared/gallery/images/bu_other/win-like.svg" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
    <links>
@@ -769,18 +763,6 @@
     <wgtStyle width="16" imagePath="images/downarrow_symbol_rev1.svg" x="11" forcePaint="1" y="8" cx="8" cy="7" height="15"/>
    </object>
   </object>
-  <object class="ImageWgt" id="wthrImg13">
-   <wgtStyle width="61" imagePath="images/IC_fo1_012.svg" x="935.31" forcePaint="8" y="25.69" cx="30.50" cy="33.48" height="66.95"/>
-   <dataLinks>
-    <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="blRegen" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
-   </dataLinks>
-  </object>
-  <object class="ImageWgt" id="wthrImg57">
-   <wgtStyle width="74" imagePath="images/IC_fo1_032.svg" x="928.81" forcePaint="9" y="26.19" cx="37" cy="32.98" height="65.95"/>
-   <dataLinks>
-    <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="blDroog" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
-   </dataLinks>
-  </object>
   <object class="LabelWgt" id="label2" static="true">
    <wgtStyle width="155.81" font-color="rgb(23,30,40)" x="773" font-sizepx="24" y="41" font-family="Tahoma" wrapping="true" cx="77.90" cy="22.08" height="46.62" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
    <links>
@@ -797,6 +779,18 @@
    <wgtStyle width="32" imagePath="images/ic_ad1_021.svg" x="84.61" forcePaint="8" y="28.62" cx="16" cy="16" height="32"/>
    <dataLinks>
     <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="ctAlarmUit" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+   </dataLinks>
+  </object>
+  <object class="ImageWgt" id="wthrImg12">
+   <wgtStyle width="71.30" imagePath="images/IC_fo1_011.svg" x="930.34" forcePaint="8" y="29.88" cx="35.65" cy="29.06" height="58.12"/>
+   <dataLinks>
+    <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="blRegen" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+   </dataLinks>
+  </object>
+  <object class="ImageWgt" id="wthrImg69">
+   <wgtStyle width="67" imagePath="images/IC_fo1_036.svg" x="932.49" forcePaint="9" y="26.52" cx="-79.18" cy="22.19" height="58.20"/>
+   <dataLinks>
+    <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="blDroog" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
   </object>
  </object>
