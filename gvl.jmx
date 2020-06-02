@@ -221,11 +221,11 @@
    </object>
   </object>
   <object class="GroupWgt" id="GroupWgt13">
-   <wgtStyle width="23.12" x="506" y="59.82" cx="11.56" cy="34.74" height="69.48"/>
+   <wgtStyle width="23.12" x="402.03" y="233" cx="35.01" cy="12.41" height="69.48" mtx="0.0245609,0.999698,0,-0.999698,0.0245609,0,69.459,0,1"/>
    <object class="NumericWgt" id="GroupWgt13.field21">
     <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="16" cx="9.49" showThousandSeparator="false" cy="27.19" timeSpec="local" alignment="right" x="2.05" y="19.06" vert-align="top" frameFill="rgb(255,255,255)" text="99.9" usingFormat="" value="99.9" keypad-type="Numeric" font-color="rgb(170,0,255)" mtx="0.0214012,-0.999771,0,0.999771,0.0214012,0,0,49.9885,1" width="49" numberFormat="0" height="19" font-size="12" form="Numeric"/>
     <dataLinks>
-     <dataLink readWrite="R" tagType="string-8" attribute="value" tag="avgRT1" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+     <dataLink readWrite="R" tagType="string-8" attribute="value" tag="avgRT5" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
     </dataLinks>
    </object>
    <object class="LabelWgt" id="GroupWgt13.label21">

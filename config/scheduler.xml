@@ -23,4 +23,25 @@
  </multiLangs>
  <typeMLDesc ByDate="[6@Schedule]By Date" Daily="[2@Schedule]Daily" Every="[0@Schedule]Every" Monthly="[4@Schedule]Monthly" Yearly="[5@Schedule]Yearly" HiRes="[7@Schedule]Hi-Res" Hourly="[1@Schedule]Hourly" Weekly="[3@Schedule]Weekly"/>
  <modeMLDesc SunsetPlus="[11@Schedule]Sunset+" SunriseMinus="[10@Schedule]Sunrise-" SunsetMinus="[12@Schedule]Sunset-" SunrisePlus="[9@Schedule]Sunrise+" Time="[8@Schedule]Time" Random20="[14@Schedule]Random20" Random10="[13@Schedule]Random10"/>
+ <timedAction>
+  <id>Schedule1</id>
+  <enable>true</enable>
+  <onstartup>false</onstartup>
+  <executeonlyatstartup>false</executeonlyatstartup>
+  <condition></condition>
+  <mode>Time</mode>
+  <timezone place="" longitude="" utc="" latitude=""/>
+  <second>0</second>
+  <minute>00</minute>
+  <hour>05</hour>
+  <dayOfMonth>*</dayOfMonth>
+  <month>*</month>
+  <year>*</year>
+  <dayOfWeek>*</dayOfWeek>
+  <priority>1</priority>
+  <schType>Daily</schType>
+  <actions enable="1" id="1">
+   <macroAction actionFunction="setBit" parameters="blSetClock;0" actionID="1"/>
+  </actions>
+ </timedAction>
 </scheduledActions>

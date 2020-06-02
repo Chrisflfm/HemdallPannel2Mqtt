@@ -739,7 +739,7 @@
     <wgtStyle width="96" imagePath="images/plate_bkgd_gray1.svg" x="0" y="27" fill="rgb(127,127,127)" cx="48" cy="19" height="37" stroke="none"/>
    </object>
    <object class="LabelsWgt" id="Switch1.lbl">
-    <wgtStyle font-family="Roboto" font-sizepx="13" cx="47" showThousandSeparator="false" cy="7" step="1" timeSpec="local" x="5" y="0" vert-align="top" text="" max="1" usingFormat="" value="" keypad-type="None" font-color="rgb(40,40,40)" min="0" width="96" labelNames="vrij,ventileren" numberFormat="1" readWrite="true" height="17" labelFreq="2" form="horizontal" font-size="0"/>
+    <wgtStyle font-family="Roboto" font-sizepx="13" cx="47" showThousandSeparator="false" cy="7" step="1" timeSpec="local" x="5" y="0" vert-align="top" text="" max="1" usingFormat="" value="" keypad-type="None" font-color="rgb(40,40,40)" min="0" width="96" labelNames="uit,aan" numberFormat="1" readWrite="true" height="17" labelFreq="2" form="horizontal" font-size="0"/>
    </object>
    <object class="TicksWgt" id="Switch1.ticks">
     <wgtStyle width="66" reverseScale="true" x="18" forcePaint="65" y="13" cx="34" form="horizontal" labelFreq="2" cy="5" height="12" tickSize2="6" tickSize="-1" max="1" stroke-width="2" align="2"/>
@@ -747,7 +747,7 @@
    <object class="NeedleWgt" id="Switch1.ndl">
     <wgtStyle forcePaint="8" cx="8" cy="14" acceptClick="true" moveStep="1" x="10" y="31" discrete="true" max="1" width="78" toolTipFontSize="12" toolTipFontName="Roboto" toolTipTextColor="rgb(0,0,0)" writeMode="0" toolTipBgColor="rgb(255,255,255)" height="29" labelFreq="2" form="horizontal"/>
     <dataLinks>
-     <dataLink readWrite="R/W" tagType="string-8" attribute="value" tag="ventileren" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+     <dataLink readWrite="R/W" tagType="boolean" attribute="value" tag="blventileren" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
     </dataLinks>
     <links>
      <action BitIndex="0" class="SetBitAction" attribute="onMousePress" event="onMouseDown" actionID="0" actionWgt="_TagMgr">
@@ -772,7 +772,7 @@
     <wgtStyle width="96" imagePath="images/plate_bkgd_gray1.svg" x="0" y="27" fill="rgb(127,127,127)" cx="48" cy="19" height="37" stroke="none"/>
    </object>
    <object class="LabelsWgt" id="Switch2.lbl">
-    <wgtStyle font-family="Roboto" font-sizepx="13" cx="47" showThousandSeparator="false" cy="7" step="1" timeSpec="local" x="5" y="0" vert-align="top" text="" max="1" usingFormat="" value="" keypad-type="None" font-color="rgb(40,40,40)" min="0" width="96" labelNames="vrij,dicht" numberFormat="1" readWrite="true" height="17" labelFreq="2" form="horizontal" font-size="0"/>
+    <wgtStyle font-family="Roboto" font-sizepx="13" cx="47" showThousandSeparator="false" cy="7" step="1" timeSpec="local" x="5" y="0" vert-align="top" text="" max="1" usingFormat="" value="" keypad-type="None" font-color="rgb(40,40,40)" min="0" width="96" labelNames="uit, aan" numberFormat="1" readWrite="true" height="17" labelFreq="2" form="horizontal" font-size="0"/>
    </object>
    <object class="TicksWgt" id="Switch2.ticks">
     <wgtStyle width="66" reverseScale="true" x="18" forcePaint="65" y="13" cx="34" form="horizontal" labelFreq="2" cy="5" height="12" tickSize2="6" tickSize="-1" max="1" stroke-width="2" align="2"/>
@@ -780,7 +780,7 @@
    <object class="NeedleWgt" id="Switch2.ndl">
     <wgtStyle forcePaint="8" cx="8" cy="14" acceptClick="true" moveStep="1" x="10" y="31" discrete="true" max="1" width="78" toolTipFontSize="12" toolTipFontName="Roboto" toolTipTextColor="rgb(0,0,0)" writeMode="0" toolTipBgColor="rgb(255,255,255)" height="29" labelFreq="2" form="horizontal"/>
     <dataLinks>
-     <dataLink readWrite="R/W" tagType="int" attribute="value" tag="klepToe" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+     <dataLink readWrite="R/W" tagType="boolean" attribute="value" tag="blklepToe" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
     </dataLinks>
     <links>
      <action BitIndex="0" class="SetBitAction" attribute="onMousePress" event="onMouseDown" actionID="0" actionWgt="_TagMgr">

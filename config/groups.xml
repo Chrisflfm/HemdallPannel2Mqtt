@@ -18,6 +18,7 @@
   <tag>avgRT2</tag>
   <tag>avgRT3</tag>
   <tag>avgRT4</tag>
+  <tag>avgRT5</tag>
   <tag>avgRT7</tag>
   <tag>ruimte 0_14-1</tag>
   <tag>ruimte 0_14-2</tag>
@@ -51,12 +52,13 @@
   <tag>avgRT7</tag>
   <tag>avgRT8</tag>
   <tag>avgRT9</tag>
-  <tag>klepToe</tag>
-  <tag>ventileren</tag>
+  <tag>blklepToe</tag>
+  <tag>blventileren</tag>
  </group>
  <group Type="Auto">
   <name>HeimdallSettings@$GroupSubscrWgt@$0</name>
   <active>false</active>
+  <tag>LogedIn</tag>
   <tag>Verd1koud</tag>
   <tag>Verd1warm</tag>
   <tag>Verd2koud</tag>
@@ -132,6 +134,16 @@
   <tag>regVensterNr</tag>
  </group>
  <group Type="Auto">
+  <name>Test@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>hours</tag>
+  <tag>minutes</tag>
+  <tag>regHours</tag>
+  <tag>regMinutes</tag>
+  <tag>regSeconds</tag>
+  <tag>seconds</tag>
+ </group>
+ <group Type="Auto">
   <name>VERD@$GroupSubscrWgt@$0</name>
   <active>false</active>
   <tag>avgRT10</tag>
@@ -202,11 +214,14 @@
  <group Type="userdefined">
   <name>MQTT_PUB</name>
   <active>false</active>
+  <tag>blklepToe</tag>
+  <tag>blventileren</tag>
   <tag>ctAlarmAan</tag>
  </group>
  <group Type="userdefined">
   <name>MQTT_SUB</name>
   <active>false</active>
+  <tag>ReloadTemp</tag>
   <tag>TaskStatus</tag>
   <tag>Verd1koud</tag>
   <tag>Verd1warm</tag>

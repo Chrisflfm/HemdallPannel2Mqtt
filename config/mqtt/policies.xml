@@ -16,7 +16,7 @@
   <triggers>
    <trigger>
     <type>timer</type>
-    <intervalMs>15000</intervalMs>
+    <intervalMs>5000</intervalMs>
    </trigger>
   </triggers>
   <conditions/>

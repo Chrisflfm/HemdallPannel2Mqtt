@@ -93,6 +93,7 @@
     <lang removable="false" langCode="en-US" langId="L1" writingsystem="Any" name="Lang1" defaultFont="Tahoma"/>
    </langs>
    <MLTexts>
+    <MLText L1="" id="13"/>
     <MLText L1="Buitentemperatuur" id="0"/>
     <MLText L1="x" id="3"/>
     <MLText L1="Luchtvochtigheid" id="4"/>
@@ -101,7 +102,6 @@
     <MLText L1="Windrichting" id="8"/>
     <MLText L1="Laatste weer update" id="10"/>
     <MLText L1="Actueel weer in Bladel" id="11"/>
-    <MLText L1="" id="13"/>
     <MLText L1="Actueel weer:" id="14"/>
     <MLText L1="Regensensor dakvensters:" id="15"/>
    </MLTexts>
@@ -185,9 +185,9 @@
    </links>
   </object>
   <object class="LabelWgt" id="label14">
-   <wgtStyle width="70" font-color="rgb(23,30,40)" x="181" forcePaint="8" font-sizepx="16" y="256" font-family="Tahoma" wrapping="true" cx="32.44" cy="13.74" height="29" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
+   <wgtStyle width="229" font-color="rgb(23,30,40)" x="181" forcePaint="8" font-sizepx="16" y="256" font-family="Tahoma" cx="106.13" cy="12.32" height="26" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
    <dataLinks>
-    <dataLink readWrite="R" tagType="string-8" attribute="text" tag="windstreek" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+    <dataLink readWrite="R" tagType="string-30" attribute="text" tag="windstreek" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
    <links>
     <lang class="MLTextLink" textid="3"/>

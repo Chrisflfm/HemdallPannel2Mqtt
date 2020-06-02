@@ -1955,25 +1955,13 @@
         <isMinMaxEdited>false</isMinMaxEdited>
     </tag>
     <tag>
-        <name>windrichting</name>
-        <group>MQTT_SUB</group>
-        <resourceLocator>prot2://windrichting?string-8</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://windrichting?string-8</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-        <isMinMaxEdited>false</isMinMaxEdited>
-    </tag>
-    <tag>
         <name>windstreek</name>
         <group>MQTT_SUB</group>
-        <resourceLocator>prot2://windstreek?string-8</resourceLocator>
+        <resourceLocator>prot2://windstreek?string-30</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
-        <simulator>VRBL://windstreek?string-8</simulator>
+        <simulator>VRBL://windstreek?string-30</simulator>
         <enableScaling>false</enableScaling>
         <enableAudit subT="1" eventT="18">false</enableAudit>
         <isMinMaxEdited>false</isMinMaxEdited>
@@ -2164,6 +2152,164 @@
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
         <simulator>VRBL://blRegen?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+    </tag>
+    <tag>
+        <name>blSetClock</name>
+        <resourceLocator>prot1://0?FLAG?48?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://Tag1?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+    </tag>
+    <tag>
+        <name>seconds</name>
+        <resourceLocator>prot1://0?REG?102911?unsignedInt</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://seconds?unsignedInt</simulator>
+        <enableScaling>false</enableScaling>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>4294967295</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+    </tag>
+    <tag>
+        <name>minutes</name>
+        <resourceLocator>prot1://0?REG?102912?unsignedInt</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://Tag1?unsignedInt</simulator>
+        <enableScaling>false</enableScaling>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>4294967295</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+    </tag>
+    <tag>
+        <name>hours</name>
+        <resourceLocator>prot1://0?REG?102913?unsignedInt</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://Tag1?unsignedInt</simulator>
+        <enableScaling>false</enableScaling>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>4294967295</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+    </tag>
+    <tag>
+        <name>regHours</name>
+        <resourceLocator>prot1://0?REG?1000013?unsignedInt</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://Tag1?unsignedInt</simulator>
+        <enableScaling>false</enableScaling>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>4294967295</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+    </tag>
+    <tag>
+        <name>regMinutes</name>
+        <resourceLocator>prot1://0?REG?1000014?unsignedInt</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://Tag1?unsignedInt</simulator>
+        <enableScaling>false</enableScaling>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>4294967295</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+    </tag>
+    <tag>
+        <name>regSeconds</name>
+        <resourceLocator>prot1://0?REG?1000015?unsignedInt</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://Tag1?unsignedInt</simulator>
+        <enableScaling>false</enableScaling>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>4294967295</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+    </tag>
+    <tag>
+        <name>LogedIn</name>
+        <resourceLocator>prot2://LogedIn?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://LogedIn?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+    </tag>
+    <tag>
+        <name>ReloadTemp</name>
+        <group>MQTT_SUB</group>
+        <resourceLocator>prot2://ReloadTemp?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://ReloadTemp?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+    </tag>
+    <tag>
+        <name>windrichting</name>
+        <group>MQTT_SUB</group>
+        <resourceLocator>prot2://windrichting?string-40</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://windrichting?string-40</simulator>
+        <enableScaling>false</enableScaling>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+    </tag>
+    <tag>
+        <name>blventileren</name>
+        <group>MQTT_PUB</group>
+        <resourceLocator>prot1://0?FLAG?49?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://blventileren?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+    </tag>
+    <tag>
+        <name>blklepToe</name>
+        <group>MQTT_PUB</group>
+        <resourceLocator>prot1://0?FLAG?50?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://Tag1?boolean</simulator>
         <enableScaling>false</enableScaling>
         <enableAudit subT="1" eventT="18">false</enableAudit>
         <min>0</min>

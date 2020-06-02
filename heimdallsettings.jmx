@@ -1,12 +1,53 @@
 <wgtPage rev="1" projectType="HMI Project">
  <object pageName="HeimdallSettings" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="true" usedFonts="Tahoma,Roboto" staticFile="opt/heimdallsettings.png" id="HeimdallSettings" staticOptEnable="true">
   <wgtStyle width="1280" x="0" y="0" height="800" fitToSize="1" ver="040000100" v="04.00.00.100"/>
+  <links>
+   <action BitIndex="0" class="ToggleBitAction" attribute="onActivate" event="onActivate" actionID="0" actionWgt="_TagMgr">
+    <dataLinks>
+     <dataLink readWrite="R" tagType="boolean" attribute="tagSrc" tag="ReloadTemp" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+    </dataLinks>
+   </action>
+  </links>
+  <object class="GroupWgt" id="BtnStd1" customType="Button">
+   <wgtStyle width="52" x="1198.53" forcePaint="8" y="675.33" cx="26" cy="26" height="52"/>
+   <dataLinks>
+    <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="LogedIn" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+   </dataLinks>
+   <links>
+    <attr attrName="bdrImage" alias="ButtonWgt.bdrImage;ImageWgt1.bdrImage"/>
+   </links>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnStd1.frmImg">
+    <wgtStyle width="52" imagePath="images/frame_rect_chrome.svg" x="0" forcePaint="9" y="0" bdrImageSize="52.00,50.00" fill="rgb(127,127,127)" cx="41.75" cy="45.42" bdrSize="0.17,0.14,0.16,0.16" height="52" bdrEdges="0.14,0.13,0.12,0.13"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-name:shiney; hmi-shape:rect; hmi-type:btn; type:btn" id="BtnStd1.btn">
+    <wgtStyle width="38" x="7" forcePaint="9" y="7" bdrImageSize="38.00,37.00" fill="rgb(120,120,120)" cx="31.84" form="standard" cy="34.12" bdrSize="0.11,0.11,0.08,0.09" height="38" releasePath="images\btn_shiney_rect_1.svg" needlePath="images\btn_shiney_rect_2_rev2.svg" type="momentary" value="0"/>
+    <links>
+     <action class="LogOutAction" attribute="onMouseClick" event="onMouseClick" actionID="1" actionWgt="_UserMgr"/>
+     <action BitIndex="0" class="ResetBitAction" attribute="onMouseClick" event="onMouseClick" actionID="2" actionWgt="_TagMgr">
+      <dataLinks>
+       <dataLink readWrite="R" tagType="boolean" attribute="tagSrc" tag="LogedIn" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+      </dataLinks>
+     </action>
+    </links>
+   </object>
+   <object class="LabelWgt" hmiStyle="hmi-type:wgtlabel" id="BtnStd1.lbl" static="true">
+    <wgtStyle width="32" font-color="rgb(40,40,40)" x="9" font-sizepx="13" y="10" font-family="Tahoma" wrapping="true" cx="30.99" cy="29.34" height="31" alignment="center" vert-align="middle" keypad-type="None" font-size="12"/>
+    <links>
+     <lang class="MLTextLink" textid="17"/>
+    </links>
+   </object>
+   <object class="ImageWgt" hmiStyle="hmi-name:solid; hmi-shape:rect; hmi-type:icon" id="BtnStd1.icoImg" static="true">
+    <wgtStyle width="20" x="15" y="17" cx="13.36" cy="10.48" height="17"/>
+   </object>
+  </object>
   <object class="PageMLTextMgrWgt" id="_PageMLTextMgrWgt" mgrType="Page" mlFileName="">
    <wgtStyle width="0" x="0" y="0" height="0"/>
    <langs defLangId="L1" curLangId="L1">
     <lang removable="false" langCode="en-US" langId="L1" writingsystem="Any" name="Lang1" defaultFont="Tahoma"/>
    </langs>
    <MLTexts>
+    <MLText L1="" id="16"/>
+    <MLText L1="" id="17"/>
     <MLText L1="Ruimte 0.1 &amp; 0.2" id="0"/>
     <MLText L1="Ruimte 0.5, 0.9 &amp; conv 3+4" id="1"/>
     <MLText L1="Ruimte 0.4 &amp; conv 1+2" id="2"/>
@@ -21,11 +62,11 @@
     <MLText L1="Ruimte 1.7" id="11"/>
     <MLText L1="Ruimte 0.14 &amp; 0.17" id="12"/>
     <MLText L1="°C" id="13"/>
-    <MLText L1="0.2, 0.2, 0.14, 0.17" id="16"/>
+    <MLText L1="0.2, 0.1, 0.14, 0.17" id="14"/>
+    <MLText L1="1.7, 1.10, 1.11 conv 7" id="15"/>
     <MLText L1="0.11, 0.12, 0.6, 0.8, 0.5, 0.9, 0.4, conv1-4" id="20"/>
     <MLText L1="0.15" id="21"/>
     <MLText L1="1.3, 1.1, 1.4, 1.6, 1.2, conv 5-6" id="24"/>
-    <MLText L1="1.7, 1.10, 1.11" id="25"/>
     <MLText L1="Convector 1" id="26"/>
     <MLText L1="Convector 2" id="27"/>
     <MLText L1="Convector 3" id="28"/>
@@ -33,6 +74,8 @@
     <MLText L1="Convector 5" id="30"/>
     <MLText L1="Convector 6" id="31"/>
     <MLText L1="Convector 7" id="32"/>
+    <MLText L1="Log in" id="34"/>
+    <MLText L1="Log out" id="36"/>
     <MLText L1="regime    lokalen             setpunt" id="42"/>
    </MLTexts>
   </object>
@@ -755,7 +798,7 @@
   <object class="LabelWgt" id="label1">
    <wgtStyle width="75" font-color="rgb(23,30,40)" x="604.63" forcePaint="65" font-sizepx="16" y="118.04" font-family="Tahoma" wrapping="true" cx="34.76" cy="22.63" height="47.78" alignment="center" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
    <links>
-    <lang class="MLTextLink" textid="16"/>
+    <lang class="MLTextLink" textid="14"/>
    </links>
   </object>
   <object class="LabelWgt" id="label2">
@@ -779,7 +822,7 @@
   <object class="LabelWgt" id="label5">
    <wgtStyle width="131" font-color="rgb(23,30,40)" x="1102.11" forcePaint="65" font-sizepx="16" y="118.04" font-family="Tahoma" wrapping="true" cx="60.71" cy="29.05" height="61.34" alignment="center" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
    <links>
-    <lang class="MLTextLink" textid="25"/>
+    <lang class="MLTextLink" textid="15"/>
    </links>
   </object>
   <object class="LabelWgt" id="label6" static="true">
@@ -988,6 +1031,65 @@
    <links>
     <lang class="MLTextLink" textid="42"/>
    </links>
+  </object>
+  <object class="LabelWgt" id="label40">
+   <wgtStyle width="59" font-color="rgb(23,30,40)" x="1129.94" forcePaint="8" font-sizepx="16" y="685.88" font-family="Tahoma" wrapping="true" cx="27.34" cy="12.96" height="27.35" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
+   <dataLinks>
+    <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="LogedIn" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+   </dataLinks>
+   <links>
+    <lang class="MLTextLink" textid="36"/>
+   </links>
+  </object>
+  <object class="GroupWgt" id="BtnStd2" customType="Button">
+   <wgtStyle width="52" x="1197.81" y="735.88" cx="26" cy="26" height="52"/>
+   <links>
+    <attr attrName="bdrImage" alias="ButtonWgt.bdrImage;ImageWgt1.bdrImage"/>
+   </links>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnStd2.frmImg" static="true">
+    <wgtStyle width="52" imagePath="images/frame_rect_chrome.svg" x="0" y="0" bdrImageSize="52.00,50.00" fill="rgb(127,127,127)" cx="41.75" cy="45.42" bdrSize="0.17,0.14,0.16,0.16" height="52" bdrEdges="0.14,0.13,0.12,0.13"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-name:shiney; hmi-shape:rect; hmi-type:btn; type:btn" id="BtnStd2.btn">
+    <wgtStyle width="38" x="7" y="7" bdrImageSize="38.00,37.00" fill="rgb(120,120,120)" cx="31.84" form="standard" cy="34.12" bdrSize="0.11,0.11,0.08,0.09" height="38" releasePath="images\btn_shiney_rect_1.svg" needlePath="images\btn_shiney_rect_2_rev2.svg" type="momentary" value="0"/>
+    <links>
+     <action class="SwitchUserAction" attribute="onMouseClick" event="onMouseClick" actionID="1" actionWgt="_UserMgr"/>
+     <action BitIndex="0" class="SetBitAction" attribute="onMouseClick" event="onMouseClick" actionID="2" actionWgt="_TagMgr">
+      <dataLinks>
+       <dataLink readWrite="R" tagType="boolean" attribute="tagSrc" tag="LogedIn" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+      </dataLinks>
+     </action>
+    </links>
+   </object>
+   <object class="LabelWgt" hmiStyle="hmi-type:wgtlabel" id="BtnStd2.lbl" static="true">
+    <wgtStyle width="32" font-color="rgb(40,40,40)" x="9" font-sizepx="13" y="10" font-family="Tahoma" wrapping="true" cx="30.99" cy="29.34" height="31" alignment="center" vert-align="middle" keypad-type="None" font-size="12"/>
+    <links>
+     <lang class="MLTextLink" textid="16"/>
+    </links>
+   </object>
+   <object class="ImageWgt" hmiStyle="hmi-name:solid; hmi-shape:rect; hmi-type:icon" id="BtnStd2.icoImg" static="true">
+    <wgtStyle width="20" x="15" y="17" cx="13.36" cy="10.48" height="17"/>
+   </object>
+  </object>
+  <object class="LabelWgt" id="label41" static="true">
+   <wgtStyle width="59" font-color="rgb(23,30,40)" x="1129.22" font-sizepx="16" y="746.42" font-family="Tahoma" wrapping="true" cx="27.34" cy="12.96" height="27.35" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
+   <links>
+    <lang class="MLTextLink" textid="34"/>
+   </links>
+  </object>
+  <object class="ImageWgt" id="offImg1">
+   <wgtStyle width="32" imagePath="images/ic_di1_011.svg" x="1207.11" forcePaint="1" y="746.42" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="offImg12">
+   <wgtStyle width="32" imagePath="images/ic_di1_012.svg" x="1208.83" forcePaint="9" y="685.88" cx="16" cy="16" height="32"/>
+   <dataLinks>
+    <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="LogedIn" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+   </dataLinks>
+  </object>
+  <object class="ImageWgt" id="altImg12">
+   <wgtStyle width="69.57" imagePath="images/ic_al1_012.svg" x="965.53" forcePaint="8" y="716.85" cx="34.78" cy="27.06" height="54.12"/>
+   <dataLinks>
+    <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="LogedIn" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+   </dataLinks>
   </object>
  </object>
 </wgtPage>

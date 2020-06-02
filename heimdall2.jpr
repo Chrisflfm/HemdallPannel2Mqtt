@@ -20,6 +20,7 @@
       <page class="PageWgt" size="1280,800" type="normal" name="Weerbericht" file="weerbericht.jmx"/>
       <page class="PageWgt" size="1280,800" type="normal" name="HeimdallSettings" file="heimdallsettings.jmx"/>
       <page class="PageWgt" size="1280,800" type="normal" name="GVL" file="gvl.jmx"/>
+      <page class="PageWgt" size="1280,800" type="normal" name="Test" file="test.jmx"/>
      </pages>
      <templatePages/>
     </category>
