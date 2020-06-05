@@ -1,0 +1,174 @@
+<wgtPage rev="1" projectType="HMI Project">
+ <object pageName="Test" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="true" usedFonts="Roboto,Tahoma" staticFile="opt/test.png" id="Test" staticOptEnable="true">
+  <wgtStyle width="1280" x="0" y="0" height="800" fitToSize="1" ver="040000100" v="04.00.00.100"/>
+  <links>
+   <action class="LogOutAction" attribute="onDeactivate" event="onDeactivate" actionID="0" actionWgt="_UserMgr"/>
+  </links>
+  <object class="PageMLTextMgrWgt" id="_PageMLTextMgrWgt" mgrType="Page" mlFileName="">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang removable="false" langCode="en-US" langId="L1" writingsystem="Any" name="Lang1" defaultFont="Tahoma"/>
+   </langs>
+   <MLTexts>
+    <MLText L1="" id="2"/>
+    <MLText L1="uren" id="4"/>
+    <MLText L1="min" id="8"/>
+    <MLText L1="sec" id="10"/>
+    <MLText L1="PLC tijd" id="11"/>
+    <MLText L1="set tijd" id="12"/>
+    <MLText L1="nieuwe tijd" id="13"/>
+    <MLText L1="switch user" id="17"/>
+   </MLTexts>
+  </object>
+  <object class="ImageWgt" id="bldgImg41" static="true">
+   <wgtStyle width="60" imagePath="images/7-5.svg" x="15" y="724" cx="28.97" cy="32.26" height="67"/>
+  </object>
+  <object class="NumericWgt" id="field1">
+   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="16" cx="23" showThousandSeparator="false" cy="9" step="1" timeSpec="local" alignment="right" x="439.69" y="127.50" vert-align="top" text="99" max="4294967295" usingFormat="" value="99" keypad-type="Numeric" font-color="rgb(23,30,40)" min="0" width="50" numberFormat="1" readWrite="true" height="20" form="Numeric" font-size="12"/>
+   <dataLinks>
+    <dataLink readWrite="R/W" tagType="unsignedInt" attribute="value" tag="regHours" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+   </dataLinks>
+  </object>
+  <object class="LabelWgt" id="label1" static="true">
+   <wgtStyle width="41" font-color="rgb(23,30,40)" x="392.69" font-sizepx="16" y="124.50" font-family="Tahoma" wrapping="true" cx="19" cy="9" height="19" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
+   <links>
+    <lang class="MLTextLink" textid="4"/>
+   </links>
+  </object>
+  <object class="NumericWgt" id="field2">
+   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="16" cx="23" showThousandSeparator="false" cy="9" step="1" timeSpec="local" alignment="right" x="439.60" y="154.48" vert-align="top" text="99" max="4294967295" usingFormat="" value="99" keypad-type="Numeric" font-color="rgb(23,30,40)" min="0" width="50" numberFormat="1" readWrite="true" height="20" form="Numeric" font-size="12"/>
+   <dataLinks>
+    <dataLink readWrite="R/W" tagType="unsignedInt" attribute="value" tag="regMinutes" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+   </dataLinks>
+  </object>
+  <object class="LabelWgt" id="label2" static="true">
+   <wgtStyle width="41" font-color="rgb(23,30,40)" x="392.60" font-sizepx="16" y="151.48" font-family="Tahoma" wrapping="true" cx="19" cy="9" height="19" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
+   <links>
+    <lang class="MLTextLink" textid="8"/>
+   </links>
+  </object>
+  <object class="NumericWgt" id="field3">
+   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="16" cx="23" showThousandSeparator="false" cy="9" step="1" timeSpec="local" alignment="right" x="440.69" y="177.50" vert-align="top" text="99" max="4294967295" usingFormat="" value="99" keypad-type="Numeric" font-color="rgb(23,30,40)" min="0" width="50" numberFormat="1" readWrite="true" height="20" form="Numeric" font-size="12"/>
+   <dataLinks>
+    <dataLink readWrite="R/W" tagType="unsignedInt" attribute="value" tag="regSeconds" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+   </dataLinks>
+  </object>
+  <object class="LabelWgt" id="label3" static="true">
+   <wgtStyle width="41" font-color="rgb(23,30,40)" x="393.69" font-sizepx="16" y="174.50" font-family="Tahoma" wrapping="true" cx="19" cy="9" height="19" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
+   <links>
+    <lang class="MLTextLink" textid="10"/>
+   </links>
+  </object>
+  <object class="GroupSubscribeWgt" id="Test@$GroupSubscrWgt@$0">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="NumericWgt" id="field4">
+   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="16" cx="23" showThousandSeparator="false" cy="9" step="1" timeSpec="local" alignment="right" x="632.77" y="129.13" vert-align="top" text="99" max="4294967295" usingFormat="" value="99" keypad-type="Numeric" font-color="rgb(23,30,40)" min="0" width="50" numberFormat="1" height="20" form="Numeric" font-size="12"/>
+   <dataLinks>
+    <dataLink readWrite="R" tagType="unsignedInt" attribute="value" tag="hours" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+   </dataLinks>
+  </object>
+  <object class="LabelWgt" id="label4" static="true">
+   <wgtStyle width="41" font-color="rgb(23,30,40)" x="585.77" font-sizepx="16" y="126.13" font-family="Tahoma" wrapping="true" cx="19" cy="9" height="19" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
+   <links>
+    <lang class="MLTextLink" textid="4"/>
+   </links>
+  </object>
+  <object class="NumericWgt" id="field5">
+   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="16" cx="23" showThousandSeparator="false" cy="9" step="1" timeSpec="local" alignment="right" x="632.67" y="156.11" vert-align="top" text="99" max="4294967295" usingFormat="" value="99" keypad-type="Numeric" font-color="rgb(23,30,40)" min="0" width="50" numberFormat="1" height="20" form="Numeric" font-size="12"/>
+   <dataLinks>
+    <dataLink readWrite="R" tagType="unsignedInt" attribute="value" tag="minutes" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+   </dataLinks>
+  </object>
+  <object class="LabelWgt" id="label5" static="true">
+   <wgtStyle width="41" font-color="rgb(23,30,40)" x="585.67" font-sizepx="16" y="153.11" font-family="Tahoma" wrapping="true" cx="19" cy="9" height="19" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
+   <links>
+    <lang class="MLTextLink" textid="8"/>
+   </links>
+  </object>
+  <object class="NumericWgt" id="field6">
+   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="16" cx="23" showThousandSeparator="false" cy="9" step="1" timeSpec="local" alignment="right" x="633.77" y="179.13" vert-align="top" text="99" max="4294967295" usingFormat="" value="99" keypad-type="Numeric" font-color="rgb(23,30,40)" min="0" width="50" numberFormat="1" height="20" form="Numeric" font-size="12"/>
+   <dataLinks>
+    <dataLink readWrite="R" tagType="unsignedInt" attribute="value" tag="seconds" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+   </dataLinks>
+  </object>
+  <object class="LabelWgt" id="label6" static="true">
+   <wgtStyle width="41" font-color="rgb(23,30,40)" x="586.77" font-sizepx="16" y="176.13" font-family="Tahoma" wrapping="true" cx="19" cy="9" height="19" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
+   <links>
+    <lang class="MLTextLink" textid="10"/>
+   </links>
+  </object>
+  <object class="GroupWgt" id="BtnComp30" customType="Button Computer">
+   <wgtStyle width="39" x="517.69" forcePaint="4" y="144.50" cx="19.50" cy="16" height="32"/>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnComp30.frmImg">
+    <wgtStyle width="58.05" enableCache="true" x="-9.07" forcePaint="4" y="-10.29" visibility="false" bdrImageSize="60.00,42.00" cx="33.61" cy="35.57" bdrSize="0.19,0.18,0.17,0.17" height="52.57" bdrEdges="0.14,0.16,0.14,0.14"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn" id="BtnComp30.btn">
+    <wgtStyle width="39" x="0" forcePaint="5" y="0" fill="rgb(180,180,180)" dx="1" cx="19.50" form="standard" dy="-1" cy="16" height="32" releasePath="images\bar_gray_up1_rev1.svg" needlePath="images\bar_gray_down1_rev2.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+   </object>
+   <object class="ImageWgt" id="BtnComp30.icoImg">
+    <wgtStyle width="14.51" imagePath="images/rightarrow_symbol_rev1.svg" x="11.79" forcePaint="5" y="8" cx="2.72" cy="9.14" height="17.14"/>
+   </object>
+  </object>
+  <object class="LabelWgt" id="label7" static="true">
+   <wgtStyle width="61.50" font-color="rgb(23,30,40)" x="585.67" font-sizepx="16" y="80.39" font-family="Tahoma" wrapping="true" cx="28.50" cy="9" height="19" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
+   <links>
+    <lang class="MLTextLink" textid="11"/>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label8" static="true">
+   <wgtStyle width="100" font-color="rgb(23,30,40)" x="374.60" font-sizepx="16" y="80.39" font-family="Tahoma" wrapping="true" cx="46.34" cy="9" height="19" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
+   <links>
+    <lang class="MLTextLink" textid="13"/>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label9" static="true">
+   <wgtStyle width="61.50" font-color="rgb(23,30,40)" x="506.44" font-sizepx="16" y="80.39" font-family="Tahoma" wrapping="true" cx="28.50" cy="9" height="19" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
+   <links>
+    <lang class="MLTextLink" textid="12"/>
+   </links>
+  </object>
+  <object class="GroupWgt" id="BtnStd1" customType="Button">
+   <wgtStyle width="52" x="981.11" forcePaint="4" y="63.89" cx="26" cy="26" height="52"/>
+   <links>
+    <attr attrName="bdrImage" alias="ButtonWgt.bdrImage;ImageWgt1.bdrImage"/>
+   </links>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnStd1.frmImg">
+    <wgtStyle width="52" imagePath="images/frame_rect_chrome.svg" x="0" forcePaint="5" y="0" bdrImageSize="52.00,50.00" fill="rgb(127,127,127)" cx="41.75" cy="45.42" bdrSize="0.17,0.14,0.16,0.16" height="52" bdrEdges="0.14,0.13,0.12,0.13"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-name:shiney; hmi-shape:rect; hmi-type:btn; type:btn" id="BtnStd1.btn">
+    <wgtStyle width="38" x="7" forcePaint="5" y="7" bdrImageSize="38.00,37.00" fill="rgb(120,120,120)" cx="31.84" form="standard" cy="34.12" bdrSize="0.11,0.11,0.08,0.09" height="38" releasePath="images\btn_shiney_rect_1.svg" needlePath="images\btn_shiney_rect_2_rev2.svg" type="momentary" value="0"/>
+    <links>
+     <action class="SwitchUserAction" attribute="onMouseClick" event="onMouseClick" actionID="0" actionWgt="_UserMgr"/>
+    </links>
+   </object>
+   <object class="LabelWgt" hmiStyle="hmi-type:wgtlabel" id="BtnStd1.lbl">
+    <wgtStyle width="32" font-color="rgb(40,40,40)" x="9" forcePaint="4" font-sizepx="13" y="10" font-family="Tahoma" wrapping="true" cx="30.99" cy="29.34" height="31" alignment="center" vert-align="middle" keypad-type="None" font-size="12"/>
+    <links>
+     <lang class="MLTextLink" textid="2"/>
+    </links>
+   </object>
+   <object class="ImageWgt" hmiStyle="hmi-name:solid; hmi-shape:rect; hmi-type:icon" id="BtnStd1.icoImg">
+    <wgtStyle width="20" x="15" forcePaint="4" y="17" cx="13.36" cy="10.48" height="17"/>
+   </object>
+  </object>
+  <object class="LabelWgt" id="label10" static="true">
+   <wgtStyle width="97" font-color="rgb(23,30,40)" x="854.14" font-sizepx="16" y="80.40" font-family="Tahoma" wrapping="true" cx="44.95" cy="9.19" height="19.39" vert-align="top" marker="true" keypad-type="None" font-size="12"/>
+   <links>
+    <lang class="MLTextLink" textid="17"/>
+   </links>
+  </object>
+  <object class="ButtonWgt" hmiStyle="type:btn" id="gstArea2">
+   <wgtStyle width="70" x="7" y="718.50" fill="rgb(160,160,164)" dx="1" cx="34.46" form="gesture" dy="-1" cy="38.24" height="78" releasePath="../../shared/gallery/images/bu_other/win-like.svg" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+   <links>
+    <action pageName="home.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="0" actionWgt="_PageMgr"/>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label11" static="true">
+   <wgtStyle width="246.62" font-color="rgb(23,30,40)" x="392.50" font-sizepx="24" y="271.78" font-family="Tahoma" wrapping="true" cx="114.49" cy="61.04" height="122.68" vert-align="top" mtx="0.999672,0.0256179,0,-0.00373602,0.999993,0,0.458346,0,1" marker="true" keypad-type="None" font-size="18"/>
+   <links>
+    <lang class="MLTextLink" textid="13"/>
+   </links>
+  </object>
+ </object>
+</wgtPage>

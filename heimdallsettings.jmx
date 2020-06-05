@@ -33,7 +33,7 @@
    <object class="LabelWgt" hmiStyle="hmi-type:wgtlabel" id="BtnStd1.lbl" static="true">
     <wgtStyle width="32" font-color="rgb(40,40,40)" x="9" font-sizepx="13" y="10" font-family="Tahoma" wrapping="true" cx="30.99" cy="29.34" height="31" alignment="center" vert-align="middle" keypad-type="None" font-size="12"/>
     <links>
-     <lang class="MLTextLink" textid="17"/>
+     <lang class="MLTextLink" textid="18"/>
     </links>
    </object>
    <object class="ImageWgt" hmiStyle="hmi-name:solid; hmi-shape:rect; hmi-type:icon" id="BtnStd1.icoImg" static="true">
@@ -47,7 +47,7 @@
    </langs>
    <MLTexts>
     <MLText L1="" id="16"/>
-    <MLText L1="" id="17"/>
+    <MLText L1="" id="18"/>
     <MLText L1="Ruimte 0.1 &amp; 0.2" id="0"/>
     <MLText L1="Ruimte 0.5, 0.9 &amp; conv 3+4" id="1"/>
     <MLText L1="Ruimte 0.4 &amp; conv 1+2" id="2"/>

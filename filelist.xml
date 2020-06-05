@@ -1,9 +1,9 @@
 <JMFiles>
- <ProjectInfo Size="2608553" AllowedSize="251658240"/>
+ <ProjectInfo Size="2639869" AllowedSize="251658240"/>
  <files>
   <file size="4908" md5="5bfe051c86a599380cd446932d03bd7f" name="alarm.jmxb"/>
   <file size="14126" md5="a7022ee644406544396886f049befc52" name="gvl.jmxb"/>
-  <file size="44426" md5="03cf80b5228d1286b3d3c3f78738d71e" name="heimdallsettings.jmxb"/>
+  <file size="44426" md5="09354e82f93666d648d67e0c7cd82cc2" name="heimdallsettings.jmxb"/>
   <file size="9674" md5="1f6bd2dff91065b3b8f8726d5c5baf32" name="home.jmxb"/>
   <file size="41155" md5="63c4ecc90b841172db6bbd78ad63229c" name="hvac overview.jmxb"/>
   <file size="571" md5="70e88371bc61267c4e9c1aeb6c1f1f6e" name="images/13-5.svg"/>
@@ -169,12 +169,12 @@
   <file size="2755" md5="72ef0663d4f6ee4f24fae09a95dccba6" name="config\emailinfo.xml"/>
   <file size="765" md5="74cfa9bc0f52b406cbe47b1c14db18a4" name="config\reports.xml"/>
   <file size="204" md5="97cbd2071bfdec1bcbe29468f0a32b1a" name="config\print.xml"/>
-  <file size="3024" md5="d6cc58b0df07f903bf6aa4cc7feee358" name="config\usermgnt_group.xml"/>
-  <file size="2404" md5="de926d276a30991888a417097a132b4f" name="config\usermgnt_user.xml"/>
-  <file size="9692" md5="49a1b00f683d6591d878821ddfe5494c" name="config\usermgnt_uiauth.xml"/>
-  <file size="420" md5="1ba9d906ef165ff5343952c37e2f76e0" name="config\ftpd_security_auth.xml"/>
+  <file size="3668" md5="78410a5f83536d26b152d53063ba495e" name="config\usermgnt_group.xml"/>
+  <file size="3544" md5="0cda2c8424d55d105d06633b2a0e1dc2" name="config\usermgnt_user.xml"/>
+  <file size="38888" md5="f16f2925f54d0317e2a0c8d462f01148" name="config\usermgnt_uiauth.xml"/>
+  <file size="508" md5="41f1066bfa6ec4354aada05264b2ab9c" name="config\ftpd_security_auth.xml"/>
   <file size="1100" md5="5ebe785373856c47d9122ea4cb67f842" name="config\httpd_security_auth.xml"/>
-  <file size="1472" md5="d380fd176a76e6b95d4261995c71251c" name="config\usermgnt_taggroupauth.xml"/>
+  <file size="1720" md5="68eab4b50adb046d1abb96af5e690524" name="config\usermgnt_taggroupauth.xml"/>
   <file size="490" md5="5c30022d59b97442b59c6a960fb63769" name="config\audittrail.xml"/>
   <file size="59" md5="22f2393ca4d87f6e330372761f7a0c01" name="config\dbconnector.xml"/>
   <file size="82" md5="ea04482112d41f5d12e38ac8a58f81d5" name="config\datatransfers.xml"/>
