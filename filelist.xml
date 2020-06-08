@@ -1,11 +1,11 @@
 <JMFiles>
- <ProjectInfo Size="2639869" AllowedSize="251658240"/>
+ <ProjectInfo Size="2642538" AllowedSize="251658240"/>
  <files>
   <file size="4908" md5="5bfe051c86a599380cd446932d03bd7f" name="alarm.jmxb"/>
   <file size="14126" md5="a7022ee644406544396886f049befc52" name="gvl.jmxb"/>
-  <file size="44426" md5="09354e82f93666d648d67e0c7cd82cc2" name="heimdallsettings.jmxb"/>
-  <file size="9674" md5="1f6bd2dff91065b3b8f8726d5c5baf32" name="home.jmxb"/>
-  <file size="41155" md5="63c4ecc90b841172db6bbd78ad63229c" name="hvac overview.jmxb"/>
+  <file size="44882" md5="eec4ee8defa88af5d496466acbba68d3" name="heimdallsettings.jmxb"/>
+  <file size="9674" md5="7c9f05fe230ed6fa304ffa5b5b7f8212" name="home.jmxb"/>
+  <file size="41090" md5="aa092ec014930b71a0556be8e3da7dc4" name="hvac overview.jmxb"/>
   <file size="571" md5="70e88371bc61267c4e9c1aeb6c1f1f6e" name="images/13-5.svg"/>
   <file size="1310" md5="bbc8761e38e51441c5e9eb92b9605216" name="images/2-2_rev1.svg"/>
   <file size="797" md5="88ad61ec2c39a7f7a6e877b58c7d78c5" name="images/2-4.svg"/>
@@ -98,11 +98,11 @@
   <file size="528" md5="0da92c8e8a1f8df93d06b91b8ffe5975" name="opt/HeimdallSettingsSwitch5.png"/>
   <file size="528" md5="0da92c8e8a1f8df93d06b91b8ffe5975" name="opt/HeimdallSettingsSwitch6.png"/>
   <file size="528" md5="0da92c8e8a1f8df93d06b91b8ffe5975" name="opt/HeimdallSettingsSwitch7.png"/>
-  <file size="127555" md5="f34dd73f1879aa9e69b76de941f56d9d" name="opt/HomeAnalogClockWithDayDate.png"/>
   <file size="7926" md5="6b9296aa37face1baa94155b771606eb" name="opt/alarm.png"/>
   <file size="304203" md5="05f33f8648f09d4a167c08f0f6aa0c3d" name="opt/gvl.png"/>
   <file size="59634" md5="c1d8a729192a372cbbf742a2c7bbef8e" name="opt/heimdallsettings.png"/>
   <file size="61890" md5="5512c9d53a1d9c9be0f799dac90ed67e" name="opt/home.png"/>
+  <file size="127555" md5="f34dd73f1879aa9e69b76de941f56d9d" name="opt/homeanalogclockwithdaydate.png"/>
   <file size="99353" md5="e5905baa66b5f12823266eb45e9fac50" name="opt/hvac overview.png"/>
   <file size="35511" md5="8f0da1f2a91fa332323ad126bccbe0f9" name="opt/licht.png"/>
   <file size="71830" md5="b577e03821ca53c224508d065ef8b113" name="opt/openclosevelux.png"/>
@@ -140,7 +140,7 @@
   <file size="7286" md5="366d224e64eae10ef3d1ed6f5637a576" name="usermgmttemplates\deleteuser.jmx"/>
   <file size="6806" md5="0aae82e95d102353d71b650f8287a53d" name="usermgmttemplates\loginpage.jmx"/>
   <file size="7102" md5="cf063c732b61d20385052d24b43ce834" name="usermgmttemplates\loginpage_combo.jmx"/>
-  <file size="7223" md5="158d75bb1441f653ad5484689b8f9150" name="usermgmttemplates\signaturedialog.jmx"/>
+  <file size="7193" md5="6031352e06160003cdf7ea66a0ec5371" name="usermgmttemplates\signaturedialog.jmx"/>
   <file size="8062" md5="5b2662fa40d52273ac79dc6a733a0848" name="usermgmttemplates\switchuserloginpage.jmx"/>
   <file size="8343" md5="b208618de568a63763a97b331bde573a" name="usermgmttemplates\switchuserloginpage_combo.jmx"/>
   <file size="12548" md5="46dd33f072c6b7a5358d47e24e44cfa6" name="usermgmttemplates\usereditor.jmx"/>
@@ -170,8 +170,8 @@
   <file size="765" md5="74cfa9bc0f52b406cbe47b1c14db18a4" name="config\reports.xml"/>
   <file size="204" md5="97cbd2071bfdec1bcbe29468f0a32b1a" name="config\print.xml"/>
   <file size="3668" md5="78410a5f83536d26b152d53063ba495e" name="config\usermgnt_group.xml"/>
-  <file size="3544" md5="0cda2c8424d55d105d06633b2a0e1dc2" name="config\usermgnt_user.xml"/>
-  <file size="38888" md5="f16f2925f54d0317e2a0c8d462f01148" name="config\usermgnt_uiauth.xml"/>
+  <file size="5852" md5="366215966d1c64db63635ae2e098b0f0" name="config\usermgnt_user.xml"/>
+  <file size="38888" md5="e6f41a98451eaafef3b49b9543200e85" name="config\usermgnt_uiauth.xml"/>
   <file size="508" md5="41f1066bfa6ec4354aada05264b2ab9c" name="config\ftpd_security_auth.xml"/>
   <file size="1100" md5="5ebe785373856c47d9122ea4cb67f842" name="config\httpd_security_auth.xml"/>
   <file size="1720" md5="68eab4b50adb046d1abb96af5e690524" name="config\usermgnt_taggroupauth.xml"/>
