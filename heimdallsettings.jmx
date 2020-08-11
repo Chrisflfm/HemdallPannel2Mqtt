@@ -28,12 +28,17 @@
        <dataLink readWrite="R" tagType="boolean" attribute="tagSrc" tag="LogedIn" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
       </dataLinks>
      </action>
+     <action BitIndex="0" class="SetBitAction" attribute="onMouseClick" event="onMouseClick" actionID="3" actionWgt="_TagMgr">
+      <dataLinks>
+       <dataLink readWrite="R" tagType="boolean" attribute="tagSrc" tag="LogedOut" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+      </dataLinks>
+     </action>
     </links>
    </object>
    <object class="LabelWgt" hmiStyle="hmi-type:wgtlabel" id="BtnStd1.lbl" static="true">
     <wgtStyle width="32" font-color="rgb(40,40,40)" x="9" font-sizepx="13" y="10" font-family="Tahoma" wrapping="true" cx="30.99" cy="29.34" height="31" alignment="center" vert-align="middle" keypad-type="None" font-size="12"/>
     <links>
-     <lang class="MLTextLink" textid="17"/>
+     <lang class="MLTextLink" textid="18"/>
     </links>
    </object>
    <object class="ImageWgt" hmiStyle="hmi-name:solid; hmi-shape:rect; hmi-type:icon" id="BtnStd1.icoImg" static="true">
@@ -47,7 +52,7 @@
    </langs>
    <MLTexts>
     <MLText L1="" id="16"/>
-    <MLText L1="" id="17"/>
+    <MLText L1="" id="18"/>
     <MLText L1="Ruimte 0.1 &amp; 0.2" id="0"/>
     <MLText L1="Ruimte 0.5, 0.9 &amp; conv 3+4" id="1"/>
     <MLText L1="Ruimte 0.4 &amp; conv 1+2" id="2"/>
@@ -1058,6 +1063,11 @@
        <dataLink readWrite="R" tagType="boolean" attribute="tagSrc" tag="LogedIn" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
       </dataLinks>
      </action>
+     <action BitIndex="0" class="ResetBitAction" attribute="onMouseClick" event="onMouseClick" actionID="3" actionWgt="_TagMgr">
+      <dataLinks>
+       <dataLink readWrite="R" tagType="boolean" attribute="tagSrc" tag="LogedOut" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+      </dataLinks>
+     </action>
     </links>
    </object>
    <object class="LabelWgt" hmiStyle="hmi-type:wgtlabel" id="BtnStd2.lbl" static="true">
@@ -1084,18 +1094,6 @@
    <dataLinks>
     <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="LogedIn" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
-  </object>
-  <object class="ImageWgt" id="altImg12">
-   <wgtStyle width="69.57" imagePath="images/ic_al1_012.svg" x="965.53" forcePaint="8" y="716.85" cx="34.78" cy="27.06" height="54.12"/>
-   <dataLinks>
-    <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="LogedIn" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
-   </dataLinks>
-  </object>
-  <object class="ButtonWgt" hmiStyle="type:btn" id="gstArea1">
-   <wgtStyle width="70" x="965.32" forcePaint="1" y="704.91" fill="rgb(160,160,164)" dx="1" cx="34.46" form="gesture" dy="-1" cy="38.24" height="78" releasePath="../../shared/gallery/images/bu_other/win-like.svg" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
-   <links>
-    <action appName="start.sh" singleInstance="true" class="LaunchApplicationAction" attribute="onMouseClick" flushRuntimeCache="false" event="onMouseClick" path="/mnt/data/hmi/chromium/deploy" actionID="1" arguments="--enable-window-exit-button --enable-toolbar http://192.168.5.141:1880/ui/" actionWgt="_PageMgr"/>
-   </links>
   </object>
  </object>
 </wgtPage>

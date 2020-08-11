@@ -12,7 +12,7 @@
             <MLText id="4" L1="Not Triggered Acked"/>
             <MLText id="5" L1="Not Triggered Not Acked"/>
             <MLText id="6" L1="Triggered Acked"/>
-            <MLText id="8" L1="fout in aansturing uitgang ompool relais"/>
+            <MLText id="15" L1="Voeding motoren dakvensters en zonnewering uitgevallen"/>
             <MLText id="9" L1="Zout niveau in ontharder laag"/>
             <MLText id="10" L1="Brand alarm"/>
             <MLText id="11" L1="Inbraak alarm"/>
@@ -35,7 +35,7 @@
         <blinkTxt>true</blinkTxt>
         <requireReset>true</requireReset>
         <actions>
-            <macroAction actionFunction="SendMailAction" parameters="eMailServer1;eMail2" actionID="0" actionType=""/>
+            <macroAction actionFunction="SendMailAction" parameters="eMailServer1;eMail2" actionID="0" actionType="onClick"/>
         </actions>
         <useractions/>
         <description>[9@Alarm]Zout niveau in ontharder laag</description>
@@ -64,7 +64,7 @@
         <blinkTxt>true</blinkTxt>
         <requireReset>true</requireReset>
         <actions>
-            <macroAction actionFunction="SendMailAction" parameters="eMailServer1;eMail3" actionID="1" actionType=""/>
+            <macroAction actionFunction="SendMailAction" parameters="eMailServer1;eMail3" actionID="1" actionType="onClick"/>
         </actions>
         <useractions/>
         <description>[14@Alarm]Geen comunicatie met HVAC sturing</description>
@@ -93,7 +93,7 @@
         <blinkTxt>true</blinkTxt>
         <requireReset>true</requireReset>
         <actions>
-            <macroAction actionFunction="SendMailAction" parameters="eMailServer1;eMail4" actionID="2" actionType=""/>
+            <macroAction actionFunction="SendMailAction" parameters="eMailServer1;eMail4" actionID="2" actionType="onClick"/>
         </actions>
         <useractions/>
         <description>[10@Alarm]Brand alarm</description>
@@ -122,7 +122,7 @@
         <blinkTxt>true</blinkTxt>
         <requireReset>true</requireReset>
         <actions>
-            <macroAction actionFunction="SendMailAction" parameters="eMailServer1;eMail5" actionID="3" actionType=""/>
+            <macroAction actionFunction="SendMailAction" parameters="eMailServer1;eMail5" actionID="3" actionType="onClick"/>
         </actions>
         <useractions/>
         <description>[11@Alarm]Inbraak alarm</description>
@@ -151,7 +151,7 @@
         <blinkTxt>true</blinkTxt>
         <requireReset>true</requireReset>
         <actions>
-            <macroAction actionFunction="SendMailAction" parameters="eMailServer1;eMail6" actionID="4" actionType=""/>
+            <macroAction actionFunction="SendMailAction" parameters="eMailServer1;eMail6" actionID="4" actionType="onClick"/>
         </actions>
         <useractions/>
         <description>[12@Alarm]Tussen deur naar Platina is open</description>
@@ -180,7 +180,7 @@
         <blinkTxt>true</blinkTxt>
         <requireReset>true</requireReset>
         <actions>
-            <macroAction actionFunction="SendMailAction" parameters="eMailServer1;eMail7" actionID="5" actionType=""/>
+            <macroAction actionFunction="SendMailAction" parameters="eMailServer1;eMail7" actionID="5" actionType="onClick"/>
         </actions>
         <useractions/>
         <description>[13@Alarm]Lek aan de ontharder</description>
@@ -198,9 +198,9 @@
         <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
     </bitMaskAlarm>
     <bitMaskAlarm alarmId="7" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
-        <name>Ft07_OpenDichtRelais</name>
+        <name>Ft07_24VDCMotoren</name>
         <groups></groups>
-        <source>Ft07_OpenDichtRelais</source>
+        <source>Ft07_24VDCMotoren</source>
         <enableTag></enableTag>
         <remoteAck></remoteAck>
         <ackNotify></ackNotify>
@@ -216,10 +216,10 @@
         <triggeredAckedTxtColor>#000000</triggeredAckedTxtColor>
         <triggeredAckedBgColor>#ffffff</triggeredAckedBgColor>
         <actions>
-            <macroAction actionFunction="SendMailAction" parameters="eMailServer1;eMail1" actionID="6" actionType=""/>
+            <macroAction actionFunction="SendMailAction" parameters="eMailServer1;eMail1" actionID="6" actionType="onClick"/>
         </actions>
         <useractions/>
-        <description>[8@Alarm]fout in aansturing uitgang ompool relais</description>
+        <description>[15@Alarm]Voeding motoren dakvensters en zonnewering uitgevallen</description>
         <severity>6</severity>
         <priority>3</priority>
         <customFields>

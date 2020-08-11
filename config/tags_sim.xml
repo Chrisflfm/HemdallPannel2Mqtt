@@ -253,6 +253,7 @@
 </tag>
 <tag>
     <name>ctZoutVatLek</name>
+    <group>MQTT_PUB_INTERVAL</group>
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
@@ -661,6 +662,7 @@
 </tag>
 <tag>
     <name>ctZoutLaag</name>
+    <group>MQTT_PUB_INTERVAL</group>
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
@@ -733,7 +735,7 @@
 </tag>
 <tag>
     <name>ctAlarmAan</name>
-    <group>MQTT_PUB</group>
+    <group>MQTT_PUB_INTERVAL</group>
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
@@ -758,6 +760,7 @@
 </tag>
 <tag>
     <name>ctBrand</name>
+    <group>MQTT_PUB_INTERVAL</group>
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
@@ -770,6 +773,7 @@
 </tag>
 <tag>
     <name>ctInbraak</name>
+    <group>MQTT_PUB_INTERVAL</group>
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
@@ -793,7 +797,7 @@
     <isMinMaxEdited>false</isMinMaxEdited>
 </tag>
 <tag>
-    <name>Ft07_OpenDichtRelais</name>
+    <name>Ft07_24VDCMotoren</name>
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
@@ -2131,6 +2135,30 @@
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
     <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>Tag1</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+    <min>0</min>
+    <max>1</max>
+    <isMinMaxEdited>false</isMinMaxEdited>
+</tag>
+<tag>
+    <name>LogedOut</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://LogedOut?boolean</resourceLocator>
     <enableScaling>false</enableScaling>
     <enableAudit subT="1" eventT="18">false</enableAudit>
     <min>0</min>

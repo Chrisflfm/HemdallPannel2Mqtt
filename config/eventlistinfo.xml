@@ -6,5 +6,5 @@
     <event id="4" name="Ft04_Inbraak" group="Ft04_Inbraak" trigger="bitMaskAlarm" description="[11@Alarm]Inbraak alarm"/>
     <event id="5" name="Ft05_DeurPlatinaOpen" group="Ft05_DeurPlatinaOpen" trigger="bitMaskAlarm" description="[12@Alarm]Tussen deur naar Platina is open"/>
     <event id="6" name="Ft06_WaterlekZoutvat" group="Ft06_WaterlekZoutvat" trigger="bitMaskAlarm" description="[13@Alarm]Lek aan de ontharder"/>
-    <event id="7" name="Ft07_OpenDichtRelais" group="Ft07_OpenDichtRelais" triggeredTxtColor="#000000" triggeredBgColor="#ffffff" triggeredNotAckedTxtColor="#000000" triggeredNotAckedBgColor="#ffffff" notTriggeredAckedBgColor="#ffffff" triggeredAckedTxtColor="#000000" triggeredAckedBgColor="#ffffff" trigger="bitMaskAlarm" description="[8@Alarm]fout in aansturing uitgang ompool relais"/>
+    <event id="7" name="Ft07_24VDCMotoren" group="Ft07_24VDCMotoren" triggeredTxtColor="#000000" triggeredBgColor="#ffffff" triggeredNotAckedTxtColor="#000000" triggeredNotAckedBgColor="#ffffff" notTriggeredAckedBgColor="#ffffff" triggeredAckedTxtColor="#000000" triggeredAckedBgColor="#ffffff" trigger="bitMaskAlarm" description="[15@Alarm]Voeding motoren dakvensters en zonnewering uitgevallen"/>
 </events>

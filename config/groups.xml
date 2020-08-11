@@ -216,7 +216,15 @@
   <active>false</active>
   <tag>blklepToe</tag>
   <tag>blventileren</tag>
+ </group>
+ <group Type="userdefined">
+  <name>MQTT_PUB_INTERVAL</name>
+  <active>false</active>
   <tag>ctAlarmAan</tag>
+  <tag>ctBrand</tag>
+  <tag>ctInbraak</tag>
+  <tag>ctZoutLaag</tag>
+  <tag>ctZoutVatLek</tag>
  </group>
  <group Type="userdefined">
   <name>MQTT_SUB</name>

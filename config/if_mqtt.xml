@@ -59,6 +59,21 @@
      <conditions/>
     </policy>
    </group>
+   <group name="MQTT_PUB_INTERVAL">
+    <qos>1</qos>
+    <retain>0</retain>
+    <persist>0</persist>
+    <policy>
+     <name>OnTimer</name>
+     <triggers>
+      <trigger>
+       <type>timer</type>
+       <intervalMs>20000</intervalMs>
+      </trigger>
+     </triggers>
+     <conditions/>
+    </policy>
+   </group>
    <group name="MQTT_SUB">
     <qos>1</qos>
     <retain>0</retain>
