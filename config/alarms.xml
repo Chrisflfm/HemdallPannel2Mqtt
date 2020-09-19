@@ -12,13 +12,13 @@
             <MLText id="4" L1="Not Triggered Acked"/>
             <MLText id="5" L1="Not Triggered Not Acked"/>
             <MLText id="6" L1="Triggered Acked"/>
-            <MLText id="15" L1="Voeding motoren dakvensters en zonnewering uitgevallen"/>
             <MLText id="9" L1="Zout niveau in ontharder laag"/>
             <MLText id="10" L1="Brand alarm"/>
             <MLText id="11" L1="Inbraak alarm"/>
             <MLText id="12" L1="Tussen deur naar Platina is open"/>
             <MLText id="13" L1="Lek aan de ontharder"/>
             <MLText id="14" L1="Geen comunicatie met HVAC sturing"/>
+            <MLText id="15" L1="Voeding motoren dakvensters en zonnewering uitgevallen"/>
         </MLTexts>
     </multiLangs>
     <defaultColors notTriggeredTxtColor="#000000" notTriggeredBgColor="#ffffff" disabledTxtColor="#000000" disabledBgColor="#ffffff" triggeredTxtColor="#ffffff" triggeredBgColor="#ff0000" triggeredNotAckedTxtColor="#ffffff" triggeredNotAckedBgColor="#ff0000" notTriggeredAckedTxtColor="#000000" notTriggeredAckedBgColor="#55ff00" notTriggeredNotAckedTxtColor="#000000" notTriggeredNotAckedBgColor="#55ff00" triggeredAckedTxtColor="#ffffff" triggeredAckedBgColor="#ff00ff" ackTxtColor="#ff0000" ackBgColor="#ffff00"/>
@@ -34,9 +34,7 @@
         <requireAck>true</requireAck>
         <blinkTxt>true</blinkTxt>
         <requireReset>true</requireReset>
-        <actions>
-            <macroAction actionFunction="SendMailAction" parameters="eMailServer1;eMail2" actionID="0" actionType="onClick"/>
-        </actions>
+        <actions/>
         <useractions/>
         <description>[9@Alarm]Zout niveau in ontharder laag</description>
         <severity>3</severity>

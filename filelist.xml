@@ -1,5 +1,5 @@
 <JMFiles>
- <ProjectInfo Size="2642166" AllowedSize="251658240"/>
+ <ProjectInfo Size="2641928" AllowedSize="251658240"/>
  <files>
   <file size="4908" md5="5bfe051c86a599380cd446932d03bd7f" name="alarm.jmxb"/>
   <file size="14126" md5="a7022ee644406544396886f049befc52" name="gvl.jmxb"/>
@@ -157,8 +157,8 @@
   <file size="500" md5="5e00f8c6582354e61976bf9629631c5a" name="config\trends.xml"/>
   <file size="173" md5="d6a3ff0f59d4429f862e067534a1a4d1" name="config\indexedtagset.xml"/>
   <file size="63" md5="320ca9c6da63d1ef6e59979d13d67173" name="config\recipe.xml"/>
-  <file size="10991" md5="296e3213d7ade6db49ebe33178f6b4e3" name="config\alarms.xml"/>
-  <file size="3315" md5="84426da7300a63dbd02d80b135f54408" name="config\alarms.bin"/>
+  <file size="10845" md5="31cbdb7563c2138b89021892af7f6d80" name="config\alarms.xml"/>
+  <file size="3223" md5="73a33d1741b18929927e2f4e7846711d" name="config\alarms.bin"/>
   <file size="192" md5="ae9b2374ae4d24a9439ead77f7cab993" name="config\multilang.xml"/>
   <file size="1869" md5="b5a4c16616cf2723a027b8c293c06bf9" name="config\scheduler.xml"/>
   <file size="1132" md5="70dcf9a042656157d0e02b8ef8dded0c" name="config\protocols.xml"/>
