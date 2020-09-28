@@ -134,6 +134,14 @@
   <tag>regVensterNr</tag>
  </group>
  <group Type="Auto">
+  <name>SettingsSol@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>regMinLampAan</tag>
+  <tag>regMinLampUit</tag>
+  <tag>regUurLampAan</tag>
+  <tag>regUurLampUit</tag>
+ </group>
+ <group Type="Auto">
   <name>Test@$GroupSubscrWgt@$0</name>
   <active>false</active>
   <tag>hours</tag>

@@ -39,6 +39,7 @@
  <file fill="rgb(150,150,150)" imgSize="67,59" stroke="none" numUses="2" isSvgFile="true" file="images/btn_gray_down_rev2.svg" numSizes="1"/>
  <file fill="rgb(150,150,150)" imgSize="67,59" stroke="none" numUses="2" isSvgFile="true" file="images/btn_gray_up_rev1.svg" numSizes="1"/>
  <file fill="rgb(0,0,0)" imgSize="29,27" stroke="none" numUses="2" isSvgFile="true" file="images/x_symbol_rev1.svg" numSizes="1"/>
+ <file fill="rgb(0,0,0)" imgSize="83,85" stroke="none" numUses="2" isSvgFile="true" file="images/ic_au1_054.svg" numSizes="1"/>
  <file fill="rgb(255,255,255)" imgSize="80,69" stroke="none" numUses="2" isSvgFile="true" file="images/btn_kbdwht_std_2_rev1.svg" numSizes="1"/>
  <file fill="rgb(255,255,255)" imgSize="80,69" stroke="none" numUses="2" isSvgFile="true" file="images/btn_kbdwht_std_1_rev1.svg" numSizes="1"/>
  <file fill="rgb(0,0,0)" imgSize="60,67" stroke="none" numUses="2" isSvgFile="true" file="images/7-5.svg" numSizes="1"/>
@@ -58,7 +59,6 @@
  <file fill="rgb(0,0,0)" imgSize="32,32" stroke="none" numUses="1" isSvgFile="true" file="images/ic_al1_018.svg" numSizes="1"/>
  <file fill="rgb(0,0,0)" imgSize="32,32" stroke="none" numUses="1" isSvgFile="true" file="images/ic_al1_083.svg" numSizes="1"/>
  <file fill="rgb(0,0,0)" imgSize="32,32" stroke="none" numUses="1" isSvgFile="true" file="images/13-5.svg" numSizes="1"/>
- <file fill="rgb(0,0,0)" imgSize="83,85" stroke="none" numUses="1" isSvgFile="true" file="images/ic_au1_054.svg" numSizes="1"/>
  <file fill="rgb(127,255,212)" imgSize="38,38" stroke="none" numUses="1" isSvgFile="true" file="images/btn_plastic_round_2_rev2.svg" numSizes="1"/>
  <file fill="rgb(127,255,212)" imgSize="38,38" stroke="none" numUses="1" isSvgFile="true" file="images/btn_plastic_round_1_rev2.svg" numSizes="1"/>
  <file fill="rgb(0,0,0)" imgSize="70,62" stroke="none" numUses="1" isSvgFile="true" file="images/ic_fo1_032.svg" numSizes="1"/>
