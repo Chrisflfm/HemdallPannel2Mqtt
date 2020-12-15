@@ -62,7 +62,7 @@
         <blinkTxt>true</blinkTxt>
         <requireReset>true</requireReset>
         <actions>
-            <macroAction actionFunction="SendMailAction" parameters="eMailServer1;eMail3" actionID="1" actionType="onClick"/>
+            <macroAction actionFunction="SendMailAction" parameters="eMailServer1;eMail2" actionID="0" actionType="onClick"/>
         </actions>
         <useractions/>
         <description>[14@Alarm]Geen comunicatie met HVAC sturing</description>

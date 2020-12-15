@@ -200,6 +200,22 @@
   <tag>ctV9Dicht</tag>
  </group>
  <group Type="Auto">
+  <name>Ventileren@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>VentConv3-4</tag>
+  <tag>VentConv5</tag>
+  <tag>VentConv6</tag>
+  <tag>VentConv7</tag>
+  <tag>VentMaxWaterTemp</tag>
+  <tag>VentMinBuitenTemp</tag>
+  <tag>VentMinWaterTemp</tag>
+  <tag>VentRPM1-2</tag>
+  <tag>VentRPM3-4</tag>
+  <tag>VentRPM5</tag>
+  <tag>VentRPM6</tag>
+  <tag>VentRPM7</tag>
+ </group>
+ <group Type="Auto">
   <name>WaterOntharder@$GroupSubscrWgt@$0</name>
   <active>false</active>
   <tag>Ft06_WaterlekZoutvat</tag>
@@ -239,6 +255,19 @@
   <active>false</active>
   <tag>ReloadTemp</tag>
   <tag>TaskStatus</tag>
+  <tag>VentConv1-2</tag>
+  <tag>VentConv3-4</tag>
+  <tag>VentConv5</tag>
+  <tag>VentConv6</tag>
+  <tag>VentConv7</tag>
+  <tag>VentMaxWaterTemp</tag>
+  <tag>VentMinBuitenTemp</tag>
+  <tag>VentMinWaterTemp</tag>
+  <tag>VentRPM1-2</tag>
+  <tag>VentRPM3-4</tag>
+  <tag>VentRPM5</tag>
+  <tag>VentRPM6</tag>
+  <tag>VentRPM7</tag>
   <tag>Verd1koud</tag>
   <tag>Verd1warm</tag>
   <tag>Verd2koud</tag>

@@ -4,7 +4,7 @@
   <enable>true</enable>
   <name>Ft01 Zoutniveau laag</name>
   <description>Ft01 Zoutniveau laag</description>
-  <from>Pannel@heimdall.nl</from>
+  <from>platina@posteo.net</from>
   <to>chris.dries@posteo.net, Thijs@platinabv.nl</to>
   <subject>Heimdall Ft01 Zoutniveau laag</subject>
   <message>Ft01 Zoutniveau laag:
@@ -16,7 +16,7 @@ Vul het zout in de ontharder bij aub.</message>
   <enable>true</enable>
   <name>FT02 Geen comunicatie</name>
   <description>FT02 Geen comunicatie</description>
-  <from>Pannel@heimdall.nl</from>
+  <from>platina@posteo.net</from>
   <to>chris.dries@posteo.net</to>
   <subject>Heimdall FT02 Geen comunicatie</subject>
   <message>FT02 Geen comunicatie
@@ -29,7 +29,7 @@ Kijk wat er aan de hand kan zijn.</message>
   <enable>true</enable>
   <name>Brand alarm TOM</name>
   <description>Brand alarm TOM</description>
-  <from>Pannel@heimdall.nl</from>
+  <from>platina@posteo.net</from>
   <to>Thijs@platinabv.nl</to>
   <subject>Heimdall Brand alarm TOM</subject>
   <message>Brand alarm bij TOM!!</message>
@@ -40,7 +40,7 @@ Kijk wat er aan de hand kan zijn.</message>
   <enable>true</enable>
   <name>Inbraak alarm TOM</name>
   <description>Inbraak alarm TOM</description>
-  <from>Pannel@heimdall.nl</from>
+  <from>platina@posteo.net</from>
   <to>Thijs@platinabv.nl</to>
   <subject>Heimdall Inbraak alarm TOM</subject>
   <message>Inbraak alarm bij TOM !!</message>
@@ -51,7 +51,7 @@ Kijk wat er aan de hand kan zijn.</message>
   <enable>true</enable>
   <name>Tussen deur TOM Platina</name>
   <description>Tussen deur TOM Platina</description>
-  <from>Pannel@heimdall.nl</from>
+  <from>platina@posteo.net</from>
   <to>Thijs@platinabv.nl</to>
   <subject>Heimdall Tussen deur TOM Platina</subject>
   <message>Tussen deur TOM Platina
@@ -63,7 +63,7 @@ De deur tussen Platina en TOM is geopend.</message>
   <enable>true</enable>
   <name>Waterlek aan ontharder</name>
   <description>Waterlek aan ontharder</description>
-  <from>Pannel@heimdall.nl</from>
+  <from>platina@posteo.net</from>
   <to>Thijs@platinabv.nl</to>
   <subject>Heimdall Waterlek aan ontharder</subject>
   <message>Waterlek aan ontharder
@@ -75,7 +75,7 @@ Er is water in de lakbak, mogelijk lekt de ontharder.</message>
   <enable>true</enable>
   <name>Ft07_OpenDichtRelais</name>
   <description>Ft07_OpenDichtRelais</description>
-  <from>Pannel@heimdall.nl</from>
+  <from>platina@posteo.net</from>
   <to>chris.dries@posteo.net</to>
   <subject>Ft07_OpenDichtRelais</subject>
   <message>Ft07_OpenDichtRelais:
