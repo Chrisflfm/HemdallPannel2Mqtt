@@ -213,9 +213,9 @@
    </links>
   </object>
   <object class="NumericWgt" id="field1">
-   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="21" cx="17.94" showThousandSeparator="false" cy="13.50" step="1" timeSpec="local" alignment="center" x="364" y="122.67" vert-align="top" text="100" max="100" usingFormat="" value="100" keypad-type="Numeric" font-color="rgb(23,30,40)" min="10" width="39" numberFormat="1" height="30" form="Numeric" font-size="16"/>
+   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="21" cx="17.94" showThousandSeparator="false" cy="13.50" step="1" timeSpec="local" alignment="center" x="364" y="122.67" vert-align="top" text="100" max="100" usingFormat="" value="100" keypad-type="Numeric" font-color="rgb(23,30,40)" min="10" width="39" numberFormat="1" readWrite="true" height="30" form="Numeric" font-size="16"/>
    <dataLinks>
-    <dataLink readWrite="R" tagType="int" attribute="value" tag="VentRPM1-2" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+    <dataLink readWrite="R/W" tagType="int" attribute="value" tag="VentRPM1-2" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="label7" static="true">
@@ -231,9 +231,9 @@
    </links>
   </object>
   <object class="NumericWgt" id="field2">
-   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="21" cx="17.94" showThousandSeparator="false" cy="13.50" step="1" timeSpec="local" alignment="center" x="364" y="249.77" vert-align="top" text="100" max="100" usingFormat="" value="100" keypad-type="Numeric" font-color="rgb(23,30,40)" min="10" width="39" numberFormat="1" height="30" form="Numeric" font-size="16"/>
+   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="21" cx="17.94" showThousandSeparator="false" cy="13.50" step="1" timeSpec="local" alignment="center" x="364" y="249.77" vert-align="top" text="100" max="100" usingFormat="" value="100" keypad-type="Numeric" font-color="rgb(23,30,40)" min="10" width="39" numberFormat="1" readWrite="true" height="30" form="Numeric" font-size="16"/>
    <dataLinks>
-    <dataLink readWrite="R" tagType="int" attribute="value" tag="VentRPM3-4" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+    <dataLink readWrite="R/W" tagType="int" attribute="value" tag="VentRPM3-4" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="label9" static="true">
@@ -249,9 +249,9 @@
    </links>
   </object>
   <object class="NumericWgt" id="field3">
-   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="21" cx="17.94" showThousandSeparator="false" cy="13.50" step="1" timeSpec="local" alignment="center" x="364" y="371.86" vert-align="top" text="100" max="100" usingFormat="" value="100" keypad-type="Numeric" font-color="rgb(23,30,40)" min="10" width="39" numberFormat="1" height="30" form="Numeric" font-size="16"/>
+   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="21" cx="17.94" showThousandSeparator="false" cy="13.50" step="1" timeSpec="local" alignment="center" x="364" y="371.86" vert-align="top" text="100" max="100" usingFormat="" value="100" keypad-type="Numeric" font-color="rgb(23,30,40)" min="10" width="39" numberFormat="1" readWrite="true" height="30" form="Numeric" font-size="16"/>
    <dataLinks>
-    <dataLink readWrite="R" tagType="int" attribute="value" tag="VentRPM5" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+    <dataLink readWrite="R/W" tagType="int" attribute="value" tag="VentRPM5" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="label11" static="true">
@@ -267,9 +267,9 @@
    </links>
   </object>
   <object class="NumericWgt" id="field4">
-   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="21" cx="17.94" showThousandSeparator="false" cy="13.50" step="1" timeSpec="local" alignment="center" x="364" y="487.68" vert-align="top" text="100" max="100" usingFormat="" value="100" keypad-type="Numeric" font-color="rgb(23,30,40)" min="10" width="39" numberFormat="1" height="30" form="Numeric" font-size="16"/>
+   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="21" cx="17.94" showThousandSeparator="false" cy="13.50" step="1" timeSpec="local" alignment="center" x="364" y="487.68" vert-align="top" text="100" max="100" usingFormat="" value="100" keypad-type="Numeric" font-color="rgb(23,30,40)" min="10" width="39" numberFormat="1" readWrite="true" height="30" form="Numeric" font-size="16"/>
    <dataLinks>
-    <dataLink readWrite="R" tagType="int" attribute="value" tag="VentRPM6" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+    <dataLink readWrite="R/W" tagType="int" attribute="value" tag="VentRPM6" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="label13" static="true">
@@ -285,9 +285,9 @@
    </links>
   </object>
   <object class="NumericWgt" id="field5">
-   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="21" cx="17.94" showThousandSeparator="false" cy="13.50" step="1" timeSpec="local" alignment="center" x="364" y="609.82" vert-align="top" text="100" max="100" usingFormat="" value="100" keypad-type="Numeric" font-color="rgb(23,30,40)" min="10" width="39" numberFormat="1" height="30" form="Numeric" font-size="16"/>
+   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="21" cx="17.94" showThousandSeparator="false" cy="13.50" step="1" timeSpec="local" alignment="center" x="364" y="609.82" vert-align="top" text="100" max="100" usingFormat="" value="100" keypad-type="Numeric" font-color="rgb(23,30,40)" min="10" width="39" numberFormat="1" readWrite="true" height="30" form="Numeric" font-size="16"/>
    <dataLinks>
-    <dataLink readWrite="R" tagType="int" attribute="value" tag="VentRPM7" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+    <dataLink readWrite="R/W" tagType="int" attribute="value" tag="VentRPM7" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="label15" static="true">
@@ -303,9 +303,9 @@
    </links>
   </object>
   <object class="NumericWgt" id="field6">
-   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="21" cx="17.94" showThousandSeparator="false" cy="13.50" step="1" timeSpec="local" alignment="center" x="1014.31" y="112.99" vert-align="top" text="15" max="2147483647" usingFormat="" value="15" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-2147483648" width="39" numberFormat="1" height="30" form="Numeric" font-size="16"/>
+   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="21" cx="17.94" showThousandSeparator="false" cy="13.50" step="1" timeSpec="local" alignment="center" x="1014.31" y="112.99" vert-align="top" text="15" max="2147483647" usingFormat="" value="15" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-2147483648" width="39" numberFormat="1" readWrite="true" height="30" form="Numeric" font-size="16"/>
    <dataLinks>
-    <dataLink readWrite="R" tagType="int" attribute="value" tag="VentMinWaterTemp" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+    <dataLink readWrite="R/W" tagType="int" attribute="value" tag="VentMinWaterTemp" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="label17">
@@ -321,9 +321,9 @@
    </links>
   </object>
   <object class="NumericWgt" id="field7">
-   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="21" cx="17.94" showThousandSeparator="false" cy="13.50" step="1" timeSpec="local" alignment="center" x="1015.38" y="169.68" vert-align="top" text="45" max="2147483647" usingFormat="" value="45" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-2147483648" width="39" numberFormat="1" height="30" form="Numeric" font-size="16"/>
+   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="21" cx="17.94" showThousandSeparator="false" cy="13.50" step="1" timeSpec="local" alignment="center" x="1015.38" y="169.68" vert-align="top" text="45" max="2147483647" usingFormat="" value="45" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-2147483648" width="39" numberFormat="1" readWrite="true" height="30" form="Numeric" font-size="16"/>
    <dataLinks>
-    <dataLink readWrite="R" tagType="int" attribute="value" tag="VentMaxWaterTemp" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+    <dataLink readWrite="R/W" tagType="int" attribute="value" tag="VentMaxWaterTemp" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="label19">
@@ -339,9 +339,9 @@
    </links>
   </object>
   <object class="NumericWgt" id="field8">
-   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="21" cx="15.56" showThousandSeparator="false" cy="13.55" step="1" timeSpec="local" alignment="center" x="1018.57" y="233.30" vert-align="top" text="2" max="2147483647" usingFormat="" value="2" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-2147483648" width="33.83" numberFormat="1" height="30.12" form="Numeric" font-size="16"/>
+   <wgtStyle forcePaint="8" font-family="Roboto" font-sizepx="21" cx="15.56" showThousandSeparator="false" cy="13.55" step="1" timeSpec="local" alignment="center" x="1018.57" y="233.30" vert-align="top" text="2" max="2147483647" usingFormat="" value="2" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-2147483648" width="33.83" numberFormat="1" readWrite="true" height="30.12" form="Numeric" font-size="16"/>
    <dataLinks>
-    <dataLink readWrite="R" tagType="int" attribute="value" tag="VentMinBuitenTemp" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+    <dataLink readWrite="R/W" tagType="int" attribute="value" tag="VentMinBuitenTemp" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="label21" static="true">
