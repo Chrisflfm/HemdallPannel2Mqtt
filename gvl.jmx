@@ -1,6 +1,6 @@
 <wgtPage rev="1" projectType="HMI Project">
- <object pageName="GVL" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="true" usedFonts="Roboto,Tahoma" staticFile="opt/gvl.png" id="GVL" staticOptEnable="true">
-  <wgtStyle width="1280" x="0" y="0" height="800" fitToSize="1" ver="040000100" v="04.00.00.100"/>
+ <object pageName="GVL" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="false" usedFonts="Roboto,Tahoma" staticFile="opt/gvl.png" id="GVL" staticOptEnable="true">
+  <wgtStyle width="1280" x="0" y="0" height="800" fitToSize="1" ver="040001443" v="04.00.01.443"/>
   <object class="ImageWgt" id="image1" static="true">
    <wgtStyle width="1141" imagePath="images/GVL temppunten.jpg" x="64.62" y="26.50" cx="570.50" cy="348.50" height="697"/>
   </object>

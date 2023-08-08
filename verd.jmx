@@ -1,6 +1,6 @@
 <wgtPage rev="1" projectType="HMI Project">
- <object pageName="VERD" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="true" usedFonts="Roboto,Tahoma" staticFile="opt/verd.png" id="VERD" staticOptEnable="true">
-  <wgtStyle width="1280" x="0" y="0" height="800" fitToSize="1" ver="040000100" v="04.00.00.100"/>
+ <object pageName="VERD" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="false" usedFonts="Roboto,Tahoma" staticFile="opt/verd.png" id="VERD" staticOptEnable="true">
+  <wgtStyle width="1280" x="0" y="0" height="800" fitToSize="1" ver="040001443" v="04.00.01.443"/>
   <object class="ImageWgt" id="image1" static="true">
    <wgtStyle width="1192" imagePath="images/verdieping.png" x="27.61" y="20.28" cx="596" cy="321" height="642"/>
   </object>

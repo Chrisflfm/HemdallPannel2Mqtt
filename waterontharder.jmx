@@ -1,6 +1,6 @@
 <wgtPage rev="1" projectType="HMI Project">
- <object pageName="WaterOntharder" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="true" usedFonts="Tahoma" staticFile="opt/waterontharder.png" id="WaterOntharder" staticOptEnable="true">
-  <wgtStyle width="1280" x="0" y="0" height="800" fitToSize="1" ver="040000100" v="04.00.00.100"/>
+ <object pageName="WaterOntharder" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="false" usedFonts="Tahoma" staticFile="opt/waterontharder.png" id="WaterOntharder" staticOptEnable="true">
+  <wgtStyle width="1280" x="0" y="0" height="800" fitToSize="1" ver="040001443" v="04.00.01.443"/>
   <object class="PageMLTextMgrWgt" id="_PageMLTextMgrWgt" mgrType="Page" mlFileName="">
    <wgtStyle width="0" x="0" y="0" height="0"/>
    <langs defLangId="L1" curLangId="L1">
@@ -116,7 +116,7 @@
     <wgtStyle alarmMin="0.2" cx="23" startAngle="-20" cy="32" reverseScale="yes" endAngle="185" x="-13" y="0" visibility="false" autoAdjust="true" align="1" stroke-width="12" width="53" Color="none" fill="none" size="99" height="72" stroke="rgb(255,0,0)" form="vertical"/>
    </object>
    <object class="TicksWgt" id="BarStd1.ticks" static="true">
-    <wgtStyle cx="24" startAngle="-10" cy="35" endAngle="200" reverseScale="true" tickSize2="12" x="-13" y="0" visibility="false" max="10" align="1" stroke-width="2" width="53" stroke-linecap="butt" tickSize="8" tickFreq="1" height="72" labelFreq="6" stroke="rgb(128,128,128)" form="vertical"/>
+    <wgtStyle strokeMajor="rgb(128,128,128)" cx="24" startAngle="-10" cy="35" endAngle="200" reverseScale="true" tickSize2="12" x="-13" y="0" visibility="false" strokeMinor="rgb(128,128,128)" max="10" align="1" stroke-width="2" width="53" stroke-linecap="butt" tickSize="8" tickFreq="1" height="72" labelFreq="6" stroke="rgb(128,128,128)" form="vertical"/>
    </object>
    <object class="BargraphWgt" hmiStyle="hmi-type:*barv" id="BarStd1.bar">
     <wgtStyle width="26" reverseScale="false" x="0" forcePaint="73" y="0" fill="rgb(255,255,255)" cx="13" form="vertical" cy="36" height="72" value="10" min="1"/>

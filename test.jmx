@@ -1,6 +1,6 @@
 <wgtPage rev="1" projectType="HMI Project">
- <object pageName="Test" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="true" usedFonts="Roboto,Tahoma" staticFile="opt/test.png" id="Test" staticOptEnable="true">
-  <wgtStyle width="1280" x="0" y="0" height="800" fitToSize="1" ver="040000100" v="04.00.00.100"/>
+ <object pageName="Test" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="false" usedFonts="Roboto,Tahoma" staticFile="opt/test.png" id="Test" staticOptEnable="true">
+  <wgtStyle width="1280" x="0" y="0" height="800" fitToSize="1" ver="040001443" v="04.00.01.443"/>
   <links>
    <action class="LogOutAction" attribute="onDeactivate" event="onDeactivate" actionID="0" actionWgt="_UserMgr"/>
   </links>

@@ -1,9 +1,9 @@
 <JMFiles>
- <ProjectInfo Size="2734573" AllowedSize="251658240"/>
+ <ProjectInfo Size="2735075" AllowedSize="251658240"/>
  <files>
   <file size="4908" md5="5bfe051c86a599380cd446932d03bd7f" name="alarm.jmxb"/>
   <file size="14126" md5="a7022ee644406544396886f049befc52" name="gvl.jmxb"/>
-  <file size="45969" md5="69e15786fe8fa1cb3d91f79aa10ecf3d" name="heimdallsettings.jmxb"/>
+  <file size="45906" md5="df987a939f2f476b5f6975017b8f95ed" name="heimdallsettings.jmxb"/>
   <file size="9674" md5="7c9f05fe230ed6fa304ffa5b5b7f8212" name="home.jmxb"/>
   <file size="41090" md5="aa092ec014930b71a0556be8e3da7dc4" name="hvac overview.jmxb"/>
   <file size="1789" md5="62476e2d2732b56260392d08a2143c68" name="images/11-1.svg"/>
@@ -91,16 +91,16 @@
   <file size="11509" md5="9cc79deeee3907d5cc602e8dadb0dc62" name="keypads\numeric.jmx"/>
   <file size="30801" md5="d4a65cae35b03b3bc134edec886fff24" name="licht.jmxb"/>
   <file size="10818" md5="d5396c73fb501de29853db7bb3e29186" name="openclosevelux.jmxb"/>
-  <file size="528" md5="7646b171308d01cbf236c6d25dd6e89c" name="opt/HeimdallSettingsSwitch1.png"/>
-  <file size="528" md5="0da92c8e8a1f8df93d06b91b8ffe5975" name="opt/HeimdallSettingsSwitch2.png"/>
-  <file size="528" md5="0da92c8e8a1f8df93d06b91b8ffe5975" name="opt/HeimdallSettingsSwitch3.png"/>
-  <file size="528" md5="0da92c8e8a1f8df93d06b91b8ffe5975" name="opt/HeimdallSettingsSwitch4.png"/>
-  <file size="528" md5="0da92c8e8a1f8df93d06b91b8ffe5975" name="opt/HeimdallSettingsSwitch5.png"/>
-  <file size="528" md5="0da92c8e8a1f8df93d06b91b8ffe5975" name="opt/HeimdallSettingsSwitch6.png"/>
-  <file size="528" md5="0da92c8e8a1f8df93d06b91b8ffe5975" name="opt/HeimdallSettingsSwitch7.png"/>
   <file size="7926" md5="6b9296aa37face1baa94155b771606eb" name="opt/alarm.png"/>
   <file size="304203" md5="05f33f8648f09d4a167c08f0f6aa0c3d" name="opt/gvl.png"/>
   <file size="59634" md5="c1d8a729192a372cbbf742a2c7bbef8e" name="opt/heimdallsettings.png"/>
+  <file size="528" md5="7646b171308d01cbf236c6d25dd6e89c" name="opt/heimdallsettingsswitch1.png"/>
+  <file size="528" md5="0da92c8e8a1f8df93d06b91b8ffe5975" name="opt/heimdallsettingsswitch2.png"/>
+  <file size="528" md5="0da92c8e8a1f8df93d06b91b8ffe5975" name="opt/heimdallsettingsswitch3.png"/>
+  <file size="528" md5="0da92c8e8a1f8df93d06b91b8ffe5975" name="opt/heimdallsettingsswitch4.png"/>
+  <file size="528" md5="0da92c8e8a1f8df93d06b91b8ffe5975" name="opt/heimdallsettingsswitch5.png"/>
+  <file size="528" md5="0da92c8e8a1f8df93d06b91b8ffe5975" name="opt/heimdallsettingsswitch6.png"/>
+  <file size="528" md5="0da92c8e8a1f8df93d06b91b8ffe5975" name="opt/heimdallsettingsswitch7.png"/>
   <file size="61890" md5="5512c9d53a1d9c9be0f799dac90ed67e" name="opt/home.png"/>
   <file size="127555" md5="f34dd73f1879aa9e69b76de941f56d9d" name="opt/homeanalogclockwithdaydate.png"/>
   <file size="99353" md5="e5905baa66b5f12823266eb45e9fac50" name="opt/hvac overview.png"/>
@@ -148,22 +148,22 @@
   <file size="8343" md5="b208618de568a63763a97b331bde573a" name="usermgmttemplates\switchuserloginpage_combo.jmx"/>
   <file size="12548" md5="46dd33f072c6b7a5358d47e24e44cfa6" name="usermgmttemplates\usereditor.jmx"/>
   <file size="33782" md5="c4fefce499ac54ff98cd5195acbe0e75" name="velux.jmxb"/>
-  <file size="14314" md5="f6a86380aaecec3401c7c684fd74438b" name="ventileren.jmxb"/>
+  <file size="15106" md5="b170d61f0c1cb481771e3677d14ce7ad" name="ventileren.jmxb"/>
   <file size="9667" md5="4b10ee03e378834413efaeae3a6d6245" name="verd.jmxb"/>
   <file size="5614" md5="4cebce267067770df8d1d5fd33696c9d" name="waterontharder.jmxb"/>
   <file size="8689" md5="612725274f37e7a511a73726a80c64ac" name="weerbericht.jmxb"/>
   <file size="9840" md5="352f319b518b7466efc54b1042270993" name="heimdall2.jpr"/>
-  <file size="8761" md5="d64e8cc183467232f09a58afbc52349e" name="config\groups.xml"/>
+  <file size="8783" md5="39c10ca2e2b0898ce45ab240b35531f2" name="config\groups.xml"/>
   <file size="367" md5="39d5ce3446d4c16c08a887a21ca421f3" name="config\engineconfig.xml"/>
   <file size="70" md5="e83275dd47bf34c1dd4597e220049b5b" name="config\storagemonitor.xml"/>
   <file size="70" md5="9c686935bec5664c48af2db23cef4bb3" name="config\fastboot.xml"/>
-  <file size="99453" md5="92f28fb76bc6020589356377884d5bf1" name="config\tags.xml"/>
-  <file size="21511" md5="a424fa2d83b893744877c7f9396ec097" name="config\tags.bin"/>
+  <file size="99447" md5="9a2ba2117e97f45793caa4143c34d9c4" name="config\tags.xml"/>
+  <file size="21505" md5="6cd69cb5c2eb85a44da2700b8e9d36c9" name="config\tags.bin"/>
   <file size="500" md5="5e00f8c6582354e61976bf9629631c5a" name="config\trends.xml"/>
   <file size="173" md5="d6a3ff0f59d4429f862e067534a1a4d1" name="config\indexedtagset.xml"/>
   <file size="63" md5="320ca9c6da63d1ef6e59979d13d67173" name="config\recipe.xml"/>
-  <file size="10845" md5="803b73129d703c41770fa5ee79a2fb61" name="config\alarms.xml"/>
-  <file size="3223" md5="c0b2d947740726b86cc10cc956605649" name="config\alarms.bin"/>
+  <file size="10700" md5="765c3e9cc8c17c92924f1a3568e4fa7d" name="config\alarms.xml"/>
+  <file size="3131" md5="860eef2f5fffeb38121e0b9b0f4bcb21" name="config\alarms.bin"/>
   <file size="192" md5="ae9b2374ae4d24a9439ead77f7cab993" name="config\multilang.xml"/>
   <file size="1869" md5="b5a4c16616cf2723a027b8c293c06bf9" name="config\scheduler.xml"/>
   <file size="1132" md5="70dcf9a042656157d0e02b8ef8dded0c" name="config\protocols.xml"/>
@@ -174,8 +174,8 @@
   <file size="765" md5="74cfa9bc0f52b406cbe47b1c14db18a4" name="config\reports.xml"/>
   <file size="204" md5="97cbd2071bfdec1bcbe29468f0a32b1a" name="config\print.xml"/>
   <file size="3668" md5="78410a5f83536d26b152d53063ba495e" name="config\usermgnt_group.xml"/>
-  <file size="5852" md5="baceb7bfddad98e7aacf9da3f2312096" name="config\usermgnt_user.xml"/>
-  <file size="48964" md5="fe607ac36b58c574a7d223d6b9997a39" name="config\usermgnt_uiauth.xml"/>
+  <file size="5852" md5="ab276240e2e63b42ed746f0047d9de66" name="config\usermgnt_user.xml"/>
+  <file size="48964" md5="c5d25e43a47c8ce46a472b4d945d87d1" name="config\usermgnt_uiauth.xml"/>
   <file size="508" md5="41f1066bfa6ec4354aada05264b2ab9c" name="config\ftpd_security_auth.xml"/>
   <file size="1100" md5="5ebe785373856c47d9122ea4cb67f842" name="config\httpd_security_auth.xml"/>
   <file size="2084" md5="806c4de24eab9c6f6777cda9fcc821e3" name="config\usermgnt_taggroupauth.xml"/>

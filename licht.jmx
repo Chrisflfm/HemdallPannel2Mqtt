@@ -1,6 +1,6 @@
 <wgtPage rev="1" projectType="HMI Project">
- <object pageName="Licht" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="true" usedFonts="Tahoma" staticFile="opt/licht.png" id="Licht" staticOptEnable="true">
-  <wgtStyle width="1280" x="0" y="0" height="800" fitToSize="1" ver="040000100" v="04.00.00.100"/>
+ <object pageName="Licht" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="false" usedFonts="Tahoma" staticFile="opt/licht.png" id="Licht" staticOptEnable="true">
+  <wgtStyle width="1280" x="0" y="0" height="800" fitToSize="1" ver="040001443" v="04.00.01.443"/>
   <object class="ImageWgt" id="image1" static="true">
    <wgtStyle width="1232" imagePath="images/verlichting.png" x="12" y="16" cx="616" cy="281" height="562"/>
   </object>
@@ -10,8 +10,8 @@
     <lang removable="false" langCode="en-US" langId="L1" writingsystem="Any" name="Lang1" defaultFont="Tahoma"/>
    </langs>
    <MLTexts>
-    <MLText L1="Alle lampen aan/uit" id="0"/>
     <MLText L1="" id="25"/>
+    <MLText L1="Alle lampen aan/uit" id="0"/>
     <MLText L1="Poort" id="2"/>
     <MLText L1="Aantal dagen poort niet openen:" id="5"/>
     <MLText L1="Puls" id="6"/>

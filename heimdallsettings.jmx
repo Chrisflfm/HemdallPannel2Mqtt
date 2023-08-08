@@ -1,6 +1,6 @@
 <wgtPage rev="1" projectType="HMI Project">
- <object pageName="HeimdallSettings" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="true" usedFonts="Tahoma,Roboto" staticFile="opt/heimdallsettings.png" id="HeimdallSettings" staticOptEnable="true">
-  <wgtStyle width="1280" x="0" y="0" height="800" fitToSize="1" ver="040000100" v="04.00.00.100"/>
+ <object pageName="HeimdallSettings" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="false" usedFonts="Tahoma,Roboto" staticFile="opt/heimdallsettings.png" id="HeimdallSettings" staticOptEnable="true">
+  <wgtStyle width="1280" x="0" y="0" height="800" fitToSize="1" ver="040001443" v="04.00.01.443"/>
   <links>
    <action BitIndex="0" class="ToggleBitAction" attribute="onActivate" event="onActivate" actionID="0" actionWgt="_TagMgr">
     <dataLinks>
@@ -38,7 +38,7 @@
    <object class="LabelWgt" hmiStyle="hmi-type:wgtlabel" id="BtnStd1.lbl" static="true">
     <wgtStyle width="32" font-color="rgb(40,40,40)" x="9" font-sizepx="13" y="10" font-family="Tahoma" wrapping="true" cx="30.99" cy="29.34" height="31" alignment="center" vert-align="middle" keypad-type="None" font-size="12"/>
     <links>
-     <lang class="MLTextLink" textid="18"/>
+     <lang class="MLTextLink" textid="16"/>
     </links>
    </object>
    <object class="ImageWgt" hmiStyle="hmi-name:solid; hmi-shape:rect; hmi-type:icon" id="BtnStd1.icoImg" static="true">
@@ -52,7 +52,7 @@
    </langs>
    <MLTexts>
     <MLText L1="" id="16"/>
-    <MLText L1="" id="18"/>
+    <MLText L1="" id="16"/>
     <MLText L1="Ruimte 0.1 &amp; 0.2" id="0"/>
     <MLText L1="Ruimte 0.5, 0.9 &amp; conv 3+4" id="1"/>
     <MLText L1="Ruimte 0.4 &amp; conv 1+2" id="2"/>
@@ -362,7 +362,7 @@
      <dataLink readWrite="R/W" tagType="int" attribute="value" tag="group1" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
     </dataLinks>
     <object class="ImageWgt" id="Knob1.ndl.img">
-     <wgtStyle width="65" rot="-90" imagePath="images/knob_blkpl_1_rev1.svg" x="0" forcePaint="65" y="-1" fill="rgb(40,40,40)" cx="32" cy="31" height="62" stroke="none" stroke-width="3"/>
+     <wgtStyle width="65" imagePath="images/knob_blkpl_1_rev1.svg" x="0" forcePaint="65" y="-1" fill="rgb(40,40,40)" cx="32" cy="31" height="62" stroke="none" stroke-width="3"/>
     </object>
    </object>
   </object>
@@ -385,7 +385,7 @@
      <dataLink readWrite="R/W" tagType="int" attribute="value" tag="klep1" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
     </dataLinks>
     <object class="ImageWgt" id="Knob2.ndl.img">
-     <wgtStyle width="65" rot="-45" imagePath="images/knob_blkpl_1_rev1.svg" x="0" forcePaint="65" y="-1" fill="rgb(40,40,40)" cx="32" cy="31" height="62" stroke="none" stroke-width="3"/>
+     <wgtStyle width="65" imagePath="images/knob_blkpl_1_rev1.svg" x="0" forcePaint="65" y="-1" fill="rgb(40,40,40)" cx="32" cy="31" height="62" stroke="none" stroke-width="3"/>
     </object>
    </object>
   </object>
@@ -408,7 +408,7 @@
      <dataLink readWrite="R/W" tagType="int" attribute="value" tag="group2" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
     </dataLinks>
     <object class="ImageWgt" id="Knob3.ndl.img">
-     <wgtStyle width="65" rot="-90" imagePath="images/knob_blkpl_1_rev1.svg" x="0" forcePaint="65" y="-1" fill="rgb(40,40,40)" cx="32" cy="31" height="62" stroke="none" stroke-width="3"/>
+     <wgtStyle width="65" imagePath="images/knob_blkpl_1_rev1.svg" x="0" forcePaint="65" y="-1" fill="rgb(40,40,40)" cx="32" cy="31" height="62" stroke="none" stroke-width="3"/>
     </object>
    </object>
   </object>
@@ -431,7 +431,7 @@
      <dataLink readWrite="R/W" tagType="int" attribute="value" tag="group3" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
     </dataLinks>
     <object class="ImageWgt" id="Knob4.ndl.img">
-     <wgtStyle width="65" rot="-90" imagePath="images/knob_blkpl_1_rev1.svg" x="0" forcePaint="65" y="-1" fill="rgb(40,40,40)" cx="32" cy="31" height="62" stroke="none" stroke-width="3"/>
+     <wgtStyle width="65" imagePath="images/knob_blkpl_1_rev1.svg" x="0" forcePaint="65" y="-1" fill="rgb(40,40,40)" cx="32" cy="31" height="62" stroke="none" stroke-width="3"/>
     </object>
    </object>
   </object>
@@ -454,7 +454,7 @@
      <dataLink readWrite="R/W" tagType="int" attribute="value" tag="group4" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
     </dataLinks>
     <object class="ImageWgt" id="Knob5.ndl.img">
-     <wgtStyle width="65" rot="-90" imagePath="images/knob_blkpl_1_rev1.svg" x="0" forcePaint="65" y="-1" fill="rgb(40,40,40)" cx="32" cy="31" height="62" stroke="none" stroke-width="3"/>
+     <wgtStyle width="65" imagePath="images/knob_blkpl_1_rev1.svg" x="0" forcePaint="65" y="-1" fill="rgb(40,40,40)" cx="32" cy="31" height="62" stroke="none" stroke-width="3"/>
     </object>
    </object>
   </object>
@@ -477,12 +477,12 @@
      <dataLink readWrite="R/W" tagType="int" attribute="value" tag="group5" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
     </dataLinks>
     <object class="ImageWgt" id="Knob6.ndl.img">
-     <wgtStyle width="65" rot="-90" imagePath="images/knob_blkpl_1_rev1.svg" x="0" forcePaint="65" y="-1" fill="rgb(40,40,40)" cx="32" cy="31" height="62" stroke="none" stroke-width="3"/>
+     <wgtStyle width="65" imagePath="images/knob_blkpl_1_rev1.svg" x="0" forcePaint="65" y="-1" fill="rgb(40,40,40)" cx="32" cy="31" height="62" stroke="none" stroke-width="3"/>
     </object>
    </object>
   </object>
   <object class="GroupWgt" id="Switch1" customType="Switch">
-   <wgtStyle width="101" x="574.45" forcePaint="97" y="260" cx="65" cy="35" height="64" staticFile="opt/HeimdallSettingsSwitch1.png" mtx="1.2871,0,0,0,1.0937,0,0,0,1" groupStyle="xform-scaling"/>
+   <wgtStyle width="101" x="574.45" forcePaint="97" y="260" cx="65" cy="35" height="64" staticFile="opt/heimdallsettingsswitch1.png" mtx="1.2871,0,0,0,1.0937,0,0,0,1" groupStyle="xform-scaling"/>
    <links>
     <attr attrName="min" alias="NeedleWgt.min;TicksWgt.min;LabelsWgt.min;ScaleWgt.min"/>
     <attr attrName="max" alias="NeedleWgt.max;TicksWgt.max;LabelsWgt.max;ScaleWgt.max"/>
@@ -526,12 +526,12 @@
      <dataLink readWrite="R/W" tagType="int" attribute="value" tag="klep2" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
     </dataLinks>
     <object class="ImageWgt" id="Knob7.ndl.img">
-     <wgtStyle width="65" rot="-45" imagePath="images/knob_blkpl_1_rev1.svg" x="0" forcePaint="65" y="-1" fill="rgb(40,40,40)" cx="32" cy="31" height="62" stroke="none" stroke-width="3"/>
+     <wgtStyle width="65" imagePath="images/knob_blkpl_1_rev1.svg" x="0" forcePaint="65" y="-1" fill="rgb(40,40,40)" cx="32" cy="31" height="62" stroke="none" stroke-width="3"/>
     </object>
    </object>
   </object>
   <object class="GroupWgt" id="Switch2" customType="Switch">
-   <wgtStyle width="101" x="838.53" forcePaint="97" y="260" cx="65" cy="35" height="64" staticFile="opt/HeimdallSettingsSwitch2.png" mtx="1.2871,0,0,0,1.0937,0,0,0,1" groupStyle="xform-scaling"/>
+   <wgtStyle width="101" x="838.53" forcePaint="97" y="260" cx="65" cy="35" height="64" staticFile="opt/heimdallsettingsswitch2.png" mtx="1.2871,0,0,0,1.0937,0,0,0,1" groupStyle="xform-scaling"/>
    <links>
     <attr attrName="min" alias="NeedleWgt.min;TicksWgt.min;LabelsWgt.min;ScaleWgt.min"/>
     <attr attrName="max" alias="NeedleWgt.max;TicksWgt.max;LabelsWgt.max;ScaleWgt.max"/>
@@ -575,12 +575,12 @@
      <dataLink readWrite="R/W" tagType="int" attribute="value" tag="klep3" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
     </dataLinks>
     <object class="ImageWgt" id="Knob8.ndl.img">
-     <wgtStyle width="65" rot="-45" imagePath="images/knob_blkpl_1_rev1.svg" x="0" forcePaint="65" y="-1" fill="rgb(40,40,40)" cx="32" cy="31" height="62" stroke="none" stroke-width="3"/>
+     <wgtStyle width="65" imagePath="images/knob_blkpl_1_rev1.svg" x="0" forcePaint="65" y="-1" fill="rgb(40,40,40)" cx="32" cy="31" height="62" stroke="none" stroke-width="3"/>
     </object>
    </object>
   </object>
   <object class="GroupWgt" id="Switch3" customType="Switch">
-   <wgtStyle width="101" x="1102.61" forcePaint="97" y="260" cx="65" cy="35" height="64" staticFile="opt/HeimdallSettingsSwitch3.png" mtx="1.2871,0,0,0,1.0937,0,0,0,1" groupStyle="xform-scaling"/>
+   <wgtStyle width="101" x="1102.61" forcePaint="97" y="260" cx="65" cy="35" height="64" staticFile="opt/heimdallsettingsswitch3.png" mtx="1.2871,0,0,0,1.0937,0,0,0,1" groupStyle="xform-scaling"/>
    <links>
     <attr attrName="min" alias="NeedleWgt.min;TicksWgt.min;LabelsWgt.min;ScaleWgt.min"/>
     <attr attrName="max" alias="NeedleWgt.max;TicksWgt.max;LabelsWgt.max;ScaleWgt.max"/>
@@ -624,12 +624,12 @@
      <dataLink readWrite="R/W" tagType="int" attribute="value" tag="klep4" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
     </dataLinks>
     <object class="ImageWgt" id="Knob9.ndl.img">
-     <wgtStyle width="65" rot="-45" imagePath="images/knob_blkpl_1_rev1.svg" x="0" forcePaint="65" y="-1" fill="rgb(40,40,40)" cx="32" cy="31" height="62" stroke="none" stroke-width="3"/>
+     <wgtStyle width="65" imagePath="images/knob_blkpl_1_rev1.svg" x="0" forcePaint="65" y="-1" fill="rgb(40,40,40)" cx="32" cy="31" height="62" stroke="none" stroke-width="3"/>
     </object>
    </object>
   </object>
   <object class="GroupWgt" id="Switch4" customType="Switch">
-   <wgtStyle width="101" x="580.72" forcePaint="97" y="474" cx="65" cy="35" height="64" staticFile="opt/HeimdallSettingsSwitch4.png" mtx="1.2871,0,0,0,1.0937,0,0,0,1" groupStyle="xform-scaling"/>
+   <wgtStyle width="101" x="580.72" forcePaint="97" y="474" cx="65" cy="35" height="64" staticFile="opt/heimdallsettingsswitch4.png" mtx="1.2871,0,0,0,1.0937,0,0,0,1" groupStyle="xform-scaling"/>
    <links>
     <attr attrName="min" alias="NeedleWgt.min;TicksWgt.min;LabelsWgt.min;ScaleWgt.min"/>
     <attr attrName="max" alias="NeedleWgt.max;TicksWgt.max;LabelsWgt.max;ScaleWgt.max"/>
@@ -673,12 +673,12 @@
      <dataLink readWrite="R/W" tagType="int" attribute="value" tag="klep5" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
     </dataLinks>
     <object class="ImageWgt" id="Knob10.ndl.img">
-     <wgtStyle width="65" rot="-45" imagePath="images/knob_blkpl_1_rev1.svg" x="0" forcePaint="65" y="-1" fill="rgb(40,40,40)" cx="32" cy="31" height="62" stroke="none" stroke-width="3"/>
+     <wgtStyle width="65" imagePath="images/knob_blkpl_1_rev1.svg" x="0" forcePaint="65" y="-1" fill="rgb(40,40,40)" cx="32" cy="31" height="62" stroke="none" stroke-width="3"/>
     </object>
    </object>
   </object>
   <object class="GroupWgt" id="Switch5" customType="Switch">
-   <wgtStyle width="101" x="844.80" forcePaint="97" y="474" cx="65" cy="35" height="64" staticFile="opt/HeimdallSettingsSwitch5.png" mtx="1.2871,0,0,0,1.0937,0,0,0,1" groupStyle="xform-scaling"/>
+   <wgtStyle width="101" x="844.80" forcePaint="97" y="474" cx="65" cy="35" height="64" staticFile="opt/heimdallsettingsswitch5.png" mtx="1.2871,0,0,0,1.0937,0,0,0,1" groupStyle="xform-scaling"/>
    <links>
     <attr attrName="min" alias="NeedleWgt.min;TicksWgt.min;LabelsWgt.min;ScaleWgt.min"/>
     <attr attrName="max" alias="NeedleWgt.max;TicksWgt.max;LabelsWgt.max;ScaleWgt.max"/>
@@ -722,12 +722,12 @@
      <dataLink readWrite="R/W" tagType="int" attribute="value" tag="klep6" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
     </dataLinks>
     <object class="ImageWgt" id="Knob11.ndl.img">
-     <wgtStyle width="65" rot="-45" imagePath="images/knob_blkpl_1_rev1.svg" x="0" forcePaint="65" y="-1" fill="rgb(40,40,40)" cx="32" cy="31" height="62" stroke="none" stroke-width="3"/>
+     <wgtStyle width="65" imagePath="images/knob_blkpl_1_rev1.svg" x="0" forcePaint="65" y="-1" fill="rgb(40,40,40)" cx="32" cy="31" height="62" stroke="none" stroke-width="3"/>
     </object>
    </object>
   </object>
   <object class="GroupWgt" id="Switch6" customType="Switch">
-   <wgtStyle width="101" x="1108.88" forcePaint="97" y="474" cx="65" cy="35" height="64" staticFile="opt/HeimdallSettingsSwitch6.png" mtx="1.2871,0,0,0,1.0937,0,0,0,1" groupStyle="xform-scaling"/>
+   <wgtStyle width="101" x="1108.88" forcePaint="97" y="474" cx="65" cy="35" height="64" staticFile="opt/heimdallsettingsswitch6.png" mtx="1.2871,0,0,0,1.0937,0,0,0,1" groupStyle="xform-scaling"/>
    <links>
     <attr attrName="min" alias="NeedleWgt.min;TicksWgt.min;LabelsWgt.min;ScaleWgt.min"/>
     <attr attrName="max" alias="NeedleWgt.max;TicksWgt.max;LabelsWgt.max;ScaleWgt.max"/>
@@ -771,12 +771,12 @@
      <dataLink readWrite="R/W" tagType="int" attribute="value" tag="klep7" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
     </dataLinks>
     <object class="ImageWgt" id="Knob12.ndl.img">
-     <wgtStyle width="65" rot="-45" imagePath="images/knob_blkpl_1_rev1.svg" x="0" forcePaint="65" y="-1" fill="rgb(40,40,40)" cx="32" cy="31" height="62" stroke="none" stroke-width="3"/>
+     <wgtStyle width="65" imagePath="images/knob_blkpl_1_rev1.svg" x="0" forcePaint="65" y="-1" fill="rgb(40,40,40)" cx="32" cy="31" height="62" stroke="none" stroke-width="3"/>
     </object>
    </object>
   </object>
   <object class="GroupWgt" id="Switch7" customType="Switch">
-   <wgtStyle width="101" x="580.72" forcePaint="97" y="666" cx="65" cy="35" height="64" staticFile="opt/HeimdallSettingsSwitch7.png" mtx="1.2871,0,0,0,1.0937,0,0,0,1" groupStyle="xform-scaling"/>
+   <wgtStyle width="101" x="580.72" forcePaint="97" y="666" cx="65" cy="35" height="64" staticFile="opt/heimdallsettingsswitch7.png" mtx="1.2871,0,0,0,1.0937,0,0,0,1" groupStyle="xform-scaling"/>
    <links>
     <attr attrName="min" alias="NeedleWgt.min;TicksWgt.min;LabelsWgt.min;ScaleWgt.min"/>
     <attr attrName="max" alias="NeedleWgt.max;TicksWgt.max;LabelsWgt.max;ScaleWgt.max"/>
@@ -1108,7 +1108,7 @@
     <wgtStyle width="52" imagePath="images/frame_rect_chrome.svg" x="0" forcePaint="9" y="0" bdrImageSize="52.00,50.00" fill="rgb(127,127,127)" cx="41.75" cy="45.42" bdrSize="0.17,0.14,0.16,0.16" height="52" bdrEdges="0.14,0.13,0.12,0.13"/>
    </object>
    <object class="ButtonWgt" hmiStyle="hmi-name:shiney; hmi-shape:rect; hmi-type:btn; type:btn" id="BtnStd3.btn">
-    <wgtStyle width="38" x="7" forcePaint="9" y="7" bdrImageSize="38.00,37.00" fill="rgb(120,120,120)" cx="31.84" form="standard" cy="34.12" bdrSize="0.11,0.11,0.08,0.09" height="38" releasePath="images\btn_shiney_rect_1.svg" needlePath="images\btn_shiney_rect_2_rev2.svg" type="momentary" value="0" disabled="true"/>
+    <wgtStyle width="38" x="7" forcePaint="9" y="7" bdrImageSize="38.00,37.00" fill="rgb(120,120,120)" cx="31.84" form="standard" cy="34.12" bdrSize="0.11,0.11,0.08,0.09" height="38" releasePath="images\btn_shiney_rect_1.svg" needlePath="images\btn_shiney_rect_2_rev2.svg" type="momentary" value="0"/>
     <links>
      <action pageName="ventileren.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="1" actionWgt="_PageMgr"/>
     </links>

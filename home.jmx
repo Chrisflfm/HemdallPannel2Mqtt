@@ -1,6 +1,6 @@
 <wgtPage rev="1" projectType="HMI Project">
- <object pageName="Home" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="true" usedFonts="Tahoma,Arial" staticFile="opt/home.png" id="Home" staticOptEnable="true">
-  <wgtStyle width="1280" x="0" y="0" height="800" fitToSize="1" ver="040000100" color="none" v="04.00.00.100"/>
+ <object pageName="Home" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="false" usedFonts="Tahoma,Arial" staticFile="opt/home.png" id="Home" staticOptEnable="true">
+  <wgtStyle width="1280" x="0" y="0" height="800" fitToSize="1" ver="040001443" color="none" v="04.00.01.443"/>
   <object class="ButtonWgt" hmiStyle="type:btn" id="gstArea6">
    <wgtStyle width="764" x="344.11" y="18.17" fill="rgb(160,160,164)" dx="1" cx="376.13" form="gesture" dy="-1" cy="26.96" height="55" releasePath="../../shared/gallery/images/bu_other/win-like.svg" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
    <links>
@@ -64,7 +64,7 @@
    </links>
   </object>
   <object class="GroupWgt" id="AnalogClockWithDayDate" customType="AnalogClock with DayDate">
-   <wgtStyle width="165" x="282" forcePaint="33" y="58.50" cx="358.50" cy="356.50" height="173" staticFile="opt/HomeAnalogClockWithDayDate.png" mtx="4.34545,0,0,0,4.12139,0,0,0,1" groupStyle="xform-scaling"/>
+   <wgtStyle width="165" x="282" forcePaint="33" y="58.50" cx="358.50" cy="356.50" height="173" staticFile="opt/homeanalogclockwithdaydate.png" mtx="4.34545,0,0,0,4.12139,0,0,0,1" groupStyle="xform-scaling"/>
    <links>
     <attr attrName="timeSpec" alias="AnalogClockWgt.timeSpec;NumericWgt2.timeSpec"/>
    </links>

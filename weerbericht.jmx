@@ -1,6 +1,6 @@
 <wgtPage rev="1" projectType="HMI Project">
- <object pageName="Weerbericht" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="true" usedFonts="Tahoma" staticFile="opt/weerbericht.png" id="Weerbericht" staticOptEnable="true">
-  <wgtStyle width="1280" x="0" y="0" height="800" fitToSize="1" ver="040000100" color="none" v="04.00.00.100"/>
+ <object pageName="Weerbericht" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="false" usedFonts="Tahoma" staticFile="opt/weerbericht.png" id="Weerbericht" staticOptEnable="true">
+  <wgtStyle width="1280" x="0" y="0" height="800" fitToSize="1" ver="040001443" color="none" v="04.00.01.443"/>
   <object class="ShapeWgt" id="rect1" static="true">
    <wgtStyle width="821.83" x="410" y="18" fill="rgb(255,255,255)" cx="397.66" cy="301" nodeName="rect" height="602" stroke-width="2"/>
   </object>
